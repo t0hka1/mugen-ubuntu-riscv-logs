@@ -1,0 +1,15 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 18:40:18 2023 - INFO  - Start to prepare the test environment.
+groupdel: group 'testuser' does not exist
+Thu Feb  9 18:40:19 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 18:40:19 2023 - INFO  - Start to run test.
+oe_test_password_blank.sh: line 31: expect: command not found
+grep: testlog: No such file or directory
+Thu Feb  9 18:40:21 2023 - ERROR - oe_test_password_blank.sh line 41
+Thu Feb  9 18:40:21 2023 - INFO  - End to run test.
+Thu Feb  9 18:40:22 2023 - ERROR - failed to execute the case.
+Thu Feb  9 18:40:22 2023 - INFO  - Start to restore the test environment.
+userdel: testuser mail spool (/var/mail/testuser) not found
+userdel: testuser home directory (/home/testuser) not found
+Thu Feb  9 18:40:24 2023 - INFO  - End to restore the test environment.

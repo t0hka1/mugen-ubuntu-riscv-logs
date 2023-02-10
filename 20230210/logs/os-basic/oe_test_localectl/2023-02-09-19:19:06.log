@@ -1,0 +1,13 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:19:08 2023 - INFO  - Start to prepare the test environment.
+Thu Feb  9 19:19:09 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 19:19:10 2023 - INFO  - Start to run test.
+[0;1;31mFailed to read list of keymaps: No such file or directory[0m
+Thu Feb  9 19:19:11 2023 - ERROR - oe_test_localectl.sh line 30
+be-oss
+Thu Feb  9 19:19:12 2023 - INFO  - End to run test.
+Thu Feb  9 19:19:12 2023 - ERROR - failed to execute the case.
+Thu Feb  9 19:19:13 2023 - INFO  - Start to restore the test environment.
+[0;1;31mFailed to set keymap: Received invalid keymap data[0m
+Thu Feb  9 19:19:14 2023 - INFO  - End to restore the test environment.

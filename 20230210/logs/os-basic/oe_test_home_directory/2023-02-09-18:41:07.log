@@ -1,0 +1,18 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 18:41:08 2023 - INFO  - Start to prepare the test environment.
+touch: cannot touch '/home/testuser/testfile.txt': No such file or directory
+Thu Feb  9 18:41:10 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 18:41:10 2023 - INFO  - Start to run test.
+/home/testuser
+/home/new_test
+find: ‘/home/new_test/testfile.txt’: No such file or directory
+/home/testuser
+/home/new_test
+Thu Feb  9 18:41:13 2023 - ERROR - oe_test_home_directory.sh line 53
+Thu Feb  9 18:41:13 2023 - INFO  - End to run test.
+Thu Feb  9 18:41:14 2023 - ERROR - failed to execute the case.
+Thu Feb  9 18:41:14 2023 - INFO  - Start to restore the test environment.
+userdel: testuser mail spool (/var/mail/testuser) not found
+userdel: testuser home directory (/home/new_test) not found
+Thu Feb  9 18:41:15 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,7 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:50:45 2023 - INFO  - Start executing testcase.
+Thu Feb  9 17:50:48 2023 - INFO  - End of testcase execution.
+Thu Feb  9 17:50:49 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 17:50:49 2023 - INFO  - start environment cleanup.
+Thu Feb  9 17:50:50 2023 - INFO  - Finish environment cleanup.

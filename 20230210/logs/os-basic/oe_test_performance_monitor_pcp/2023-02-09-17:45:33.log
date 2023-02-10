@@ -1,0 +1,23 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:45:36 2023 - INFO  - Start to prepare the test environment.
+oe_test_performance_monitor_pcp.sh: line 24: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+Thu Feb  9 17:45:41 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 17:45:41 2023 - INFO  - Start to run test.
+Failed to start pmcd.service: Unit pmcd.service not found.
+Thu Feb  9 17:45:42 2023 - ERROR - oe_test_performance_monitor_pcp.sh line 35
+Unit pmcd.service could not be found.
+Thu Feb  9 17:45:43 2023 - ERROR - oe_test_performance_monitor_pcp.sh line 37
+oe_test_performance_monitor_pcp.sh: line 38: pcp: command not found
+Thu Feb  9 17:45:43 2023 - ERROR - oe_test_performance_monitor_pcp.sh line 39
+Thu Feb  9 17:45:44 2023 - INFO  - End to run test.
+Thu Feb  9 17:45:45 2023 - ERROR - failed to execute the case.
+Thu Feb  9 17:45:45 2023 - INFO  - Start to restore the test environment.
+Thu Feb  9 17:45:46 2023 - WARN  - no thing to do.
+Thu Feb  9 17:45:46 2023 - INFO  - End to restore the test environment.

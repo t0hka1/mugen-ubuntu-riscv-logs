@@ -1,0 +1,42 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:14:17 2023 - INFO  - Start to config the test environment.
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/get_test_device.py", line 27, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+Thu Feb  9 19:14:20 2023 - INFO  - Start to config the test environment.
+Thu Feb  9 19:14:21 2023 - INFO  - Start to prepare the test environment.
+oe_test_disk_tuned_set.sh: line 29: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+Failed to enable unit: Unit file tuned.service does not exist.
+mkdir: cannot create directory ‘/etc/tuned/my-profile_new’: No such file or directory
+oe_test_disk_tuned_set.sh: line 48: /etc/tuned/my-profile_new/tuned.conf: No such file or directory
+oe_test_disk_tuned_set.sh: line 49: tuned-adm: command not found
+mkdir: cannot create directory ‘/etc/tuned/my-profile’: No such file or directory
+Unknown device "/dev/": Inappropriate ioctl for device
+oe_test_disk_tuned_set.sh: line 56: /etc/tuned/my-profile/tuned.conf: No such file or directory
+Thu Feb  9 19:14:25 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 19:14:25 2023 - INFO  - Start to run test.
+oe_test_disk_tuned_set.sh: line 62: tuned-adm: command not found
+Thu Feb  9 19:14:26 2023 - ERROR - oe_test_disk_tuned_set.sh line 63
+oe_test_disk_tuned_set.sh: line 64: tuned-adm: command not found
+Thu Feb  9 19:14:27 2023 - ERROR - oe_test_disk_tuned_set.sh line 65
+oe_test_disk_tuned_set.sh: line 66: tuned-adm: command not found
+Thu Feb  9 19:14:27 2023 - ERROR - oe_test_disk_tuned_set.sh line 67
+awk: cannot open /sys/block//queue/scheduler (No such file or directory)
+Thu Feb  9 19:14:28 2023 - ERROR - oe_test_disk_tuned_set.sh line 69
+oe_test_disk_tuned_set.sh: line 70: tuned-adm: command not found
+Thu Feb  9 19:14:28 2023 - ERROR - oe_test_disk_tuned_set.sh line 71
+Thu Feb  9 19:14:29 2023 - INFO  - End to run test.
+Thu Feb  9 19:14:29 2023 - ERROR - failed to execute the case.
+Thu Feb  9 19:14:30 2023 - INFO  - Start to restore the test environment.
+Thu Feb  9 19:14:31 2023 - WARN  - no thing to do.
+Thu Feb  9 19:14:31 2023 - INFO  - End to restore the test environment.

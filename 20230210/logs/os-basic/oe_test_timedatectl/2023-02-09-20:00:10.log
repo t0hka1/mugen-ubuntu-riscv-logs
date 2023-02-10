@@ -1,0 +1,21 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 20:00:12 2023 - INFO  - Start to prepare the test environment.
+[0;1;31mFailed to set ntp: NTP not supported[0m
+Thu Feb  9 20:00:14 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 20:00:14 2023 - INFO  - Start to run test.
+               Local time: Fri 2023-02-10 04:00:14 CST
+[0;1;31mFailed to set ntp: NTP not supported[0m
+Thu Feb  9 20:00:15 2023 - ERROR - oe_test_timedatectl.sh line 33
+Thu Feb  9 20:00:22 2023 - ERROR - oe_test_timedatectl.sh line 36
+[0;1;31mFailed to set ntp: NTP not supported[0m
+               Local time: Wed 2019-08-14 08:00:00 CST
+Wed Aug 14 15:00:00 2019 - ERROR - oe_test_timedatectl.sh line 46
+[0;1;31mFailed to set time zone: Invalid or not installed time zone 'Asia/Beijing'[0m
+Wed Aug 14 15:00:01 2019 - ERROR - oe_test_timedatectl.sh line 51
+Wed Aug 14 15:00:02 2019 - INFO  - End to run test.
+Wed Aug 14 15:00:02 2019 - ERROR - failed to execute the case.
+Wed Aug 14 15:00:03 2019 - INFO  - Start to restore the test environment.
+[0;1;31mFailed to set ntp: NTP not supported[0m
+Thu 09 Feb 2023 08:00:12 PM UTC
+Thu Feb  9 20:00:13 2023 - INFO  - End to restore the test environment.

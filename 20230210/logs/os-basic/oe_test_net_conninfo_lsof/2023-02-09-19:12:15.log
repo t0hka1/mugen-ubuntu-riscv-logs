@@ -1,0 +1,53 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:12:16 2023 - INFO  - Start to prepare the test environment.
+oe_test_net_conninfo_lsof.sh: line 24: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+Thu Feb  9 19:12:20 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 19:12:20 2023 - INFO  - Start to run test.
+systemd-r  364 systemd-resolve   12u  IPv4  12080      0t0  UDP localhost:domain 
+avahi-dae  368           avahi   12u  IPv4  12114      0t0  UDP *:mdns 
+avahi-dae  368           avahi   13u  IPv6  12115      0t0  UDP *:mdns 
+avahi-dae  368           avahi   14u  IPv4  12116      0t0  UDP *:49023 
+avahi-dae  368           avahi   15u  IPv6  12117      0t0  UDP *:39335 
+NetworkMa  372            root   24u  IPv4  21542      0t0  UDP ubuntukylin:bootpc->_gateway:bootps 
+nmbd       470            root   13u  IPv4    778      0t0  UDP *:netbios-ns 
+nmbd       470            root   14u  IPv4    779      0t0  UDP *:netbios-dgm 
+nmbd       470            root   15u  IPv4    791      0t0  UDP ubuntukylin:netbios-ns 
+nmbd       470            root   16u  IPv4    792      0t0  UDP 10.0.2.255:netbios-ns 
+nmbd       470            root   17u  IPv4    793      0t0  UDP ubuntukylin:netbios-dgm 
+nmbd       470            root   18u  IPv4    794      0t0  UDP 10.0.2.255:netbios-dgm 
+ntpd      3385            ntpd    7u  IPv4  37531      0t0  UDP ubuntukylin:41352->ntp6.flashdance.cx:ntp 
+ntpd      3385            ntpd    8u  IPv4  24535      0t0  UDP ubuntukylin:50312->time.cloudflare.com:ntp 
+ntpd      3385            ntpd    9u  IPv4  32151      0t0  UDP ubuntukylin:39239->makaki.miuku.net:ntp 
+ntpd      3385            ntpd   10u  IPv4  24537      0t0  UDP ubuntukylin:48474->electrode.felixc.at:ntp 
+ntpd      3385            ntpd   11u  IPv4  25295      0t0  UDP ubuntukylin:56996->ntp7.flashdance.cx:ntp 
+ntpd      3385            ntpd   12u  IPv4  24539      0t0  UDP ubuntukylin:48845->darwin.planet-research.org:ntp 
+ntpd      3385            ntpd   13u  IPv4  25308      0t0  UDP ubuntukylin:55765->a.chl.la:ntp 
+ntpd      3385            ntpd   14u  IPv4  24541      0t0  UDP ubuntukylin:43401->ntp2.icolo.io:ntp 
+ntpd      3385            ntpd   15u  IPv4  37505      0t0  UDP ubuntukylin:55319->time.cloudflare.com:ntp 
+ntpd      3385            ntpd   16u  IPv4  25309      0t0  UDP ubuntukylin:44859->static.81.54.251.148.clients.your-server.de:ntp 
+ntpd      3385            ntpd   17u  IPv4  37506      0t0  UDP ubuntukylin:49089->ntp8.flashdance.cx:ntp 
+ntpd      3385            ntpd   18u  IPv4  37507      0t0  UDP ubuntukylin:58139->139.199.214.202:ntp 
+ntpd      3385            ntpd   19u  IPv4  37546      0t0  UDP ubuntukylin:60304->sv1.ggsrv.de:ntp 
+ntpd      3385            ntpd   20u  IPv4  37547      0t0  UDP ubuntukylin:53898->time.neu.edu.cn:ntp 
+ntpd      3385            ntpd   25u  IPv4  24552      0t0  UDP ubuntukylin:60428->119.28.206.193:ntp 
+sshd    5758 root    3u  IPv4  33668      0t0  TCP *:ssh (LISTEN)
+sshd    5758 root    4u  IPv6  33670      0t0  TCP *:ssh (LISTEN)
+systemd-r  364 systemd-resolve   13u  IPv4  12081      0t0  TCP localhost:domain (LISTEN)
+smbd       508            root   46u  IPv6  19825      0t0  TCP *:microsoft-ds (LISTEN)
+smbd       508            root   47u  IPv6  19826      0t0  TCP *:netbios-ssn (LISTEN)
+smbd       508            root   48u  IPv4  19827      0t0  TCP *:microsoft-ds (LISTEN)
+smbd       508            root   49u  IPv4  19828      0t0  TCP *:netbios-ssn (LISTEN)
+sshd      5758            root    3u  IPv4  33668      0t0  TCP *:ssh (LISTEN)
+sshd      5758            root    4u  IPv6  33670      0t0  TCP *:ssh (LISTEN)
+Thu Feb  9 19:12:23 2023 - INFO  - End to run test.
+Thu Feb  9 19:12:24 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 19:12:24 2023 - INFO  - Start to restore the test environment.
+Thu Feb  9 19:12:25 2023 - WARN  - no thing to do.
+Thu Feb  9 19:12:26 2023 - INFO  - End to restore the test environment.

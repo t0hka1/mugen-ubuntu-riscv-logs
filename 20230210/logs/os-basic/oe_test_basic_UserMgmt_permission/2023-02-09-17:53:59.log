@@ -1,0 +1,31 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:54:00 2023 - INFO  - Start to prepare the test environment.
+id: ‘testuser1’: no such user
+Thu Feb  9 17:54:02 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 17:54:02 2023 - INFO  - Start to run test.
+su: warning: cannot change directory to /home/testuser1: No such file or directory
+useradd: Permission denied.
+useradd: cannot lock /etc/passwd; try again later.
+su: warning: cannot change directory to /home/testuser1: No such file or directory
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+id: ‘test’: no such user
+su: warning: cannot change directory to /home/testuser1: No such file or directory
+usermod: Permission denied.
+usermod: cannot lock /etc/passwd; try again later.
+test:x:666:1002::/home/test:/bin/sh
+userdel: test mail spool (/var/mail/test) not found
+userdel: test home directory (/home/test) not found
+su: warning: cannot change directory to /home/testuser1: No such file or directory
+groupadd: group 'testgroup' already exists
+su: warning: cannot change directory to /home/testuser1: No such file or directory
+groupmod: Permission denied.
+groupmod: cannot lock /etc/group; try again later.
+testgroup:x:1002:
+testgroup:x:555:
+Thu Feb  9 17:54:10 2023 - INFO  - End to run test.
+Thu Feb  9 17:54:10 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 17:54:11 2023 - INFO  - End to clean the test environment.
+userdel: testuser1 mail spool (/var/mail/testuser1) not found
+userdel: testuser1 home directory (/home/testuser1) not found
+Thu Feb  9 17:54:12 2023 - INFO  - End to clean the test environment.

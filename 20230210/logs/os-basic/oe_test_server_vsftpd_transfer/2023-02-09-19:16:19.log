@@ -1,0 +1,12 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:16:21 2023 - INFO  - Start loading data!
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Feb  9 19:16:22 2023 - ERROR - Failed in remote CMD operation:1
+Thu Feb  9 19:16:22 2023 - WARN  - the connect port using the default configuration
+/root/mugen-ubuntu-riscv/libs/locallibs/sshscp.sh: line 34: expect: command not found
+Thu Feb  9 19:16:23 2023 - ERROR - Failed in remote SCP operation: 127
+awk: cannot open diskfile (No such file or directory)
+Thu Feb  9 19:16:24 2023 - INFO  - Start to restore the test environment.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Feb  9 19:16:24 2023 - ERROR - Failed in remote CMD operation:1
+Thu Feb  9 19:16:25 2023 - WARN  - no thing to do.
+Thu Feb  9 19:16:25 2023 - INFO  - End to restore the test environment.

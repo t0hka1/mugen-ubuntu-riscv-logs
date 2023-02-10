@@ -1,0 +1,4 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:24:07 2023 - INFO  - Start to config params of the case.
+Thu Feb  9 19:54:05 2023 - ERROR - Timeout : Command 'bash oe_test_net_config.sh' timed out after 1799.998240007999 seconds

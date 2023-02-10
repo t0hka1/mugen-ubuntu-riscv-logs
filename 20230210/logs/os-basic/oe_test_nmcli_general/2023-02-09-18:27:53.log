@@ -1,0 +1,8 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 18:27:55 2023 - INFO  - Start to run test.
+STATE      CONNECTIVITY  WIFI-HW  WIFI     WWAN-HW  WWAN    
+INFO   PLATFORM,RFKILL,ETHER,WIFI,BT,MB,DHCP4,DHCP6,PPP,IP4,IP6,AUTOIP4,DNS,VPN,SHARING,SUPPLICANT,AGENTS,SETTINGS,SUSPEND,CORE,DEVICE,OLPC,INFINIBAND,FIREWALL,ADSL,BOND,VLAN,BRIDGE,TEAM,CONCHECK,DCB,DISPATCH,AUDIT,SYSTEMD,PROXY 
+Thu Feb  9 18:27:56 2023 - INFO  - End to run test.
+Thu Feb  9 18:27:57 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 18:27:58 2023 - INFO  - oe_test_nmcli_general.sh post_test

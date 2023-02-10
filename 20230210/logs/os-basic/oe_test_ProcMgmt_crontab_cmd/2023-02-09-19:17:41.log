@@ -1,0 +1,42 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:17:43 2023 - INFO  - Start to prepare the test environment.
+Thu Feb  9 19:17:43 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 19:17:44 2023 - INFO  - Start to run test.
+no crontab for root
+no crontab for root - using an empty one
+Vim: Warning: Output is not to a terminal
+Vim: Warning: Input is not from a terminal
+[1;24r[27m[24m[0m[H[J[24;1H"/tmp/crontab.VmuTHP/crontab" 23L, 889C[1;1H[1m# Edit this file to introduce tasks to be run by cron.
+# 
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+# 
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').
+# 
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+# 
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+# 
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+# 
+# For more information see the manual pages of crontab(5) and cron(8)
+# 
+# m h  dom mon dow   command[0m[24;63H1,1[11CAll[1;1H[24;1H[1m-- INSERT --[0m[24;13H[K[24;63H1,1[11CAll[24;1H[K[2;23r[2;1H[L[1;24r[1;1H[4m0 0 * * *[24m [1mecho 'hello world' >> /root/test.txt# Edit this file to introduce taskk[2;1Hs to be run by cron.[0m[24;63H1,46[10CTop[1;46H[24;63H[K[24;1H:wq"crontab.VmuTHP/crontab" 23L, 935C written
+crontab: installing new crontab
+Thu Feb  9 19:17:48 2023 - ERROR - oe_test_ProcMgmt_crontab_cmd.sh line 34
+Thu 09 Feb 2023 11:59:50 PM UTC
+grep: /root/test.txt: No such file or directory
+Fri Feb 10 00:00:51 2023 - ERROR - oe_test_ProcMgmt_crontab_cmd.sh line 39
+Fri Feb 10 00:00:51 2023 - INFO  - End to run test.
+Fri Feb 10 00:00:52 2023 - ERROR - failed to execute the case.
+Fri Feb 10 00:00:53 2023 - INFO  - Start to restore the test environment.
+Thu 09 Feb 2023 07:18:43 PM UTC
+Thu Feb  9 19:18:43 2023 - INFO  - End to restore the test environment.

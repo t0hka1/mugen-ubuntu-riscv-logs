@@ -1,0 +1,42 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:51:14 2023 - INFO  - Start to prepare the test environment.
+passwd: unrecognized option '--stdin'
+Usage: passwd [options] [LOGIN]
+
+Options:
+  -a, --all                     report password status on all accounts
+  -d, --delete                  delete the password for the named account
+  -e, --expire                  force expire the password for the named account
+  -h, --help                    display this help message and exit
+  -k, --keep-tokens             change password only if expired
+  -i, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -l, --lock                    lock the password of the named account
+  -n, --mindays MIN_DAYS        set minimum number of days before password
+                                change to MIN_DAYS
+  -q, --quiet                   quiet mode
+  -r, --repository REPOSITORY   change password in REPOSITORY repository
+  -R, --root CHROOT_DIR         directory to chroot into
+  -S, --status                  report password status on the named account
+  -u, --unlock                  unlock the password of the named account
+  -w, --warndays WARN_DAYS      set expiration warning days to WARN_DAYS
+  -x, --maxdays MAX_DAYS        set maximum number of days before password
+                                change to MAX_DAYS
+
+Thu Feb  9 17:51:16 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 17:51:16 2023 - INFO  - Start to run test.
+User root may run the following commands on ubuntukylin:
+su: warning: cannot change directory to /home/test: No such file or directory
+User test may run the following commands on ubuntukylin:
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+Thu Feb  9 17:51:18 2023 - INFO  - End to run test.
+Thu Feb  9 17:51:18 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 17:51:19 2023 - INFO  - Start to restore the test environment.
+userdel: test mail spool (/var/mail/test) not found
+userdel: test home directory (/home/test) not found
+Thu Feb  9 17:51:20 2023 - INFO  - End to restore the test environment.

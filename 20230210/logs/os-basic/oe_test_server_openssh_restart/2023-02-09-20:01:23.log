@@ -1,0 +1,132 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 20:01:25 2023 - INFO  - Start to prepare the test environment.
+oe_test_server_openssh_restart.sh: line 24: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+Thu Feb  9 20:01:28 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 20:01:29 2023 - INFO  - Start to run test.
+Failed to enable unit: Refusing to operate on alias name or linked unit file: sshd.service
+     Active: active (running) since Thu 2023-02-09 19:54:57 UTC; 6min ago
+Removed /etc/systemd/system/sshd.service.
+Removed /etc/systemd/system/multi-user.target.wants/ssh.service.
+Failed to get unit file state for sshd.service: No such file or directory
+Thu Feb  9 20:01:35 2023 - ERROR - oe_test_server_openssh_restart.sh line 46
+Failed to enable unit: Unit file sshd.service does not exist.
+Failed to start sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:01:39 2023 - ERROR - oe_test_server_openssh_restart.sh line 37
+Unit sshd.service could not be found.
+Thu Feb  9 20:01:40 2023 - ERROR - oe_test_server_openssh_restart.sh line 39
+Failed to restart sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:01:41 2023 - ERROR - oe_test_server_openssh_restart.sh line 41
+Failed to stop sshd.service: Unit sshd.service not loaded.
+Failed to disable unit: Unit file sshd.service does not exist.
+Thu Feb  9 20:01:42 2023 - ERROR - oe_test_server_openssh_restart.sh line 44
+Failed to get unit file state for sshd.service: No such file or directory
+Thu Feb  9 20:01:42 2023 - ERROR - oe_test_server_openssh_restart.sh line 46
+Failed to enable unit: Unit file sshd.service does not exist.
+Failed to start sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:01:46 2023 - ERROR - oe_test_server_openssh_restart.sh line 37
+Unit sshd.service could not be found.
+Thu Feb  9 20:01:47 2023 - ERROR - oe_test_server_openssh_restart.sh line 39
+Failed to restart sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:01:47 2023 - ERROR - oe_test_server_openssh_restart.sh line 41
+Failed to stop sshd.service: Unit sshd.service not loaded.
+Failed to disable unit: Unit file sshd.service does not exist.
+Thu Feb  9 20:01:48 2023 - ERROR - oe_test_server_openssh_restart.sh line 44
+Failed to get unit file state for sshd.service: No such file or directory
+Thu Feb  9 20:01:49 2023 - ERROR - oe_test_server_openssh_restart.sh line 46
+Failed to enable unit: Unit file sshd.service does not exist.
+Failed to start sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:01:53 2023 - ERROR - oe_test_server_openssh_restart.sh line 37
+Unit sshd.service could not be found.
+Thu Feb  9 20:01:53 2023 - ERROR - oe_test_server_openssh_restart.sh line 39
+Failed to restart sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:01:54 2023 - ERROR - oe_test_server_openssh_restart.sh line 41
+Failed to stop sshd.service: Unit sshd.service not loaded.
+Failed to disable unit: Unit file sshd.service does not exist.
+Thu Feb  9 20:01:55 2023 - ERROR - oe_test_server_openssh_restart.sh line 44
+Failed to get unit file state for sshd.service: No such file or directory
+Thu Feb  9 20:01:56 2023 - ERROR - oe_test_server_openssh_restart.sh line 46
+Failed to enable unit: Unit file sshd.service does not exist.
+Failed to start sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:01:59 2023 - ERROR - oe_test_server_openssh_restart.sh line 37
+Unit sshd.service could not be found.
+Thu Feb  9 20:02:00 2023 - ERROR - oe_test_server_openssh_restart.sh line 39
+Failed to restart sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:02:01 2023 - ERROR - oe_test_server_openssh_restart.sh line 41
+Failed to stop sshd.service: Unit sshd.service not loaded.
+Failed to disable unit: Unit file sshd.service does not exist.
+Thu Feb  9 20:02:02 2023 - ERROR - oe_test_server_openssh_restart.sh line 44
+Failed to get unit file state for sshd.service: No such file or directory
+Thu Feb  9 20:02:02 2023 - ERROR - oe_test_server_openssh_restart.sh line 46
+Failed to enable unit: Unit file sshd.service does not exist.
+Failed to start sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:02:06 2023 - ERROR - oe_test_server_openssh_restart.sh line 37
+Unit sshd.service could not be found.
+Thu Feb  9 20:02:07 2023 - ERROR - oe_test_server_openssh_restart.sh line 39
+Failed to restart sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:02:08 2023 - ERROR - oe_test_server_openssh_restart.sh line 41
+Failed to stop sshd.service: Unit sshd.service not loaded.
+Failed to disable unit: Unit file sshd.service does not exist.
+Thu Feb  9 20:02:08 2023 - ERROR - oe_test_server_openssh_restart.sh line 44
+Failed to get unit file state for sshd.service: No such file or directory
+Thu Feb  9 20:02:09 2023 - ERROR - oe_test_server_openssh_restart.sh line 46
+Failed to enable unit: Unit file sshd.service does not exist.
+Failed to start sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:02:13 2023 - ERROR - oe_test_server_openssh_restart.sh line 37
+Unit sshd.service could not be found.
+Thu Feb  9 20:02:13 2023 - ERROR - oe_test_server_openssh_restart.sh line 39
+Failed to restart sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:02:14 2023 - ERROR - oe_test_server_openssh_restart.sh line 41
+Failed to stop sshd.service: Unit sshd.service not loaded.
+Failed to disable unit: Unit file sshd.service does not exist.
+Thu Feb  9 20:02:15 2023 - ERROR - oe_test_server_openssh_restart.sh line 44
+Failed to get unit file state for sshd.service: No such file or directory
+Thu Feb  9 20:02:16 2023 - ERROR - oe_test_server_openssh_restart.sh line 46
+Failed to enable unit: Unit file sshd.service does not exist.
+Failed to start sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:02:19 2023 - ERROR - oe_test_server_openssh_restart.sh line 37
+Unit sshd.service could not be found.
+Thu Feb  9 20:02:20 2023 - ERROR - oe_test_server_openssh_restart.sh line 39
+Failed to restart sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:02:21 2023 - ERROR - oe_test_server_openssh_restart.sh line 41
+Failed to stop sshd.service: Unit sshd.service not loaded.
+Failed to disable unit: Unit file sshd.service does not exist.
+Thu Feb  9 20:02:22 2023 - ERROR - oe_test_server_openssh_restart.sh line 44
+Failed to get unit file state for sshd.service: No such file or directory
+Thu Feb  9 20:02:23 2023 - ERROR - oe_test_server_openssh_restart.sh line 46
+Failed to enable unit: Unit file sshd.service does not exist.
+Failed to start sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:02:27 2023 - ERROR - oe_test_server_openssh_restart.sh line 37
+Unit sshd.service could not be found.
+Thu Feb  9 20:02:27 2023 - ERROR - oe_test_server_openssh_restart.sh line 39
+Failed to restart sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:02:28 2023 - ERROR - oe_test_server_openssh_restart.sh line 41
+Failed to stop sshd.service: Unit sshd.service not loaded.
+Failed to disable unit: Unit file sshd.service does not exist.
+Thu Feb  9 20:02:29 2023 - ERROR - oe_test_server_openssh_restart.sh line 44
+Failed to get unit file state for sshd.service: No such file or directory
+Thu Feb  9 20:02:30 2023 - ERROR - oe_test_server_openssh_restart.sh line 46
+Failed to enable unit: Unit file sshd.service does not exist.
+Failed to start sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:02:33 2023 - ERROR - oe_test_server_openssh_restart.sh line 37
+Unit sshd.service could not be found.
+Thu Feb  9 20:02:34 2023 - ERROR - oe_test_server_openssh_restart.sh line 39
+Failed to restart sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:02:35 2023 - ERROR - oe_test_server_openssh_restart.sh line 41
+Failed to stop sshd.service: Unit sshd.service not loaded.
+Failed to disable unit: Unit file sshd.service does not exist.
+Thu Feb  9 20:02:36 2023 - ERROR - oe_test_server_openssh_restart.sh line 44
+Failed to get unit file state for sshd.service: No such file or directory
+Thu Feb  9 20:02:36 2023 - ERROR - oe_test_server_openssh_restart.sh line 46
+Thu Feb  9 20:02:40 2023 - INFO  - End to run test.
+Thu Feb  9 20:02:40 2023 - ERROR - failed to execute the case.
+Thu Feb  9 20:02:41 2023 - INFO  - Start to restore the test environment.
+Failed to enable unit: Unit file sshd.service does not exist.
+Failed to restart sshd.service: Unit sshd.service not found.
+Thu Feb  9 20:02:41 2023 - INFO  - End to restore the test environment.

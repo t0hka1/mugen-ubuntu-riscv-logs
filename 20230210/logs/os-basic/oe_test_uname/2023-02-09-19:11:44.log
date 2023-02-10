@@ -1,0 +1,11 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:11:46 2023 - INFO  - Start to run test.
+Linux ubuntukylin 5.11.0-1030-generic #34 SMP Fri Mar 11 15:27:17 CST 2022 riscv64 riscv64 riscv64 GNU/Linux
+riscv64
+ubuntukylin
+5.11.0-1030-generic
+Usage: uname [OPTION]...
+Thu Feb  9 19:11:47 2023 - INFO  - End to run test.
+Thu Feb  9 19:11:47 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 19:11:48 2023 - INFO  - oe_test_uname.sh post_test

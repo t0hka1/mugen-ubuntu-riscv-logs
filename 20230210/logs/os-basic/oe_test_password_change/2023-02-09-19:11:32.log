@@ -1,0 +1,16 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:11:34 2023 - INFO  - Start to prepare the test environment.
+Thu Feb  9 19:11:35 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 19:11:36 2023 - INFO  - Start to run test.
+Thu Feb  9 19:11:37 2023 - WARN  - the connect port using the default configuration
+/root/mugen-ubuntu-riscv/libs/locallibs/sshscp.sh: line 34: expect: command not found
+Thu Feb  9 19:11:37 2023 - ERROR - Failed in remote SCP operation: 127
+grep: /home/testuser/testfile: No such file or directory
+Thu Feb  9 19:11:38 2023 - ERROR - oe_test_password_change.sh line 36
+Thu Feb  9 19:11:39 2023 - INFO  - End to run test.
+Thu Feb  9 19:11:39 2023 - ERROR - failed to execute the case.
+Thu Feb  9 19:11:40 2023 - INFO  - Start to restore the test environment.
+userdel: testuser mail spool (/var/mail/testuser) not found
+userdel: testuser home directory (/home/testuser) not found
+Thu Feb  9 19:11:41 2023 - INFO  - End to restore the test environment.

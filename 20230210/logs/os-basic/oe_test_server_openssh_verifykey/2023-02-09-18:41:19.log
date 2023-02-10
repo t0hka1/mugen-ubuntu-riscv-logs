@@ -1,0 +1,22 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 18:41:20 2023 - INFO  - Start to prepare the test environment.
+oe_test_server_openssh_verifykey.sh: line 24: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+Thu Feb  9 18:41:24 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 18:41:24 2023 - INFO  - Start to run test.
+oe_test_server_openssh_verifykey.sh: line 37: setsebool: command not found
+Thu Feb  9 18:41:25 2023 - ERROR - oe_test_server_openssh_verifykey.sh line 38
+Thu Feb  9 18:41:26 2023 - WARN  - the remote user uses the default configuration.
+Thu Feb  9 18:41:27 2023 - WARN  - the connect port using the default configuration
+/root/mugen-ubuntu-riscv/libs/locallibs/sshcmd.sh: line 55: expect: command not found
+Thu Feb  9 18:41:28 2023 - ERROR - Failed in remote CMD operation:127
+Thu Feb  9 18:41:28 2023 - INFO  - End to run test.
+Thu Feb  9 18:41:29 2023 - ERROR - failed to execute the case.
+Thu Feb  9 18:41:29 2023 - INFO  - Start to restore the test environment.
+Thu Feb  9 18:41:31 2023 - INFO  - End to restore the test environment.

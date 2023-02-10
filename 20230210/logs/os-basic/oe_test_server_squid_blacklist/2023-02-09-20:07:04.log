@@ -1,0 +1,31 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 20:07:06 2023 - INFO  - Start to prepare the test environment.
+oe_test_server_squid_blacklist.sh: line 24: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+Failed to start firewalld.service: Unit firewalld.service not found.
+Thu Feb  9 20:07:09 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 20:07:10 2023 - INFO  - Start to run test.
+sed: can't read /etc/squid/squid.conf: No such file or directory
+Thu Feb  9 20:07:10 2023 - ERROR - oe_test_server_squid_blacklist.sh line 36
+oe_test_server_squid_blacklist.sh: line 37: /etc/squid/squid.conf: No such file or directory
+Thu Feb  9 20:07:11 2023 - ERROR - oe_test_server_squid_blacklist.sh line 38
+oe_test_server_squid_blacklist.sh: line 42: firewall-cmd: command not found
+Thu Feb  9 20:07:11 2023 - ERROR - oe_test_server_squid_blacklist.sh line 43
+oe_test_server_squid_blacklist.sh: line 44: firewall-cmd: command not found
+Thu Feb  9 20:07:12 2023 - ERROR - oe_test_server_squid_blacklist.sh line 45
+Failed to enable unit: Unit file squid.service does not exist.
+Thu Feb  9 20:07:12 2023 - ERROR - oe_test_server_squid_blacklist.sh line 47
+oe_test_server_squid_blacklist.sh: line 48: curl: command not found
+Thu Feb  9 20:07:13 2023 - ERROR - oe_test_server_squid_blacklist.sh line 49
+Thu Feb  9 20:07:14 2023 - INFO  - End to run test.
+Thu Feb  9 20:07:14 2023 - ERROR - failed to execute the case.
+Thu Feb  9 20:07:15 2023 - INFO  - Start to restore the test environment.
+sed: can't read /etc/squid/squid.conf: No such file or directory
+Thu Feb  9 20:07:15 2023 - WARN  - no thing to do.
+Thu Feb  9 20:07:16 2023 - INFO  - End to restore the test environment.
