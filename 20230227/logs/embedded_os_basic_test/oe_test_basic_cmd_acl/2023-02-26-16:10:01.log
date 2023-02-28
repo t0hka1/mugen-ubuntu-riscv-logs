@@ -1,0 +1,22 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 16:10:07 2023 - INFO  - Start to prepare the test environment.
+id: ‘testuser’: no such user
+Sun Feb 26 16:10:08 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 16:10:09 2023 - INFO  - Start to run test.
+testuser
+testuser
+testuser
+testuser
+Sun Feb 26 16:10:11 2023 - INFO  - End to run test.
+Sun Feb 26 16:10:11 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 16:10:12 2023 - INFO  - Start to restore the test environment.
+userdel: testuser mail spool (/var/mail/testuser) not found
+userdel: testuser home directory (/home/testuser) not found
+Sun Feb 26 16:10:13 2023 - INFO  - End to restore the test environment.

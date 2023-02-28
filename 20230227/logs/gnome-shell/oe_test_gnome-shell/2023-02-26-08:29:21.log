@@ -1,0 +1,35 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 280 not upgraded.
+Sun Feb 26 08:29:26 2023 - INFO  - Start to prepare the database config.
+Sun Feb 26 08:30:15 2023 - INFO  - pkgs:(gnome-shell elinks lynx) is already installed
+Sun Feb 26 08:30:15 2023 - INFO  - End to prepare the database config.
+Sun Feb 26 08:30:16 2023 - INFO  - Start to run test.
+Unable to init server: Could not connect: Connection refused
+user
+GNOME Shell 3.36.9
+  gnome-shell [OPTION…]
+Help Options:
+  -h, --help                Show help options
+  --help-all                Show all help options
+Application Options:
+  gnome-shell [OPTION…]
+Help Options:
+  -h, --help                Show help options
+  --help-all                Show all help options
+Application Options:
+GNOME Shell Performance Test 3.36.9
+Usage: gnome-shell-perf-tool [options]
+Options:
+Usage: gnome-shell-extension-tool [options]
+Options:
+Sun Feb 26 08:30:30 2023 - INFO  - End to run test.
+Sun Feb 26 08:30:31 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 08:30:31 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 08:30:32 2023 - WARN  - no thing to do.
+Sun Feb 26 08:30:32 2023 - INFO  - End to restore the test environment.

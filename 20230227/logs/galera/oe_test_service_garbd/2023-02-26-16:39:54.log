@@ -1,0 +1,62 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 16:40:00 2023 - INFO  - Start environmental preparation.
+Sun Feb 26 16:40:05 2023 - ERROR - pkgs:(mariadb) not found
+Failed to start mariadb.service: Unit mariadb.service not found.
+oe_test_service_garbd.sh: line 31: mysqladmin: command not found
+sed: can't read /etc/my.cnf.d/galera.cnf: No such file or directory
+sed: can't read /etc/my.cnf.d/galera.cnf: No such file or directory
+sed: can't read /etc/my.cnf.d/galera.cnf: No such file or directory
+sed: can't read /etc/my.cnf.d/galera.cnf: No such file or directory
+sed: can't read /etc/my.cnf.d/galera.cnf: No such file or directory
+spawn mysql -u root -p123456
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[0;7m(B[m(Bexpect: spawn id exp4 not open
+    while executing
+"expect {
+            "MariaDB*" {
+                send "grant all privileges on *.* to 'root'@'%' identified by '123456';\r"
+            }
+        }"
+oe_test_service_garbd.sh: line 61: /etc/sysconfig/garb: No such file or directory
+Failed to restart mariadb.service: Unit mariadb.service not found.
+Sun Feb 26 16:40:07 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 16:40:08 2023 - INFO  - Start testing...
+Failed to restart garbd.service: Unit garbd.service not found.
+Sun Feb 26 16:40:09 2023 - ERROR - garbd.service restart failed
+Sun Feb 26 16:40:09 2023 - ERROR - ../common/common_lib.sh line 34
+Unit garbd.service could not be found.
+Sun Feb 26 16:40:16 2023 - ERROR - garbd.service restart failed
+Sun Feb 26 16:40:16 2023 - ERROR - ../common/common_lib.sh line 37
+Failed to stop garbd.service: Unit garbd.service not loaded.
+Sun Feb 26 16:40:17 2023 - ERROR - garbd.service stop failed
+Sun Feb 26 16:40:18 2023 - ERROR - ../common/common_lib.sh line 39
+Unit garbd.service could not be found.
+Sun Feb 26 16:40:24 2023 - ERROR - garbd.service stop failed
+Sun Feb 26 16:40:25 2023 - ERROR - ../common/common_lib.sh line 42
+Failed to start garbd.service: Unit garbd.service not found.
+Sun Feb 26 16:40:25 2023 - ERROR - garbd.service start failed
+Sun Feb 26 16:40:26 2023 - ERROR - ../common/common_lib.sh line 44
+Unit garbd.service could not be found.
+Sun Feb 26 16:40:32 2023 - ERROR - garbd.service start failed
+Sun Feb 26 16:40:33 2023 - ERROR - ../common/common_lib.sh line 47
+Failed to get unit file state for garbd.service: No such file or directory
+Sun Feb 26 16:40:34 2023 - INFO  - Unit is indirect, ignoring.
+Failed to start garbd.service: Unit garbd.service not found.
+Sun Feb 26 16:40:35 2023 - ERROR - Job type reload is not applicable for unit garbd.service
+Sun Feb 26 16:40:35 2023 - ERROR - ../common/common_lib.sh line 91
+Unit garbd.service could not be found.
+Unit garbd.service could not be found.
+Sun Feb 26 16:40:36 2023 - INFO  - Finish test!
+Sun Feb 26 16:40:37 2023 - ERROR - failed to execute the case.
+Sun Feb 26 16:40:37 2023 - INFO  - start environment cleanup.
+Failed to stop garbd.service: Unit garbd.service not loaded.
+Failed to stop mariadb.service: Unit mariadb.service not loaded.
+Sun Feb 26 16:40:38 2023 - WARN  - no thing to do.
+Sun Feb 26 16:40:39 2023 - INFO  - Finish environment cleanup!

@@ -1,0 +1,23 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 263 not upgraded.
+Mon Feb 27 08:21:38 2023 - INFO  - Start environmental preparation.
+Mon Feb 27 08:22:14 2023 - INFO  - End of environmental preparation!
+Mon Feb 27 08:22:15 2023 - INFO  - Start testing...
+     Active: active (listening) since Mon 2023-02-27 08:22:15 UTC; 6s ago
+     Active: inactive (dead)
+     Active: active (listening) since Mon 2023-02-27 08:22:28 UTC; 6s ago
+/etc/systemd/system/sockets.target.wants/systemd-journal-gatewayd.socket
+Removed /etc/systemd/system/sockets.target.wants/systemd-journal-gatewayd.socket.
+find: ‘/etc/systemd/system/sockets.target.wants/systemd-journal-gatewayd.socket’: No such file or directory
+Failed to reload systemd-journal-gatewayd.socket: Job type reload is not applicable for unit systemd-journal-gatewayd.socket.
+     Active: active (listening) since Mon 2023-02-27 08:22:28 UTC; 16s ago
+Mon Feb 27 08:22:45 2023 - INFO  - Finish test!
+Mon Feb 27 08:22:46 2023 - INFO  - succeed to execute the case.
+Mon Feb 27 08:22:47 2023 - INFO  - Start environment cleanup.
+Mon Feb 27 08:23:13 2023 - INFO  - Finish environment cleanup!

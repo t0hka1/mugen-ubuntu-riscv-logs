@@ -1,0 +1,104 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 15:52:43 2023 - INFO  - Start to run test.
+oe_test_system_service_sshd.sh: line 26: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:52:44 2023 - ERROR - stop sshd fail
+Sun Feb 26 15:52:45 2023 - ERROR - oe_test_system_service_sshd.sh line 27
+oe_test_system_service_sshd.sh: line 28: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:52:45 2023 - ERROR - start sshd fail
+Sun Feb 26 15:52:46 2023 - ERROR - oe_test_system_service_sshd.sh line 29
+oe_test_system_service_sshd.sh: line 30: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:52:46 2023 - ERROR - restart sshd fail
+Sun Feb 26 15:52:47 2023 - ERROR - oe_test_system_service_sshd.sh line 31
+oe_test_system_service_sshd.sh: line 26: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:52:50 2023 - ERROR - stop sshd fail
+Sun Feb 26 15:52:51 2023 - ERROR - oe_test_system_service_sshd.sh line 27
+oe_test_system_service_sshd.sh: line 28: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:52:51 2023 - ERROR - start sshd fail
+Sun Feb 26 15:52:52 2023 - ERROR - oe_test_system_service_sshd.sh line 29
+oe_test_system_service_sshd.sh: line 30: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:52:52 2023 - ERROR - restart sshd fail
+Sun Feb 26 15:52:53 2023 - ERROR - oe_test_system_service_sshd.sh line 31
+oe_test_system_service_sshd.sh: line 26: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:52:56 2023 - ERROR - stop sshd fail
+Sun Feb 26 15:52:57 2023 - ERROR - oe_test_system_service_sshd.sh line 27
+oe_test_system_service_sshd.sh: line 28: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:52:57 2023 - ERROR - start sshd fail
+Sun Feb 26 15:52:58 2023 - ERROR - oe_test_system_service_sshd.sh line 29
+oe_test_system_service_sshd.sh: line 30: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:52:58 2023 - ERROR - restart sshd fail
+Sun Feb 26 15:52:59 2023 - ERROR - oe_test_system_service_sshd.sh line 31
+oe_test_system_service_sshd.sh: line 26: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:02 2023 - ERROR - stop sshd fail
+Sun Feb 26 15:53:03 2023 - ERROR - oe_test_system_service_sshd.sh line 27
+oe_test_system_service_sshd.sh: line 28: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:03 2023 - ERROR - start sshd fail
+Sun Feb 26 15:53:04 2023 - ERROR - oe_test_system_service_sshd.sh line 29
+oe_test_system_service_sshd.sh: line 30: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:04 2023 - ERROR - restart sshd fail
+Sun Feb 26 15:53:05 2023 - ERROR - oe_test_system_service_sshd.sh line 31
+oe_test_system_service_sshd.sh: line 26: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:08 2023 - ERROR - stop sshd fail
+Sun Feb 26 15:53:09 2023 - ERROR - oe_test_system_service_sshd.sh line 27
+oe_test_system_service_sshd.sh: line 28: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:09 2023 - ERROR - start sshd fail
+Sun Feb 26 15:53:10 2023 - ERROR - oe_test_system_service_sshd.sh line 29
+oe_test_system_service_sshd.sh: line 30: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:10 2023 - ERROR - restart sshd fail
+Sun Feb 26 15:53:11 2023 - ERROR - oe_test_system_service_sshd.sh line 31
+oe_test_system_service_sshd.sh: line 26: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:14 2023 - ERROR - stop sshd fail
+Sun Feb 26 15:53:15 2023 - ERROR - oe_test_system_service_sshd.sh line 27
+oe_test_system_service_sshd.sh: line 28: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:15 2023 - ERROR - start sshd fail
+Sun Feb 26 15:53:16 2023 - ERROR - oe_test_system_service_sshd.sh line 29
+oe_test_system_service_sshd.sh: line 30: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:16 2023 - ERROR - restart sshd fail
+Sun Feb 26 15:53:17 2023 - ERROR - oe_test_system_service_sshd.sh line 31
+oe_test_system_service_sshd.sh: line 26: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:20 2023 - ERROR - stop sshd fail
+Sun Feb 26 15:53:21 2023 - ERROR - oe_test_system_service_sshd.sh line 27
+oe_test_system_service_sshd.sh: line 28: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:21 2023 - ERROR - start sshd fail
+Sun Feb 26 15:53:22 2023 - ERROR - oe_test_system_service_sshd.sh line 29
+oe_test_system_service_sshd.sh: line 30: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:22 2023 - ERROR - restart sshd fail
+Sun Feb 26 15:53:23 2023 - ERROR - oe_test_system_service_sshd.sh line 31
+oe_test_system_service_sshd.sh: line 26: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:26 2023 - ERROR - stop sshd fail
+Sun Feb 26 15:53:27 2023 - ERROR - oe_test_system_service_sshd.sh line 27
+oe_test_system_service_sshd.sh: line 28: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:27 2023 - ERROR - start sshd fail
+Sun Feb 26 15:53:28 2023 - ERROR - oe_test_system_service_sshd.sh line 29
+oe_test_system_service_sshd.sh: line 30: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:29 2023 - ERROR - restart sshd fail
+Sun Feb 26 15:53:29 2023 - ERROR - oe_test_system_service_sshd.sh line 31
+oe_test_system_service_sshd.sh: line 26: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:32 2023 - ERROR - stop sshd fail
+Sun Feb 26 15:53:33 2023 - ERROR - oe_test_system_service_sshd.sh line 27
+oe_test_system_service_sshd.sh: line 28: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:33 2023 - ERROR - start sshd fail
+Sun Feb 26 15:53:34 2023 - ERROR - oe_test_system_service_sshd.sh line 29
+oe_test_system_service_sshd.sh: line 30: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:35 2023 - ERROR - restart sshd fail
+Sun Feb 26 15:53:35 2023 - ERROR - oe_test_system_service_sshd.sh line 31
+oe_test_system_service_sshd.sh: line 26: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:38 2023 - ERROR - stop sshd fail
+Sun Feb 26 15:53:39 2023 - ERROR - oe_test_system_service_sshd.sh line 27
+oe_test_system_service_sshd.sh: line 28: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:39 2023 - ERROR - start sshd fail
+Sun Feb 26 15:53:40 2023 - ERROR - oe_test_system_service_sshd.sh line 29
+oe_test_system_service_sshd.sh: line 30: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:41 2023 - ERROR - restart sshd fail
+Sun Feb 26 15:53:41 2023 - ERROR - oe_test_system_service_sshd.sh line 31
+Sun Feb 26 15:53:44 2023 - INFO  - End to run test.
+Sun Feb 26 15:53:45 2023 - ERROR - failed to execute the case.
+Sun Feb 26 15:53:45 2023 - INFO  - Start to restore the test environment.
+oe_test_system_service_sshd.sh: line 41: /etc/init.d/sshd: No such file or directory
+Sun Feb 26 15:53:46 2023 - INFO  - End to restore the test environment.

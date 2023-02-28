@@ -1,0 +1,29 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 20:07:55 2023 - INFO  - Start to prepare the test environment.
+oe_test_server_httpd_recover.sh: line 24: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+Thu Feb  9 20:07:58 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 20:07:58 2023 - INFO  - Start to run test.
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Feb  9 20:08:09 2023 - ERROR - oe_test_server_httpd_recover.sh line 37
+mv: cannot stat '/etc/httpd/conf/httpd.conf': No such file or directory
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+mv: cannot stat '/etc/httpd/conf/httpd.conf_bak': No such file or directory
+Failed to restart httpd.service: Unit httpd.service not found.
+Failed to start httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Feb  9 20:08:26 2023 - ERROR - oe_test_server_httpd_recover.sh line 48
+Thu Feb  9 20:08:26 2023 - INFO  - End to run test.
+Thu Feb  9 20:08:27 2023 - ERROR - failed to execute the case.
+Thu Feb  9 20:08:27 2023 - INFO  - Start to restore the test environment.
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Thu Feb  9 20:08:28 2023 - WARN  - no thing to do.
+Thu Feb  9 20:08:29 2023 - INFO  - End to restore the test environment.

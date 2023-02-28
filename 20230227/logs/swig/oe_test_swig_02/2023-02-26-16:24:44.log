@@ -1,0 +1,37 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 16:24:49 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 16:25:30 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 16:25:31 2023 - INFO  - Start to run test.
+Language subdirectory: octave
+   ./swig_lib/octave/
+   /usr/share/swig4.0/octave/
+Language subdirectory: perl5
+   ./swig_lib/perl5/
+   /usr/share/swig4.0/perl5/
+Language subdirectory: php
+   ./swig_lib/php/
+   /usr/share/swig4.0/php/
+Language subdirectory: python
+   ./swig_lib/python/
+   /usr/share/swig4.0/python/
+Language subdirectory: r
+Language subdirectory: ruby
+   ./swig_lib/ruby/
+   /usr/share/swig4.0/ruby/
+Language subdirectory: scilab
+   ./swig_lib/scilab/
+   /usr/share/swig4.0/scilab/
+Language subdirectory: tcl
+   ./swig_lib/tcl/
+   /usr/share/swig4.0/tcl/
+Sun Feb 26 16:25:44 2023 - INFO  - End to run test.
+Sun Feb 26 16:25:44 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 16:25:45 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 16:26:12 2023 - INFO  - End to restore the test environment.

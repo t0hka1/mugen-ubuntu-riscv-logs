@@ -1,0 +1,10 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 18:34:01 2023 - INFO  - Start to prepare the test environment.
+Thu Feb  9 18:34:02 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 18:34:03 2023 - INFO  - Start to run test.
+testgroup:x:1001:
+Usage: groupdel [options] GROUP
+Thu Feb  9 18:34:04 2023 - INFO  - End to run test.
+Thu Feb  9 18:34:04 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 18:34:05 2023 - INFO  - oe_test_groupdel.sh post_test

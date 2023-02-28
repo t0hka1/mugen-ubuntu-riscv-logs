@@ -1,0 +1,28 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 16:08:10 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 16:08:11 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 16:08:11 2023 - INFO  - Start to run test.
+New password: Retype new password: passwd: password updated successfully
+testuser:x:1001:1001::/home/testuser:/bin/sh
+Account expires						: Oct 30, 2020
+Maximum number of days between password change		: 4
+Usage: useradd [options] LOGIN
+Sun Feb 26 16:08:15 2023 - ERROR - check useradd testuser2 fail
+Sun Feb 26 16:08:15 2023 - ERROR - oe_test_system_user_options_001.sh line 63
+userdel: testuser3 mail spool (/var/mail/testuser3) not found
+Sun Feb 26 16:08:18 2023 - INFO  - End to run test.
+Sun Feb 26 16:08:18 2023 - ERROR - failed to execute the case.
+Sun Feb 26 16:08:19 2023 - INFO  - Start to restore the test environment.
+userdel: testuser mail spool (/var/mail/testuser) not found
+userdel: testuser home directory (/home/testuser) not found
+userdel: testuser1 mail spool (/var/mail/testuser1) not found
+userdel: testuser1 home directory (/home/testuser1) not found
+userdel: testuser2 mail spool (/var/mail/testuser2) not found
+Sun Feb 26 16:08:21 2023 - INFO  - End to restore the test environment.

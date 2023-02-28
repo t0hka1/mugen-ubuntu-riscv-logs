@@ -1,0 +1,69 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 08:45:13 2023 - INFO  - Start to prepare the test environment.
+Traceback (most recent call last):
+  File "/mugen-ubuntu-riscv/libs/locallibs/get_test_device.py", line 127, in <module>
+    print(get_test_disk(args.node))
+  File "/mugen-ubuntu-riscv/libs/locallibs/get_test_device.py", line 98, in get_test_disk
+    conn = ssh_cmd.pssh_conn(
+  File "/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 53, in pssh_conn
+    conn.connect(ip, port, user, password, timeout=timeout)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 340, in connect
+    to_try = list(self._families_and_addresses(hostname, port))
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 203, in _families_and_addresses
+    addrinfos = socket.getaddrinfo(
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Sun Feb 26 08:45:19 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Sun Feb 26 08:45:24 2023 - ERROR - pkgs:(device-mapper) not found
+Failed to restart iscsid.service: Unit iscsid.service not found.
+common_multipath-tools.sh: line 35: iscsiadm: command not found
+common_multipath-tools.sh: line 36: iscsiadm: command not found
+common_multipath-tools.sh: line 37: mpathconf: command not found
+Failed to start multipathd.service: Unit multipathd.service not found.
+common_multipath-tools.sh: line 39: multipath: command not found
+common_multipath-tools.sh: line 40: multipath: command not found
+Failed to restart multipathd.service: Unit multipathd.service not found.
+common_multipath-tools.sh: line 68: chkconfig: command not found
+Sun Feb 26 08:46:11 2023 - ERROR - Failed to connect the remote machine:127.0.0.1.
+Sun Feb 26 08:46:11 2023 - ERROR - [Errno None] Unable to connect to port 12055 on 127.0.0.1
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
+Sun Feb 26 08:46:12 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 08:46:13 2023 - INFO  - Start to run test.
+oe_test_multipath-tools_multipath_01.sh: line 33: multipath: command not found
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
+Sun Feb 26 08:46:14 2023 - ERROR - oe_test_multipath-tools_multipath_01.sh line 34
+oe_test_multipath-tools_multipath_01.sh: line 35: multipath: command not found
+Sun Feb 26 08:46:14 2023 - ERROR - oe_test_multipath-tools_multipath_01.sh line 36
+oe_test_multipath-tools_multipath_01.sh: line 37: multipath: command not found
+Sun Feb 26 08:46:15 2023 - ERROR - oe_test_multipath-tools_multipath_01.sh line 38
+oe_test_multipath-tools_multipath_01.sh: line 39: multipath: command not found
+Sun Feb 26 08:46:15 2023 - ERROR - oe_test_multipath-tools_multipath_01.sh line 40
+Failed to restart multipathd.service: Unit multipathd.service not found.
+oe_test_multipath-tools_multipath_01.sh: line 45: multipath: command not found
+Sun Feb 26 08:46:27 2023 - ERROR - oe_test_multipath-tools_multipath_01.sh line 46
+Failed to restart multipathd.service: Unit multipathd.service not found.
+oe_test_multipath-tools_multipath_01.sh: line 50: multipath: command not found
+Sun Feb 26 08:46:28 2023 - ERROR - oe_test_multipath-tools_multipath_01.sh line 51
+grep: /etc/multipath/wwids: No such file or directory
+Sun Feb 26 08:46:28 2023 - ERROR - oe_test_multipath-tools_multipath_01.sh line 53
+Sun Feb 26 08:46:29 2023 - ERROR - oe_test_multipath-tools_multipath_01.sh line 55
+Sun Feb 26 08:46:30 2023 - ERROR - oe_test_multipath-tools_multipath_01.sh line 57
+Sun Feb 26 08:46:30 2023 - ERROR - oe_test_multipath-tools_multipath_01.sh line 59
+Sun Feb 26 08:46:31 2023 - INFO  - End to run test.
+Sun Feb 26 08:46:31 2023 - ERROR - failed to execute the case.
+Sun Feb 26 08:46:32 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 08:46:34 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+common_multipath-tools.sh: line 73: iscsiadm: command not found
+common_multipath-tools.sh: line 74: multipath: command not found
+Sun Feb 26 08:46:34 2023 - WARN  - no thing to do.
+Sun Feb 26 08:46:35 2023 - INFO  - End to restore the test environment.

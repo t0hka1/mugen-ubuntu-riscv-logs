@@ -1,0 +1,27 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 263 not upgraded.
+Mon Feb 27 08:43:42 2023 - INFO  - Start environmental preparation.
+Mon Feb 27 08:43:43 2023 - INFO  - End of environmental preparation!
+Mon Feb 27 08:43:43 2023 - INFO  - Start testing...
+Mon Feb 27 08:43:50 2023 - ERROR - systemd-hwdb-update.service restart failed
+Mon Feb 27 08:43:51 2023 - ERROR - ../common/common_lib.sh line 37
+     Active: inactive (dead)
+Mon Feb 27 08:44:04 2023 - ERROR - systemd-hwdb-update.service start failed
+Mon Feb 27 08:44:04 2023 - ERROR - ../common/common_lib.sh line 47
+Mon Feb 27 08:44:05 2023 - INFO  - The unit files have no installation config,This means they are not meant to be enabled using systemctl.
+Failed to reload systemd-hwdb-update.service: Job type reload is not applicable for unit systemd-hwdb-update.service.
+     Active: inactive (dead)
+Feb 27 08:39:35 ubuntukylin systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Feb 27 08:43:44 ubuntukylin systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Feb 27 08:43:57 ubuntukylin systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Feb 27 08:44:06 ubuntukylin systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Mon Feb 27 08:44:07 2023 - INFO  - Finish test!
+Mon Feb 27 08:44:08 2023 - ERROR - failed to execute the case.
+Mon Feb 27 08:44:08 2023 - INFO  - Start environment cleanup.
+Mon Feb 27 08:44:09 2023 - INFO  - Finish environment cleanup!

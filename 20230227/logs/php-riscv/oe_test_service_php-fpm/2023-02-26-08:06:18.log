@@ -1,0 +1,46 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 280 not upgraded.
+Sun Feb 26 08:06:24 2023 - INFO  - Start environmental preparation.
+Sun Feb 26 08:13:16 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 08:13:17 2023 - INFO  - Start testing...
+Failed to restart php-fpm.service: Unit php-fpm.service not found.
+Sun Feb 26 08:13:18 2023 - ERROR - php-fpm.service restart failed
+Sun Feb 26 08:13:18 2023 - ERROR - ../common/common_lib.sh line 34
+Unit php-fpm.service could not be found.
+Sun Feb 26 08:13:25 2023 - ERROR - php-fpm.service restart failed
+Sun Feb 26 08:13:25 2023 - ERROR - ../common/common_lib.sh line 37
+Failed to stop php-fpm.service: Unit php-fpm.service not loaded.
+Sun Feb 26 08:13:26 2023 - ERROR - php-fpm.service stop failed
+Sun Feb 26 08:13:27 2023 - ERROR - ../common/common_lib.sh line 39
+Unit php-fpm.service could not be found.
+Sun Feb 26 08:13:33 2023 - ERROR - php-fpm.service stop failed
+Sun Feb 26 08:13:34 2023 - ERROR - ../common/common_lib.sh line 42
+Failed to start php-fpm.service: Unit php-fpm.service not found.
+Sun Feb 26 08:13:34 2023 - ERROR - php-fpm.service start failed
+Sun Feb 26 08:13:35 2023 - ERROR - ../common/common_lib.sh line 44
+Unit php-fpm.service could not be found.
+Sun Feb 26 08:13:41 2023 - ERROR - php-fpm.service start failed
+Sun Feb 26 08:13:42 2023 - ERROR - ../common/common_lib.sh line 47
+Failed to get unit file state for php-fpm.service: No such file or directory
+Sun Feb 26 08:13:43 2023 - INFO  - Unit is indirect, ignoring.
+Failed to start php-fpm.service: Unit php-fpm.service not found.
+sed: can't read /usr/lib/systemd/system/php-fpm.service: No such file or directory
+Failed to reload php-fpm.service: Unit php-fpm.service not found.
+Sun Feb 26 08:13:48 2023 - ERROR - php-fpm.service reload failed
+Sun Feb 26 08:13:48 2023 - ERROR - oe_test_service_php-fpm.sh line 40
+Unit php-fpm.service could not be found.
+Sun Feb 26 08:13:49 2023 - ERROR - php-fpm.service reload causes the service status to change
+Sun Feb 26 08:13:49 2023 - ERROR - oe_test_service_php-fpm.sh line 42
+Sun Feb 26 08:13:50 2023 - INFO  - Finish test!
+Sun Feb 26 08:13:50 2023 - ERROR - failed to execute the case.
+Sun Feb 26 08:13:51 2023 - INFO  - start environment cleanup.
+sed: can't read /usr/lib/systemd/system/php-fpm.service: No such file or directory
+Failed to reload php-fpm.service: Unit php-fpm.service not found.
+Failed to stop php-fpm.service: Unit php-fpm.service not loaded.
+Sun Feb 26 08:16:19 2023 - INFO  - Finish environment cleanup!

@@ -1,0 +1,26 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 268 not upgraded.
+Sun Feb 26 17:35:28 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 17:35:33 2023 - ERROR - pkgs:(libosinfo) not found
+Sun Feb 26 17:35:34 2023 - INFO  - Finish preparing the test environment.
+Sun Feb 26 17:35:34 2023 - INFO  - Start to run test.
+oe_test_osinfo-detect.sh: line 36: osinfo-detect: command not found
+Sun Feb 26 17:35:35 2023 - ERROR - oe_test_osinfo-detect.sh line 37
+oe_test_osinfo-detect.sh: line 41: osinfo-detect: command not found
+Sun Feb 26 17:35:57 2023 - ERROR - oe_test_osinfo-detect.sh line 42
+oe_test_osinfo-detect.sh: line 46: osinfo-detect: command not found
+Sun Feb 26 17:35:58 2023 - ERROR - oe_test_osinfo-detect.sh line 47
+oe_test_osinfo-detect.sh: line 48: osinfo-detect: command not found
+Sun Feb 26 17:35:58 2023 - ERROR - oe_test_osinfo-detect.sh line 49
+Sun Feb 26 17:35:59 2023 - INFO  - End of the test.
+Sun Feb 26 17:36:00 2023 - ERROR - failed to execute the case.
+Sun Feb 26 17:36:01 2023 - INFO  - Start to restore the test environment.
+oe_test_osinfo-detect.sh: line 53: 77224 Killed                  nohup wget https://repo.openeuler.org/openEuler-20.03-LTS/ISO/aarch64/openEuler-20.03-LTS-aarch64-dvd.iso > /dev/null 2>&1
+Sun Feb 26 17:36:02 2023 - WARN  - no thing to do.
+Sun Feb 26 17:36:03 2023 - INFO  - Finish restoring the test environment.

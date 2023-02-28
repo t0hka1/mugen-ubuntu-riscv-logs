@@ -1,0 +1,50 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 16:30:59 2023 - INFO  - Start to prepare the test environment.
+sed: can't read /etc/xinetd.d/echo-stream: No such file or directory
+Sun Feb 26 16:32:32 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 16:32:33 2023 - INFO  - Start to run test.
+[Sun Feb 26 16:32:34 +0000 2023] [nns] [info] 'Binding with name service at localhost @9: NAME = DATA'
+/usr/bin/nnsd 1.0.1, listening on 9 (local only)
+[Sun Feb 26 16:32:56 +0000 2023] [nns] [info] 'Reconnected2 name service at localhost @9'
+[Sun Feb 26 16:33:16 +0000 2023] [nns] [info] 'Searching at name service at localhost @9'
+[Sun Feb 26 16:34:18 +0000 2023] [nnslog] [info] 'Logging      name service at localhost @9'
+[Sun Feb 26 16:34:18 +0000 2023] [nnslog] [info] '+++ : NAME = DATA'
+[H[JServer localhost @9
+  Protocol: 1
+  Features: Core, and Search/Continuous
+[Sun Feb 26 16:34:18 +0000 2023] [nns] [info] 'Searching at name service at localhost @9'
+invalid command name "log"
+    while executing
+"log info "Nothing found...""
+    (procedure "::nns::Do.search.print" line 5)
+    invoked from within
+"::nns::Do.search.print [$res getall]"
+    (procedure "::nns::Do.search.change" line 16)
+    invoked from within
+"::nns::Do.search.change ::nameserv::auto::receiver1 add {}"
+    ("after" script)
+/usr/bin/nns 1.2 (Client Protocol 1)
+oe_test_tcllib_nns.sh: line 34: 62473 Killed                  nns bind -host localhost -port 9 NAME DATA
+oe_test_tcllib_nns.sh: line 34: 62476 Killed                  nnsd -localonly true -port 9
+oe_test_tcllib_nns.sh: line 34: 62484 Killed                  nnslog -host localhost -port 9
+oe_test_tcllib_nns.sh: line 34: 62485 Killed                  nns search -host localhost -port 9 -continuous PATTERN
+%% generated with the tcldocstrip utility.
+%% [manpage_begin NAME SECTION VERSION]
+[manpage_end]
+OK
+## -*- tcl -*-
+## Snit-based Tcl/PARAM implementation of the parsing
+## Generated from file	calculator.peg
+package require Tcl 8.5
+			  # Tcl/PARAM code used below.
+Sun Feb 26 16:34:28 2023 - INFO  - End to run test.
+Sun Feb 26 16:34:28 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 16:34:29 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 16:35:05 2023 - INFO  - End to restore the test environment.

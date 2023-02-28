@@ -1,0 +1,44 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 268 not upgraded.
+Sun Feb 26 18:26:45 2023 - INFO  - Start to prepare the test environment.
+sed: can't read /etc/audit/auditd.conf: No such file or directory
+sed: can't read /etc/audit/auditd.conf: No such file or directory
+Failed to restart auditd.service: Unit auditd.service not found.
+Sun Feb 26 18:26:47 2023 - INFO  - End to prepare the environment
+Sun Feb 26 18:26:47 2023 - INFO  - Start to run test.
+du: cannot access '/var/log/audit/audit.log': No such file or directory
+oe_test_audit_max_log_file_suspend.sh: line 33: [: : integer expression expected
+../common/comlib.sh: line 24: auditctl: command not found
+../common/comlib.sh: line 30: auditctl: command not found
+Unit auditd.service could not be found.
+Sun Feb 26 18:28:01 2023 - ERROR - grep second failed
+Sun Feb 26 18:28:02 2023 - ERROR - oe_test_audit_max_log_file_suspend.sh line 41
+../common/comlib.sh: line 35: auditctl: command not found
+Sun Feb 26 18:28:02 2023 - ERROR -  add rules failed
+Sun Feb 26 18:28:03 2023 - ERROR - ../common/comlib.sh line 36
+../common/comlib.sh: line 41: auditctl: command not found
+Sun Feb 26 18:28:04 2023 - ERROR - second failed
+Sun Feb 26 18:28:04 2023 - ERROR - ../common/comlib.sh line 42
+../common/comlib.sh: line 44: ausearch: command not found
+../common/comlib.sh: line 44: ausearch: command not found
+../common/comlib.sh: line 44: ausearch: command not found
+../common/comlib.sh: line 44: ausearch: command not found
+../common/comlib.sh: line 44: ausearch: command not found
+../common/comlib.sh: line 44: ausearch: command not found
+../common/comlib.sh: line 44: ausearch: command not found
+../common/comlib.sh: line 44: ausearch: command not found
+../common/comlib.sh: line 44: ausearch: command not found
+../common/comlib.sh: line 44: ausearch: command not found
+Sun Feb 26 18:28:23 2023 - INFO  - End to run test.
+Sun Feb 26 18:28:23 2023 - ERROR - failed to execute the case.
+Sun Feb 26 18:28:24 2023 - INFO  - Start to restore the test environment.
+sed: can't read /etc/audit/auditd.conf: No such file or directory
+sed: can't read /etc/audit/auditd.conf: No such file or directory
+Failed to restart auditd.service: Unit auditd.service not found.
+Sun Feb 26 18:28:26 2023 - INFO  - End to restore the test environment.

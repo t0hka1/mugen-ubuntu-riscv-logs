@@ -1,0 +1,42 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 281 not upgraded.
+Sun Feb 26 07:03:23 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 07:03:56 2023 - INFO  - pkgs:(uuid vim) is already installed
+Sun Feb 26 07:03:57 2023 - INFO  - Finish preparing the test environment.
+Sun Feb 26 07:03:57 2023 - INFO  - Start to run test.
+bd2c294a-b5a3-11ed-977a-525400123456
+c961cda0-e661-4c83-a570-a7967f405f74
+2f67490d-55a4-395e-b540-457195f7aa95
+6bd69026-2b9c-5629-82dd-f92f408b660e
+10
+bd81bc2a-b5a3-11ed-8a64-525400123456
+bd821e04-b5a3-11ed-b09c-525400123456
+bd82248a-b5a3-11ed-8fa3-525400123456
+bd822714-b5a3-11ed-883f-525400123456
+bd8228e0-b5a3-11ed-8627-525400123456
+bd822a98-b5a3-11ed-afe3-525400123456
+bd822c46-b5a3-11ed-bb21-525400123456
+bd822dfe-b5a3-11ed-9618-525400123456
+bd822fac-b5a3-11ed-847b-525400123456
+bd823164-b5a3-11ed-ba84-525400123456
+00000000: bd87 7ed0 b5a3 11ed a051 5254 0012 3456  ..~......QRT..4V
+bda209ee-b5a3-11ed-a020-525400123456
+bdc13f58-b5a3-11ed-9fb3-525400123456
+encode: STR:     bdc13f58-b5a3-11ed-9fb3-525400123456
+        SIV:     252227489317143579371501165334611768406
+decode: variant: DCE 1.1, ISO/IEC 11578:1996
+        version: 1 (time and node based)
+        content: time:  2023-02-26 07:03:58.620860.0 UTC
+                 clock: 8115 (usually random)
+                 node:  52:54:00:12:34:56 (local unicast)
+Sun Feb 26 07:03:59 2023 - INFO  - End of the test.
+Sun Feb 26 07:03:59 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 07:04:00 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 07:04:00 2023 - WARN  - no thing to do.
+Sun Feb 26 07:04:01 2023 - INFO  - Finish restoring the test environment.

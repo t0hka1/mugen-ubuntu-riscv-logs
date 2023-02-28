@@ -1,0 +1,33 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 268 not upgraded.
+Sun Feb 26 18:48:31 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 18:48:32 2023 - INFO  - End to prepare the environment
+Sun Feb 26 18:48:33 2023 - INFO  - Start to run test.
+Failed to restart auditd.service: Unit auditd.service not found.
+oe_test_audit_monitor_system_use.sh: line 32: auditctl: command not found
+Sun Feb 26 18:48:34 2023 - ERROR - clean failed
+Sun Feb 26 18:48:34 2023 - ERROR - oe_test_audit_monitor_system_use.sh line 33
+oe_test_audit_monitor_system_use.sh: line 34: auditctl: command not found
+Sun Feb 26 18:48:35 2023 - ERROR - add rule failed
+Sun Feb 26 18:48:35 2023 - ERROR - oe_test_audit_monitor_system_use.sh line 35
+oe_test_audit_monitor_system_use.sh: line 36: auditctl: command not found
+Sun Feb 26 18:48:36 2023 - ERROR - grep failed
+Sun Feb 26 18:48:37 2023 - ERROR - oe_test_audit_monitor_system_use.sh line 37
+su: warning: cannot change directory to /home/Jevons: No such file or directory
+/mugen-ubuntu-riscv/testcases/cli-test/audit/oe_test_audit_monitor_system_use
+oe_test_audit_monitor_system_use.sh: line 42: ausearch: command not found
+Sun Feb 26 18:48:38 2023 - ERROR - grep failed
+Sun Feb 26 18:48:39 2023 - ERROR - oe_test_audit_monitor_system_use.sh line 43
+Sun Feb 26 18:48:39 2023 - INFO  - End to run test.
+Sun Feb 26 18:48:40 2023 - ERROR - failed to execute the case.
+Sun Feb 26 18:48:41 2023 - INFO  - Start to restore the test environment.
+userdel: Jevons mail spool (/var/mail/Jevons) not found
+userdel: Jevons home directory (/home/Jevons) not found
+oe_test_audit_monitor_system_use.sh: line 51: auditctl: command not found
+Sun Feb 26 18:48:42 2023 - INFO  - End to restore the test environment.

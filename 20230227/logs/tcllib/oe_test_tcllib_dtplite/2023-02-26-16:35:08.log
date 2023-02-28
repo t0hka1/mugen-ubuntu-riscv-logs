@@ -1,0 +1,28 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 16:35:14 2023 - INFO  - Start to prepare the test environment.
+sed: can't read /etc/xinetd.d/echo-stream: No such file or directory
+Sun Feb 26 16:36:21 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 16:36:21 2023 - INFO  - Start to run test.
+    PRE.doctools_example {
+<h1 class="doctools_title">NAME(SECTION) VERSION example &quot;MODULE_TITLE&quot;</h1>
+	example.doc
+<td class="#doctools_tocleft" ><a name='name'><a href="doc/files/example.html">NAME</a></td>
+<style type="text/css"><!--
+<link rel="stylesheet" href="example.doc" type="text/css">
+<body>[manpage_begin NAME SECTION VERSION]
+[manpage_begin NAME SECTION VERSION]
+[manpage_end]
+<!-- Generated from file 'example.doc' by tcllib/doctools with format 'html'
+<h1 class="doctools_title">NAME(SECTION) VERSION example.doc &quot;MODULE_TITLE&quot;</h1>
+   <a href="https://www.baidu.com">example.doc</a>
+Sun Feb 26 16:36:32 2023 - INFO  - End to run test.
+Sun Feb 26 16:36:32 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 16:36:33 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 16:37:08 2023 - INFO  - End to restore the test environment.

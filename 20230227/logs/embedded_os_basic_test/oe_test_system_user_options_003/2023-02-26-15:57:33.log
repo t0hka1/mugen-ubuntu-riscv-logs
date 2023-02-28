@@ -1,0 +1,25 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 15:57:38 2023 - INFO  - Start to prepare the test environment.
+touch: cannot touch '/home/testuser/testfile.txt': No such file or directory
+Sun Feb 26 15:57:40 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 15:57:40 2023 - INFO  - Start to run test.
+/home/testuser
+/home/new_test
+find: ‘/home/new_test/testfile.txt’: No such file or directory
+/home/testuser
+/home/new_test
+Sun Feb 26 15:57:43 2023 - ERROR - check testfile.txt fail
+Sun Feb 26 15:57:44 2023 - ERROR - oe_test_system_user_options_003.sh line 56
+Sun Feb 26 15:57:44 2023 - INFO  - End to run test.
+Sun Feb 26 15:57:45 2023 - ERROR - failed to execute the case.
+Sun Feb 26 15:57:45 2023 - INFO  - Start to restore the test environment.
+userdel: testuser mail spool (/var/mail/testuser) not found
+userdel: testuser home directory (/home/new_test) not found
+Sun Feb 26 15:57:46 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,641 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 20:03:02 2023 - INFO  - Start to run test.
+126252    603 ukui-greeter    /usr/sbin/ukui-greeter       1.8
+65144     454 Xorg            /usr/lib/xorg/Xorg -core :0  0.6
+21560     508 smbd            /usr/sbin/smbd --foreground  0.0
+15976     372 NetworkManager  /usr/sbin/NetworkManager --  0.2
+15436     378 networkd-dispat /usr/bin/python3 /usr/bin/n  0.0
+13964     595 pulseaudio      /usr/bin/pulseaudio --daemo  0.0
+13764     252 systemd-journal /lib/systemd/systemd-journa  0.1
+13568     470 nmbd            /usr/sbin/nmbd --foreground  0.0
+12244     551 lpqd            /usr/sbin/smbd --foreground  0.0
+11612     540 smbd-notifyd    /usr/sbin/smbd --foreground  0.0
+10212     364 systemd-resolve /lib/systemd/systemd-resolv  0.0
+ 9664   16383 python3         python3 /root/mugen-ubuntu- 31.0
+ 9212       1 systemd         /sbin/init                   1.3
+ 9080     388 group-manager-s /usr/bin/group-manager-serv  0.0
+ 8628     422 ModemManager    /usr/sbin/ModemManager       0.0
+ 7728     633 systemd         /lib/systemd/systemd --user  0.0
+ 7644     589 systemd         /lib/systemd/systemd --user  0.0
+ 7292     380 polkitd         /usr/lib/policykit-1/polkit  0.2
+ 6988     456 ukui-media-cont /usr/bin/ukui-media-control  0.0
+ 6088     583 lightdm         lightdm --session-child 16   0.0
+ 5980     387 systemd-logind  /lib/systemd/systemd-logind  0.0
+ 5916     366 accounts-daemon /usr/lib/accountsservice/ac  0.2
+ 5556     445 lightdm         /usr/sbin/lightdm            0.0
+ 5420     281 systemd-udevd   /lib/systemd/systemd-udevd   0.0
+ 4808     541 cleanupd        /usr/sbin/smbd --foreground  0.0
+ 4520     616 lightdm         lightdm --session-child 12   0.0
+ 4316     389 wpa_supplicant  /sbin/wpa_supplicant -u -s   0.0
+ 4000     371 dbus-daemon     /usr/bin/dbus-daemon --syst  0.3
+ 3772     384 switcheroo-cont /usr/libexec/switcheroo-con  0.0
+ 3372     442 login           /bin/login -p --             0.0
+ 3356     382 rsyslogd        /usr/sbin/rsyslogd -n -iNON  0.0
+ 3128     969 bash            bash mugen.sh -f os-basic    0.2
+ 2996     639 bash            -bash                        0.0
+ 2920     606 dbus-daemon     /usr/bin/dbus-daemon --sess  0.0
+ 2896     634 (sd-pam)        (sd-pam)                     0.0
+ 2896     590 (sd-pam)        (sd-pam)                     0.0
+ 2760    3828 dbus-daemon     /usr/bin/dbus-daemon --sess  0.0
+ 2744    9260 bash            bash oe_test_net_config.sh   0.0
+ 2580   16385 bash            bash oe_test_system_monitor 24.0
+ 2552     368 avahi-daemon    avahi-daemon: running [ubun  0.0
+ 2148     369 cron            /usr/sbin/cron -f            0.0
+ 2020     601 rtkit-daemon    /usr/libexec/rtkit-daemon    0.0
+ 1732    9268 bash            bash oe_test_net_config.sh   0.6
+ 1560    3387 ntpd            ntpd: dns engine             0.0
+ 1336    3385 ntpd            ntpd: ntp engine             0.0
+ 1216     447 agetty          /sbin/agetty -o -p -- \u --  0.0
+  952   16400 ps              ps -eo rsz,pid,comm,args,pc  0.0
+  576   16399 ping            ping -c 3 127.0.0.181        9.0
+  440   16401 sort            sort -nrk1                   0.0
+  404   16384 sh              /bin/sh -c bash oe_test_sys  8.0
+  376     602 lightdm-greeter /bin/sh /usr/lib/lightdm/li  0.0
+  364    9259 sh              /bin/sh -c bash oe_test_net  0.0
+  328     392 avahi-daemon    avahi-daemon: chroot helper  0.0
+  312    2520 bpfilter_umh    bpfilter_umh                 0.0
+  192    3392 ntpd            /usr/sbin/ntpd -s -f /etc/o  0.0
+  RSZ     PID COMMAND         COMMAND                     %CPU
+    0       9 rcu_tasks_rude_ [rcu_tasks_rude_]            0.0
+    0       8 mm_percpu_wq    [mm_percpu_wq]               0.0
+    0    8688 kworker/3:0-cgr [kworker/3:0-cgroup_destroy  0.0
+    0    8687 kworker/1:0-eve [kworker/1:0-events]         0.0
+    0    8410 kworker/5:0-mm_ [kworker/5:0-mm_percpu_wq]   0.0
+    0    7764 kworker/u16:1-e [kworker/u16:1-events_unbou  0.0
+    0       6 kworker/0:0H-kb [kworker/0:0H-kblockd]       0.0
+    0      59 ksmd            [ksmd]                       0.0
+    0      58 kcompactd0      [kcompactd0]                 0.0
+    0    5823 kworker/7:0-ine [kworker/7:0-inet_frag_wq]   0.0
+    0      57 writeback       [writeback]                  0.0
+    0    5755 kworker/3:2-cgr [kworker/3:2-cgroup_destroy  0.0
+    0      56 oom_reaper      [oom_reaper]                 0.0
+    0      55 khungtaskd      [khungtaskd]                 0.0
+    0      54 kauditd         [kauditd]                    0.0
+    0      53 inet_frag_wq    [inet_frag_wq]               0.0
+    0      52 netns           [netns]                      0.0
+    0      51 kdevtmpfs       [kdevtmpfs]                  0.0
+    0      50 kworker/7:0H-ev [kworker/7:0H-events_highpr  0.0
+    0       4 rcu_par_gp      [rcu_par_gp]                 0.0
+    0      48 ksoftirqd/7     [ksoftirqd/7]                0.0
+    0      47 migration/7     [migration/7]                0.0
+    0      46 cpuhp/7         [cpuhp/7]                    0.0
+    0      45 kworker/6:0H-ev [kworker/6:0H-events_highpr  0.0
+    0     446 kworker/5:3-eve [kworker/5:3-events]         0.0
+    0      43 ksoftirqd/6     [ksoftirqd/6]                0.0
+    0      42 migration/6     [migration/6]                0.0
+    0      41 cpuhp/6         [cpuhp/6]                    0.0
+    0      40 kworker/5:0H-ev [kworker/5:0H-events_highpr  0.0
+    0       3 rcu_gp          [rcu_gp]                     0.0
+    0      38 ksoftirqd/5     [ksoftirqd/5]                0.0
+    0    3842 kworker/0:2-cgr [kworker/0:2-cgroup_destroy  0.0
+    0      37 migration/5     [migration/5]                0.0
+    0      36 cpuhp/5         [cpuhp/5]                    0.0
+    0      35 kworker/4:0H-ev [kworker/4:0H-events_highpr  0.0
+    0      33 ksoftirqd/4     [ksoftirqd/4]                0.0
+    0      32 migration/4     [migration/4]                0.0
+    0    3234 kworker/0:0-eve [kworker/0:0-events]         0.0
+    0      31 cpuhp/4         [cpuhp/4]                    0.0
+    0     315 hwrng           [hwrng]                      0.0
+    0      30 kworker/3:0H-kb [kworker/3:0H-kblockd]       0.0
+    0       2 kthreadd        [kthreadd]                   0.0
+    0      28 ksoftirqd/3     [ksoftirqd/3]                0.0
+    0      27 migration/3     [migration/3]                0.0
+    0      26 cpuhp/3         [cpuhp/3]                    0.0
+    0      25 kworker/2:0H-kb [kworker/2:0H-kblockd]       0.0
+    0      23 ksoftirqd/2     [ksoftirqd/2]                0.0
+    0      22 migration/2     [migration/2]                0.0
+    0     223 kworker/6:1H-kb [kworker/6:1H-kblockd]       0.0
+    0      21 cpuhp/2         [cpuhp/2]                    0.0
+    0     219 ext4-rsv-conver [ext4-rsv-conver]            0.0
+    0     218 jbd2/vda4-8     [jbd2/vda4-8]                0.0
+    0     217 kworker/0:1H-kb [kworker/0:1H-kblockd]       0.0
+    0     216 kworker/2:1H-kb [kworker/2:1H-kblockd]       0.0
+    0     215 kworker/3:1H-kb [kworker/3:1H-kblockd]       0.0
+    0      20 kworker/1:0H-kb [kworker/1:0H-kblockd]       0.0
+    0     194 kworker/1:1H-kb [kworker/1:1H-kblockd]       0.0
+    0    1915 kworker/6:0-cgr [kworker/6:0-cgroup_destroy  0.0
+    0    1908 kworker/4:0-cgr [kworker/4:0-cgroup_destroy  0.0
+    0      18 ksoftirqd/1     [ksoftirqd/1]                0.0
+    0     180 kworker/4:1H-kb [kworker/4:1H-kblockd]       0.0
+    0      17 migration/1     [migration/1]                0.0
+    0      16 cpuhp/1         [cpuhp/1]                    0.0
+    0      15 cpuhp/0         [cpuhp/0]                    0.0
+    0   15918 kworker/u16:3-f [kworker/u16:3-flush-252:0]  0.0
+    0   15913 kworker/3:1-eve [kworker/3:1-events]         0.0
+    0   15603 kworker/0:1-eve [kworker/0:1-events]         0.1
+    0   15349 kworker/7:2-eve [kworker/7:2-events]         0.0
+    0   15347 kworker/6:2-eve [kworker/6:2-events]         0.0
+    0   15339 kworker/2:2     [kworker/2:2]                0.0
+    0   15320 kworker/1:2-eve [kworker/1:2-events]         0.0
+    0   15264 kworker/u16:2-e [kworker/u16:2-events_unbou  0.0
+    0     146 charger_manager [charger_manager]            0.0
+    0     141 kworker/u17:0   [kworker/u17:0]              0.0
+    0     140 zswap-shrink    [zswap-shrink]               0.0
+    0      13 migration/0     [migration/0]                0.0
+    0     137 kstrp           [kstrp]                      0.0
+    0   13513 kworker/2:0-eve [kworker/2:0-events]         0.0
+    0   13458 kworker/u16:0-e [kworker/u16:0-ext4-rsv-con  0.0
+    0      12 rcu_sched       [rcu_sched]                  0.6
+    0     128 ipv6_addrconf   [ipv6_addrconf]              0.0
+    0     127 kworker/5:1H-kb [kworker/5:1H-kblockd]       0.0
+    0     126 kthrotld        [kthrotld]                   0.0
+    0     124 ecryptfs-kthrea [ecryptfs-kthrea]            0.0
+    0     123 kswapd0         [kswapd0]                    0.0
+    0     121 kworker/2:1-mm_ [kworker/2:1-mm_percpu_wq]   0.0
+    0      11 ksoftirqd/0     [ksoftirqd/0]                0.0
+    0     119 kworker/6:1-mm_ [kworker/6:1-mm_percpu_wq]   0.0
+    0     118 kworker/1:1-mm_ [kworker/1:1-mm_percpu_wq]   0.0
+    0     117 kworker/7:1H-kb [kworker/7:1H-kblockd]       0.0
+    0     115 kworker/4:1-mm_ [kworker/4:1-mm_percpu_wq]   0.0
+    0     114 watchdogd       [watchdogd]                  0.0
+    0     113 devfreq_wq      [devfreq_wq]                 0.0
+    0     112 edac-poller     [edac-poller]                0.0
+    0     111 md              [md]                         0.0
+    0     110 ata_sff         [ata_sff]                    0.0
+    0      10 rcu_tasks_trace [rcu_tasks_trace]            0.0
+    0     109 tpm_dev_wq      [tpm_dev_wq]                 0.0
+    0     108 kworker/7:1-mm_ [kworker/7:1-mm_percpu_wq]   0.0
+    0     107 blkcg_punt_bio  [blkcg_punt_bio]             0.0
+    0     106 kblockd         [kblockd]                    0.0
+    0     105 kintegrityd     [kintegrityd]                0.0
+%CPU     PID COMMAND         COMMAND
+ 9.0   16399 ping            ping -c 3 127.0.0.181
+ 8.0   16384 sh              /bin/sh -c bash oe_test_system_monitor_process.sh
+31.5   16383 python3         python3 /root/mugen-ubuntu-riscv/libs/locallibs/sleep_wait.py --time 30m --cmd bash oe_test_system_monitor_process.sh --mode 1
+25.0   16385 bash            bash oe_test_system_monitor_process.sh
+ 1.8     603 ukui-greeter    /usr/sbin/ukui-greeter
+ 1.3       1 systemd         /sbin/init
+ 0.6    9268 bash            bash oe_test_net_config.sh
+ 0.6     454 Xorg            /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+ 0.6      12 rcu_sched       [rcu_sched]
+ 0.3     371 dbus-daemon     /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.2     969 bash            bash mugen.sh -f os-basic
+ 0.2     380 polkitd         /usr/lib/policykit-1/polkitd --no-debug
+ 0.2     372 NetworkManager  /usr/sbin/NetworkManager --no-daemon
+ 0.2     366 accounts-daemon /usr/lib/accountsservice/accounts-daemon
+ 0.1     252 systemd-journal /lib/systemd/systemd-journald
+ 0.1   15603 kworker/0:1-eve [kworker/0:1-events]
+ 0.0       9 rcu_tasks_rude_ [rcu_tasks_rude_]
+ 0.0    9260 bash            bash oe_test_net_config.sh
+ 0.0    9259 sh              /bin/sh -c bash oe_test_net_config.sh
+ 0.0       8 mm_percpu_wq    [mm_percpu_wq]
+ 0.0    8688 kworker/3:0-cgr [kworker/3:0-cgroup_destroy]
+ 0.0    8687 kworker/1:0-eve [kworker/1:0-events]
+ 0.0    8410 kworker/5:0-mm_ [kworker/5:0-mm_percpu_wq]
+ 0.0    7764 kworker/u16:1-e [kworker/u16:1-events_unbound]
+ 0.0       6 kworker/0:0H-kb [kworker/0:0H-kblockd]
+ 0.0     639 bash            -bash
+ 0.0     634 (sd-pam)        (sd-pam)
+ 0.0     633 systemd         /lib/systemd/systemd --user
+ 0.0     616 lightdm         lightdm --session-child 12 19
+ 0.0     606 dbus-daemon     /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.0     602 lightdm-greeter /bin/sh /usr/lib/lightdm/lightdm-greeter-session /usr/sbin/ukui-greeter
+ 0.0     601 rtkit-daemon    /usr/libexec/rtkit-daemon
+ 0.0      59 ksmd            [ksmd]
+ 0.0     595 pulseaudio      /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ 0.0     590 (sd-pam)        (sd-pam)
+ 0.0      58 kcompactd0      [kcompactd0]
+ 0.0     589 systemd         /lib/systemd/systemd --user
+ 0.0     583 lightdm         lightdm --session-child 16 19
+ 0.0    5823 kworker/7:0-ine [kworker/7:0-inet_frag_wq]
+ 0.0      57 writeback       [writeback]
+ 0.0    5755 kworker/3:2-cgr [kworker/3:2-cgroup_destroy]
+ 0.0      56 oom_reaper      [oom_reaper]
+ 0.0      55 khungtaskd      [khungtaskd]
+ 0.0     551 lpqd            /usr/sbin/smbd --foreground --no-process-group
+ 0.0      54 kauditd         [kauditd]
+ 0.0     541 cleanupd        /usr/sbin/smbd --foreground --no-process-group
+ 0.0     540 smbd-notifyd    /usr/sbin/smbd --foreground --no-process-group
+ 0.0      53 inet_frag_wq    [inet_frag_wq]
+ 0.0      52 netns           [netns]
+ 0.0      51 kdevtmpfs       [kdevtmpfs]
+ 0.0      50 kworker/7:0H-ev [kworker/7:0H-events_highpri]
+ 0.0     508 smbd            /usr/sbin/smbd --foreground --no-process-group
+ 0.0       4 rcu_par_gp      [rcu_par_gp]
+ 0.0      48 ksoftirqd/7     [ksoftirqd/7]
+ 0.0      47 migration/7     [migration/7]
+ 0.0     470 nmbd            /usr/sbin/nmbd --foreground --no-process-group
+ 0.0      46 cpuhp/7         [cpuhp/7]
+ 0.0      45 kworker/6:0H-ev [kworker/6:0H-events_highpri]
+ 0.0     456 ukui-media-cont /usr/bin/ukui-media-control-led
+ 0.0     447 agetty          /sbin/agetty -o -p -- \u --noclear tty1 linux
+ 0.0     446 kworker/5:3-eve [kworker/5:3-events]
+ 0.0     445 lightdm         /usr/sbin/lightdm
+ 0.0     442 login           /bin/login -p --
+ 0.0      43 ksoftirqd/6     [ksoftirqd/6]
+ 0.0      42 migration/6     [migration/6]
+ 0.0     422 ModemManager    /usr/sbin/ModemManager
+ 0.0      41 cpuhp/6         [cpuhp/6]
+ 0.0      40 kworker/5:0H-ev [kworker/5:0H-events_highpri]
+ 0.0       3 rcu_gp          [rcu_gp]
+ 0.0     392 avahi-daemon    avahi-daemon: chroot helper
+ 0.0      38 ksoftirqd/5     [ksoftirqd/5]
+ 0.0     389 wpa_supplicant  /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+ 0.0     388 group-manager-s /usr/bin/group-manager-server
+ 0.0     387 systemd-logind  /lib/systemd/systemd-logind
+ 0.0     384 switcheroo-cont /usr/libexec/switcheroo-control
+ 0.0    3842 kworker/0:2-cgr [kworker/0:2-cgroup_destroy]
+ 0.0     382 rsyslogd        /usr/sbin/rsyslogd -n -iNONE
+ 0.0    3828 dbus-daemon     /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.0      37 migration/5     [migration/5]
+ 0.0     378 networkd-dispat /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+ 0.0      36 cpuhp/5         [cpuhp/5]
+ 0.0     369 cron            /usr/sbin/cron -f
+ 0.0     368 avahi-daemon    avahi-daemon: running [ubuntukylin.local]
+ 0.0     364 systemd-resolve /lib/systemd/systemd-resolved
+ 0.0      35 kworker/4:0H-ev [kworker/4:0H-events_highpri]
+ 0.0      33 ksoftirqd/4     [ksoftirqd/4]
+ 0.0    3392 ntpd            /usr/sbin/ntpd -s -f /etc/openntpd/ntpd.conf
+ 0.0    3387 ntpd            ntpd: dns engine
+ 0.0    3385 ntpd            ntpd: ntp engine
+ 0.0      32 migration/4     [migration/4]
+ 0.0    3234 kworker/0:0-eve [kworker/0:0-events]
+ 0.0      31 cpuhp/4         [cpuhp/4]
+ 0.0     315 hwrng           [hwrng]
+ 0.0      30 kworker/3:0H-kb [kworker/3:0H-kblockd]
+ 0.0       2 kthreadd        [kthreadd]
+ 0.0      28 ksoftirqd/3     [ksoftirqd/3]
+ 0.0     281 systemd-udevd   /lib/systemd/systemd-udevd
+ 0.0      27 migration/3     [migration/3]
+ 0.0      26 cpuhp/3         [cpuhp/3]
+ 0.0      25 kworker/2:0H-kb [kworker/2:0H-kblockd]
+ 0.0    2520 bpfilter_umh    bpfilter_umh
+ 0.0      23 ksoftirqd/2     [ksoftirqd/2]
+ 0.0      22 migration/2     [migration/2]
+ 0.0     223 kworker/6:1H-kb [kworker/6:1H-kblockd]
+ 0.0      21 cpuhp/2         [cpuhp/2]
+ 0.0     219 ext4-rsv-conver [ext4-rsv-conver]
+ 0.0     218 jbd2/vda4-8     [jbd2/vda4-8]
+ 0.0     217 kworker/0:1H-kb [kworker/0:1H-kblockd]
+ 0.0     216 kworker/2:1H-kb [kworker/2:1H-kblockd]
+ 0.0     215 kworker/3:1H-kb [kworker/3:1H-kblockd]
+ 0.0      20 kworker/1:0H-kb [kworker/1:0H-kblockd]
+ 0.0     194 kworker/1:1H-kb [kworker/1:1H-kblockd]
+ 0.0    1915 kworker/6:0-cgr [kworker/6:0-cgroup_destroy]
+ 0.0    1908 kworker/4:0-cgr [kworker/4:0-cgroup_destroy]
+ 0.0      18 ksoftirqd/1     [ksoftirqd/1]
+ 0.0     180 kworker/4:1H-kb [kworker/4:1H-kblockd]
+ 0.0      17 migration/1     [migration/1]
+ 0.0      16 cpuhp/1         [cpuhp/1]
+ 0.0   16403 sort            sort -rk1
+ 0.0   16402 ps              ps -eo pcpu,pid,comm,args
+ 0.0      15 cpuhp/0         [cpuhp/0]
+ 0.0   15918 kworker/u16:3-f [kworker/u16:3-flush-252:0]
+ 0.0   15913 kworker/3:1-eve [kworker/3:1-events]
+ 0.0   15349 kworker/7:2-eve [kworker/7:2-events]
+ 0.0   15347 kworker/6:2-eve [kworker/6:2-events]
+ 0.0   15339 kworker/2:2     [kworker/2:2]
+ 0.0   15320 kworker/1:2-eve [kworker/1:2-events]
+ 0.0   15264 kworker/u16:2-e [kworker/u16:2-events_unbound]
+ 0.0     146 charger_manager [charger_manager]
+ 0.0     141 kworker/u17:0   [kworker/u17:0]
+ 0.0     140 zswap-shrink    [zswap-shrink]
+ 0.0      13 migration/0     [migration/0]
+ 0.0     137 kstrp           [kstrp]
+ 0.0   13513 kworker/2:0-eve [kworker/2:0-events]
+ 0.0   13458 kworker/u16:0-e [kworker/u16:0-ext4-rsv-conversion]
+ 0.0     128 ipv6_addrconf   [ipv6_addrconf]
+ 0.0     127 kworker/5:1H-kb [kworker/5:1H-kblockd]
+ 0.0     126 kthrotld        [kthrotld]
+ 0.0     124 ecryptfs-kthrea [ecryptfs-kthrea]
+ 0.0     123 kswapd0         [kswapd0]
+ 0.0     121 kworker/2:1-mm_ [kworker/2:1-mm_percpu_wq]
+ 0.0      11 ksoftirqd/0     [ksoftirqd/0]
+ 0.0     119 kworker/6:1-mm_ [kworker/6:1-mm_percpu_wq]
+ 0.0     118 kworker/1:1-mm_ [kworker/1:1-mm_percpu_wq]
+ 0.0     117 kworker/7:1H-kb [kworker/7:1H-kblockd]
+ 0.0     115 kworker/4:1-mm_ [kworker/4:1-mm_percpu_wq]
+ 0.0     114 watchdogd       [watchdogd]
+ 0.0     113 devfreq_wq      [devfreq_wq]
+ 0.0     112 edac-poller     [edac-poller]
+ 0.0     111 md              [md]
+ 0.0     110 ata_sff         [ata_sff]
+ 0.0      10 rcu_tasks_trace [rcu_tasks_trace]
+ 0.0     109 tpm_dev_wq      [tpm_dev_wq]
+ 0.0     108 kworker/7:1-mm_ [kworker/7:1-mm_percpu_wq]
+ 0.0     107 blkcg_punt_bio  [blkcg_punt_bio]
+ 0.0     106 kblockd         [kblockd]
+ 0.0     105 kintegrityd     [kintegrityd]
+%MEM     PID COMMAND         COMMAND
+ 1.5     603 ukui-greeter    /usr/sbin/ukui-greeter
+ 0.8     454 Xorg            /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+ 0.2     508 smbd            /usr/sbin/smbd --foreground --no-process-group
+ 0.1     595 pulseaudio      /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ 0.1     551 lpqd            /usr/sbin/smbd --foreground --no-process-group
+ 0.1     540 smbd-notifyd    /usr/sbin/smbd --foreground --no-process-group
+ 0.1     470 nmbd            /usr/sbin/nmbd --foreground --no-process-group
+ 0.1     422 ModemManager    /usr/sbin/ModemManager
+ 0.1     388 group-manager-s /usr/bin/group-manager-server
+ 0.1     378 networkd-dispat /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+ 0.1     372 NetworkManager  /usr/sbin/NetworkManager --no-daemon
+ 0.1     364 systemd-resolve /lib/systemd/systemd-resolved
+ 0.1     252 systemd-journal /lib/systemd/systemd-journald
+ 0.1       1 systemd         /sbin/init
+ 0.1   16383 python3         python3 /root/mugen-ubuntu-riscv/libs/locallibs/sleep_wait.py --time 30m --cmd bash oe_test_system_monitor_process.sh --mode 1
+ 0.0       9 rcu_tasks_rude_ [rcu_tasks_rude_]
+ 0.0     969 bash            bash mugen.sh -f os-basic
+ 0.0    9268 bash            bash oe_test_net_config.sh
+ 0.0    9260 bash            bash oe_test_net_config.sh
+ 0.0    9259 sh              /bin/sh -c bash oe_test_net_config.sh
+ 0.0       8 mm_percpu_wq    [mm_percpu_wq]
+ 0.0    8688 kworker/3:0-cgr [kworker/3:0-cgroup_destroy]
+ 0.0    8687 kworker/1:0-eve [kworker/1:0-events]
+ 0.0    8410 kworker/5:0-mm_ [kworker/5:0-mm_percpu_wq]
+ 0.0    7764 kworker/u16:1-e [kworker/u16:1-events_unbound]
+ 0.0       6 kworker/0:0H-kb [kworker/0:0H-kblockd]
+ 0.0     639 bash            -bash
+ 0.0     634 (sd-pam)        (sd-pam)
+ 0.0     633 systemd         /lib/systemd/systemd --user
+ 0.0     616 lightdm         lightdm --session-child 12 19
+ 0.0     606 dbus-daemon     /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.0     602 lightdm-greeter /bin/sh /usr/lib/lightdm/lightdm-greeter-session /usr/sbin/ukui-greeter
+ 0.0     601 rtkit-daemon    /usr/libexec/rtkit-daemon
+ 0.0      59 ksmd            [ksmd]
+ 0.0     590 (sd-pam)        (sd-pam)
+ 0.0      58 kcompactd0      [kcompactd0]
+ 0.0     589 systemd         /lib/systemd/systemd --user
+ 0.0     583 lightdm         lightdm --session-child 16 19
+ 0.0    5823 kworker/7:0-ine [kworker/7:0-inet_frag_wq]
+ 0.0      57 writeback       [writeback]
+ 0.0    5755 kworker/3:2-cgr [kworker/3:2-cgroup_destroy]
+ 0.0      56 oom_reaper      [oom_reaper]
+ 0.0      55 khungtaskd      [khungtaskd]
+ 0.0      54 kauditd         [kauditd]
+ 0.0     541 cleanupd        /usr/sbin/smbd --foreground --no-process-group
+ 0.0      53 inet_frag_wq    [inet_frag_wq]
+ 0.0      52 netns           [netns]
+ 0.0      51 kdevtmpfs       [kdevtmpfs]
+ 0.0      50 kworker/7:0H-ev [kworker/7:0H-events_highpri]
+ 0.0       4 rcu_par_gp      [rcu_par_gp]
+ 0.0      48 ksoftirqd/7     [ksoftirqd/7]
+ 0.0      47 migration/7     [migration/7]
+ 0.0      46 cpuhp/7         [cpuhp/7]
+ 0.0      45 kworker/6:0H-ev [kworker/6:0H-events_highpri]
+ 0.0     456 ukui-media-cont /usr/bin/ukui-media-control-led
+ 0.0     447 agetty          /sbin/agetty -o -p -- \u --noclear tty1 linux
+ 0.0     446 kworker/5:3-eve [kworker/5:3-events]
+ 0.0     445 lightdm         /usr/sbin/lightdm
+ 0.0     442 login           /bin/login -p --
+ 0.0      43 ksoftirqd/6     [ksoftirqd/6]
+ 0.0      42 migration/6     [migration/6]
+ 0.0      41 cpuhp/6         [cpuhp/6]
+ 0.0      40 kworker/5:0H-ev [kworker/5:0H-events_highpri]
+ 0.0       3 rcu_gp          [rcu_gp]
+ 0.0     392 avahi-daemon    avahi-daemon: chroot helper
+ 0.0      38 ksoftirqd/5     [ksoftirqd/5]
+ 0.0     389 wpa_supplicant  /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+ 0.0     387 systemd-logind  /lib/systemd/systemd-logind
+ 0.0     384 switcheroo-cont /usr/libexec/switcheroo-control
+ 0.0    3842 kworker/0:2-cgr [kworker/0:2-cgroup_destroy]
+ 0.0     382 rsyslogd        /usr/sbin/rsyslogd -n -iNONE
+ 0.0    3828 dbus-daemon     /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.0     380 polkitd         /usr/lib/policykit-1/polkitd --no-debug
+ 0.0      37 migration/5     [migration/5]
+ 0.0     371 dbus-daemon     /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.0      36 cpuhp/5         [cpuhp/5]
+ 0.0     369 cron            /usr/sbin/cron -f
+ 0.0     368 avahi-daemon    avahi-daemon: running [ubuntukylin.local]
+ 0.0     366 accounts-daemon /usr/lib/accountsservice/accounts-daemon
+ 0.0      35 kworker/4:0H-ev [kworker/4:0H-events_highpri]
+ 0.0      33 ksoftirqd/4     [ksoftirqd/4]
+ 0.0    3392 ntpd            /usr/sbin/ntpd -s -f /etc/openntpd/ntpd.conf
+ 0.0    3387 ntpd            ntpd: dns engine
+ 0.0    3385 ntpd            ntpd: ntp engine
+ 0.0      32 migration/4     [migration/4]
+ 0.0    3234 kworker/0:0-eve [kworker/0:0-events]
+ 0.0      31 cpuhp/4         [cpuhp/4]
+ 0.0     315 hwrng           [hwrng]
+ 0.0      30 kworker/3:0H-kb [kworker/3:0H-kblockd]
+ 0.0       2 kthreadd        [kthreadd]
+ 0.0      28 ksoftirqd/3     [ksoftirqd/3]
+ 0.0     281 systemd-udevd   /lib/systemd/systemd-udevd
+ 0.0      27 migration/3     [migration/3]
+ 0.0      26 cpuhp/3         [cpuhp/3]
+ 0.0      25 kworker/2:0H-kb [kworker/2:0H-kblockd]
+ 0.0    2520 bpfilter_umh    bpfilter_umh
+ 0.0      23 ksoftirqd/2     [ksoftirqd/2]
+ 0.0      22 migration/2     [migration/2]
+ 0.0     223 kworker/6:1H-kb [kworker/6:1H-kblockd]
+ 0.0      21 cpuhp/2         [cpuhp/2]
+ 0.0     219 ext4-rsv-conver [ext4-rsv-conver]
+ 0.0     218 jbd2/vda4-8     [jbd2/vda4-8]
+ 0.0     217 kworker/0:1H-kb [kworker/0:1H-kblockd]
+ 0.0     216 kworker/2:1H-kb [kworker/2:1H-kblockd]
+ 0.0     215 kworker/3:1H-kb [kworker/3:1H-kblockd]
+ 0.0      20 kworker/1:0H-kb [kworker/1:0H-kblockd]
+ 0.0     194 kworker/1:1H-kb [kworker/1:1H-kblockd]
+ 0.0    1915 kworker/6:0-cgr [kworker/6:0-cgroup_destroy]
+ 0.0    1908 kworker/4:0-cgr [kworker/4:0-cgroup_destroy]
+ 0.0      18 ksoftirqd/1     [ksoftirqd/1]
+ 0.0     180 kworker/4:1H-kb [kworker/4:1H-kblockd]
+ 0.0      17 migration/1     [migration/1]
+ 0.0      16 cpuhp/1         [cpuhp/1]
+ 0.0   16405 sort            sort -rk1
+ 0.0   16404 ps              ps -eo pmem,pid,comm,args
+ 0.0   16399 ping            ping -c 3 127.0.0.181
+ 0.0   16385 bash            bash oe_test_system_monitor_process.sh
+ 0.0   16384 sh              /bin/sh -c bash oe_test_system_monitor_process.sh
+ 0.0      15 cpuhp/0         [cpuhp/0]
+ 0.0   15918 kworker/u16:3-f [kworker/u16:3-flush-252:0]
+ 0.0   15913 kworker/3:1-eve [kworker/3:1-events]
+ 0.0   15603 kworker/0:1-eve [kworker/0:1-events]
+ 0.0   15349 kworker/7:2-eve [kworker/7:2-events]
+ 0.0   15347 kworker/6:2-eve [kworker/6:2-events]
+ 0.0   15339 kworker/2:2     [kworker/2:2]
+ 0.0   15320 kworker/1:2-eve [kworker/1:2-events]
+ 0.0   15264 kworker/u16:2-e [kworker/u16:2-events_unbound]
+ 0.0     146 charger_manager [charger_manager]
+ 0.0     141 kworker/u17:0   [kworker/u17:0]
+ 0.0     140 zswap-shrink    [zswap-shrink]
+ 0.0      13 migration/0     [migration/0]
+ 0.0     137 kstrp           [kstrp]
+ 0.0   13513 kworker/2:0-eve [kworker/2:0-events]
+ 0.0   13458 kworker/u16:0-e [kworker/u16:0-ext4-rsv-conversion]
+ 0.0      12 rcu_sched       [rcu_sched]
+ 0.0     128 ipv6_addrconf   [ipv6_addrconf]
+ 0.0     127 kworker/5:1H-kb [kworker/5:1H-kblockd]
+ 0.0     126 kthrotld        [kthrotld]
+ 0.0     124 ecryptfs-kthrea [ecryptfs-kthrea]
+ 0.0     123 kswapd0         [kswapd0]
+ 0.0     121 kworker/2:1-mm_ [kworker/2:1-mm_percpu_wq]
+ 0.0      11 ksoftirqd/0     [ksoftirqd/0]
+ 0.0     119 kworker/6:1-mm_ [kworker/6:1-mm_percpu_wq]
+ 0.0     118 kworker/1:1-eve [kworker/1:1-events]
+ 0.0     117 kworker/7:1H-kb [kworker/7:1H-kblockd]
+ 0.0     115 kworker/4:1-mm_ [kworker/4:1-mm_percpu_wq]
+ 0.0     114 watchdogd       [watchdogd]
+ 0.0     113 devfreq_wq      [devfreq_wq]
+ 0.0     112 edac-poller     [edac-poller]
+ 0.0     111 md              [md]
+ 0.0     110 ata_sff         [ata_sff]
+ 0.0      10 rcu_tasks_trace [rcu_tasks_trace]
+ 0.0     109 tpm_dev_wq      [tpm_dev_wq]
+ 0.0     108 kworker/7:1-mm_ [kworker/7:1-mm_percpu_wq]
+ 0.0     107 blkcg_punt_bio  [blkcg_punt_bio]
+ 0.0     106 kblockd         [kblockd]
+ 0.0     105 kintegrityd     [kintegrityd]
+STAT     PID COMMAND         COMMAND                     %CPU
+Ss         1 systemd         /sbin/init                   1.3
+S          2 kthreadd        [kthreadd]                   0.0
+I<         3 rcu_gp          [rcu_gp]                     0.0
+I<         4 rcu_par_gp      [rcu_par_gp]                 0.0
+I<         6 kworker/0:0H-kb [kworker/0:0H-kblockd]       0.0
+I<         8 mm_percpu_wq    [mm_percpu_wq]               0.0
+S          9 rcu_tasks_rude_ [rcu_tasks_rude_]            0.0
+S         10 rcu_tasks_trace [rcu_tasks_trace]            0.0
+S         11 ksoftirqd/0     [ksoftirqd/0]                0.0
+I         12 rcu_sched       [rcu_sched]                  0.6
+S         13 migration/0     [migration/0]                0.0
+S         15 cpuhp/0         [cpuhp/0]                    0.0
+S         16 cpuhp/1         [cpuhp/1]                    0.0
+S         17 migration/1     [migration/1]                0.0
+S         18 ksoftirqd/1     [ksoftirqd/1]                0.0
+I<        20 kworker/1:0H-kb [kworker/1:0H-kblockd]       0.0
+S         21 cpuhp/2         [cpuhp/2]                    0.0
+S         22 migration/2     [migration/2]                0.0
+S         23 ksoftirqd/2     [ksoftirqd/2]                0.0
+I<        25 kworker/2:0H-kb [kworker/2:0H-kblockd]       0.0
+S         26 cpuhp/3         [cpuhp/3]                    0.0
+S         27 migration/3     [migration/3]                0.0
+S         28 ksoftirqd/3     [ksoftirqd/3]                0.0
+I<        30 kworker/3:0H-kb [kworker/3:0H-kblockd]       0.0
+S         31 cpuhp/4         [cpuhp/4]                    0.0
+S         32 migration/4     [migration/4]                0.0
+S         33 ksoftirqd/4     [ksoftirqd/4]                0.0
+I<        35 kworker/4:0H-ev [kworker/4:0H-events_highpr  0.0
+S         36 cpuhp/5         [cpuhp/5]                    0.0
+S         37 migration/5     [migration/5]                0.0
+S         38 ksoftirqd/5     [ksoftirqd/5]                0.0
+I<        40 kworker/5:0H-ev [kworker/5:0H-events_highpr  0.0
+S         41 cpuhp/6         [cpuhp/6]                    0.0
+S         42 migration/6     [migration/6]                0.0
+S         43 ksoftirqd/6     [ksoftirqd/6]                0.0
+I<        45 kworker/6:0H-ev [kworker/6:0H-events_highpr  0.0
+S         46 cpuhp/7         [cpuhp/7]                    0.0
+S         47 migration/7     [migration/7]                0.0
+S         48 ksoftirqd/7     [ksoftirqd/7]                0.0
+I<        50 kworker/7:0H-ev [kworker/7:0H-events_highpr  0.0
+S         51 kdevtmpfs       [kdevtmpfs]                  0.0
+I<        52 netns           [netns]                      0.0
+I<        53 inet_frag_wq    [inet_frag_wq]               0.0
+S         54 kauditd         [kauditd]                    0.0
+S         55 khungtaskd      [khungtaskd]                 0.0
+S         56 oom_reaper      [oom_reaper]                 0.0
+I<        57 writeback       [writeback]                  0.0
+S         58 kcompactd0      [kcompactd0]                 0.0
+SN        59 ksmd            [ksmd]                       0.0
+I<       105 kintegrityd     [kintegrityd]                0.0
+I<       106 kblockd         [kblockd]                    0.0
+I<       107 blkcg_punt_bio  [blkcg_punt_bio]             0.0
+I        108 kworker/7:1-mm_ [kworker/7:1-mm_percpu_wq]   0.0
+I<       109 tpm_dev_wq      [tpm_dev_wq]                 0.0
+I<       110 ata_sff         [ata_sff]                    0.0
+I<       111 md              [md]                         0.0
+I<       112 edac-poller     [edac-poller]                0.0
+I<       113 devfreq_wq      [devfreq_wq]                 0.0
+S        114 watchdogd       [watchdogd]                  0.0
+I        115 kworker/4:1-mm_ [kworker/4:1-mm_percpu_wq]   0.0
+I<       117 kworker/7:1H-kb [kworker/7:1H-kblockd]       0.0
+I        118 kworker/1:1-eve [kworker/1:1-events]         0.0
+I        119 kworker/6:1-mm_ [kworker/6:1-mm_percpu_wq]   0.0
+I        121 kworker/2:1-eve [kworker/2:1-events]         0.0
+S        123 kswapd0         [kswapd0]                    0.0
+S        124 ecryptfs-kthrea [ecryptfs-kthrea]            0.0
+I<       126 kthrotld        [kthrotld]                   0.0
+I<       127 kworker/5:1H-kb [kworker/5:1H-kblockd]       0.0
+I<       128 ipv6_addrconf   [ipv6_addrconf]              0.0
+I<       137 kstrp           [kstrp]                      0.0
+I<       140 zswap-shrink    [zswap-shrink]               0.0
+I<       141 kworker/u17:0   [kworker/u17:0]              0.0
+I<       146 charger_manager [charger_manager]            0.0
+I<       180 kworker/4:1H-kb [kworker/4:1H-kblockd]       0.0
+I<       194 kworker/1:1H-kb [kworker/1:1H-kblockd]       0.0
+I<       215 kworker/3:1H-kb [kworker/3:1H-kblockd]       0.0
+I<       216 kworker/2:1H-kb [kworker/2:1H-kblockd]       0.0
+I<       217 kworker/0:1H-kb [kworker/0:1H-kblockd]       0.0
+S        218 jbd2/vda4-8     [jbd2/vda4-8]                0.0
+I<       219 ext4-rsv-conver [ext4-rsv-conver]            0.0
+I<       223 kworker/6:1H-kb [kworker/6:1H-kblockd]       0.0
+S<s      252 systemd-journal /lib/systemd/systemd-journa  0.1
+Ss       281 systemd-udevd   /lib/systemd/systemd-udevd   0.0
+S        315 hwrng           [hwrng]                      0.0
+Ss       364 systemd-resolve /lib/systemd/systemd-resolv  0.0
+Ssl      366 accounts-daemon /usr/lib/accountsservice/ac  0.2
+Ss       368 avahi-daemon    avahi-daemon: running [ubun  0.0
+Ss       369 cron            /usr/sbin/cron -f            0.0
+Ss       371 dbus-daemon     /usr/bin/dbus-daemon --syst  0.3
+Ssl      372 NetworkManager  /usr/sbin/NetworkManager --  0.2
+Ss       378 networkd-dispat /usr/bin/python3 /usr/bin/n  0.0
+Ssl      380 polkitd         /usr/lib/policykit-1/polkit  0.2
+Ssl      382 rsyslogd        /usr/sbin/rsyslogd -n -iNON  0.0
+Ssl      384 switcheroo-cont /usr/libexec/switcheroo-con  0.0
+Ss       387 systemd-logind  /lib/systemd/systemd-logind  0.0
+Ssl      388 group-manager-s /usr/bin/group-manager-serv  0.0
+Ss       389 wpa_supplicant  /sbin/wpa_supplicant -u -s   0.0
+S        392 avahi-daemon    avahi-daemon: chroot helper  0.0
+Ssl      422 ModemManager    /usr/sbin/ModemManager       0.0
+Ss       442 login           /bin/login -p --             0.0
+Ssl      445 lightdm         /usr/sbin/lightdm            0.0
+I        446 kworker/5:3-eve [kworker/5:3-events]         0.0
+Ss+      447 agetty          /sbin/agetty -o -p -- \u --  0.0
+Ssl+     454 Xorg            /usr/lib/xorg/Xorg -core :0  0.6
+Ss       456 ukui-media-cont /usr/bin/ukui-media-control  0.0
+Ss       470 nmbd            /usr/sbin/nmbd --foreground  0.0
+Ss       508 smbd            /usr/sbin/smbd --foreground  0.0
+S        540 smbd-notifyd    /usr/sbin/smbd --foreground  0.0
+S        541 cleanupd        /usr/sbin/smbd --foreground  0.0
+S        551 lpqd            /usr/sbin/smbd --foreground  0.0
+Sl       583 lightdm         lightdm --session-child 16   0.0
+Ss       589 systemd         /lib/systemd/systemd --user  0.0
+S        590 (sd-pam)        (sd-pam)                     0.0
+S<sl     595 pulseaudio      /usr/bin/pulseaudio --daemo  0.0
+SNsl     601 rtkit-daemon    /usr/libexec/rtkit-daemon    0.0
+Ss       602 lightdm-greeter /bin/sh /usr/lib/lightdm/li  0.0
+Sl       603 ukui-greeter    /usr/sbin/ukui-greeter       1.8
+Ss       606 dbus-daemon     /usr/bin/dbus-daemon --sess  0.0
+S        616 lightdm         lightdm --session-child 12   0.0
+Ss       633 systemd         /lib/systemd/systemd --user  0.0
+S        634 (sd-pam)        (sd-pam)                     0.0
+S        639 bash            -bash                        0.0
+S+       969 bash            bash mugen.sh -f os-basic    0.2
+I       1908 kworker/4:0-cgr [kworker/4:0-cgroup_destroy  0.0
+I       1915 kworker/6:0-cgr [kworker/6:0-cgroup_destroy  0.0
+S       2520 bpfilter_umh    bpfilter_umh                 0.0
+I       3234 kworker/0:0-eve [kworker/0:0-events]         0.0
+S<s     3385 ntpd            ntpd: ntp engine             0.0
+Ss      3387 ntpd            ntpd: dns engine             0.0
+S<s     3392 ntpd            /usr/sbin/ntpd -s -f /etc/o  0.0
+Ss      3828 dbus-daemon     /usr/bin/dbus-daemon --sess  0.0
+I       3842 kworker/0:2-cgr [kworker/0:2-cgroup_destroy  0.0
+I       5755 kworker/3:2-cgr [kworker/3:2-cgroup_destroy  0.0
+I       5823 kworker/7:0-ine [kworker/7:0-inet_frag_wq]   0.0
+I       7764 kworker/u16:1-e [kworker/u16:1-events_unbou  0.0
+I       8410 kworker/5:0-eve [kworker/5:0-events]         0.0
+I       8687 kworker/1:0-eve [kworker/1:0-events]         0.0
+I       8688 kworker/3:0-cgr [kworker/3:0-cgroup_destroy  0.0
+S+      9259 sh              /bin/sh -c bash oe_test_net  0.0
+S+      9260 bash            bash oe_test_net_config.sh   0.0
+S+      9268 bash            bash oe_test_net_config.sh   0.6
+I      13458 kworker/u16:0-e [kworker/u16:0-ext4-rsv-con  0.0
+I      13513 kworker/2:0-eve [kworker/2:0-events]         0.0
+I      15264 kworker/u16:2-e [kworker/u16:2-events_unbou  0.0
+I      15320 kworker/1:2-eve [kworker/1:2-events]         0.0
+I      15339 kworker/2:2     [kworker/2:2]                0.0
+I      15347 kworker/6:2-eve [kworker/6:2-events]         0.0
+I      15349 kworker/7:2-eve [kworker/7:2-events]         0.0
+I      15603 kworker/0:1-eve [kworker/0:1-events]         0.0
+I      15913 kworker/3:1-mm_ [kworker/3:1-mm_percpu_wq]   0.0
+I      15918 kworker/u16:3-f [kworker/u16:3-flush-252:0]  0.0
+S+     16383 python3         python3 /root/mugen-ubuntu- 21.0
+S+     16384 sh              /bin/sh -c bash oe_test_sys  4.0
+S+     16385 bash            bash oe_test_system_monitor 14.0
+S+     16399 ping            ping -c 3 127.0.0.181        4.5
+R+     16406 ps              ps -eo stat,pid,comm,args,p 22.0
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+Thu Feb  9 20:03:03 2023 - INFO  - End to run test.
+Thu Feb  9 20:03:04 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 20:03:04 2023 - INFO  - oe_test_system_monitor_process.sh post_test

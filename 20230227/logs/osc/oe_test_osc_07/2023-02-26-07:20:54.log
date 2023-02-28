@@ -1,0 +1,43 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 280 not upgraded.
+Sun Feb 26 07:20:59 2023 - INFO  - Start to config params of the case.
+Sun Feb 26 07:21:00 2023 - INFO  - End to config params of the case.
+Sun Feb 26 07:21:00 2023 - INFO  - Start to prepare the test environment.
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+At revision 5014.
+Sun Feb 26 07:22:58 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 07:22:59 2023 - INFO  - Start to run test.
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+# Project                                 # Package
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+ok
+     last_file.txt
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+Create a new token
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+Delete token
+Sun Feb 26 07:24:24 2023 - INFO  - End to run test.
+Sun Feb 26 07:24:25 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 07:24:25 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 07:25:20 2023 - INFO  - End to restore the test environment.

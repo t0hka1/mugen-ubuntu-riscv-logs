@@ -1,0 +1,65 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 280 not upgraded.
+Sun Feb 26 08:05:51 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 08:05:56 2023 - ERROR - pkgs:(php-devel) not found
+Sun Feb 26 08:05:57 2023 - INFO  - Finish preparing the test environment.
+Sun Feb 26 08:05:57 2023 - INFO  - Start to run test.
+oe_test_php.sh: line 35: php: command not found
+Sun Feb 26 08:05:58 2023 - ERROR - oe_test_php.sh line 36
+oe_test_php.sh: line 37: php: command not found
+Sun Feb 26 08:05:59 2023 - ERROR - oe_test_php.sh line 38
+spawn php -a
+couldn't execute "php": no such file or directory
+    while executing
+"spawn php -a"
+oe_test_php.sh: line 44: php: command not found
+Sun Feb 26 08:06:00 2023 - ERROR - oe_test_php.sh line 45
+oe_test_php.sh: line 46: php: command not found
+Sun Feb 26 08:06:00 2023 - ERROR - oe_test_php.sh line 47
+oe_test_php.sh: line 48: php: command not found
+Sun Feb 26 08:06:01 2023 - ERROR - oe_test_php.sh line 49
+oe_test_php.sh: line 50: php: command not found
+Sun Feb 26 08:06:02 2023 - ERROR - oe_test_php.sh line 51
+oe_test_php.sh: line 52: php: command not found
+Sun Feb 26 08:06:02 2023 - ERROR - oe_test_php.sh line 53
+oe_test_php.sh: line 54: php: command not found
+Sun Feb 26 08:06:03 2023 - ERROR - oe_test_php.sh line 55
+oe_test_php.sh: line 56: php: command not found
+Sun Feb 26 08:06:04 2023 - ERROR - oe_test_php.sh line 57
+oe_test_php.sh: line 58: php: command not found
+Sun Feb 26 08:06:04 2023 - ERROR - oe_test_php.sh line 59
+oe_test_php.sh: line 60: php: command not found
+Sun Feb 26 08:06:05 2023 - ERROR - oe_test_php.sh line 61
+oe_test_php.sh: line 62: php: command not found
+Sun Feb 26 08:06:06 2023 - ERROR - oe_test_php.sh line 63
+oe_test_php.sh: line 64: php: command not found
+Sun Feb 26 08:06:07 2023 - ERROR - oe_test_php.sh line 65
+oe_test_php.sh: line 66: php: command not found
+Sun Feb 26 08:06:07 2023 - ERROR - oe_test_php.sh line 67
+oe_test_php.sh: line 68: php: command not found
+Sun Feb 26 08:06:08 2023 - ERROR - oe_test_php.sh line 69
+spawn php -F ../common/my_script.php
+couldn't execute "php": no such file or directory
+    while executing
+"spawn php -F ../common/my_script.php"
+oe_test_php.sh: line 78: php: command not found
+Sun Feb 26 08:06:09 2023 - ERROR - oe_test_php.sh line 79
+oe_test_php.sh: line 80: php: command not found
+Sun Feb 26 08:06:10 2023 - ERROR - oe_test_php.sh line 81
+oe_test_php.sh: line 82: php: command not found
+Sun Feb 26 08:06:11 2023 - ERROR - oe_test_php.sh line 83
+oe_test_php.sh: line 84: php: command not found
+Sun Feb 26 08:06:11 2023 - ERROR - oe_test_php.sh line 85
+oe_test_php.sh: line 86: php: command not found
+Sun Feb 26 08:06:12 2023 - ERROR - oe_test_php.sh line 87
+Sun Feb 26 08:06:13 2023 - INFO  - End of the test.
+Sun Feb 26 08:06:13 2023 - ERROR - failed to execute the case.
+Sun Feb 26 08:06:14 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 08:06:14 2023 - WARN  - no thing to do.
+Sun Feb 26 08:06:15 2023 - INFO  - Finish restoring the test environment.

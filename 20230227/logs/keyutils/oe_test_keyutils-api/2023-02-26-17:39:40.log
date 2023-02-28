@@ -1,0 +1,22 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 268 not upgraded.
+Sun Feb 26 17:39:46 2023 - INFO  - Start environmental preparation.
+Sun Feb 26 17:40:17 2023 - INFO  - pkgs:(keyutils gcc make) is already installed
+Sun Feb 26 17:40:18 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 17:40:19 2023 - INFO  - Start testing...
+/mugen-ubuntu-riscv/testcases/cli-test/keyutils/common /mugen-ubuntu-riscv/testcases/cli-test/keyutils
+gcc -lkeyutils t_request_key.c -o test_key
+t_request_key.c:4:10: fatal error: keyutils.h: No such file or directory
+    4 | #include <keyutils.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [Makefile:4: all] Error 1
+Sun Feb 26 17:40:21 2023 - INFO  - start environment cleanup.
+Sun Feb 26 17:40:21 2023 - WARN  - no thing to do.
+Sun Feb 26 17:40:22 2023 - INFO  - Finish environment cleanup!

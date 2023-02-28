@@ -1,0 +1,9 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:46:24 2023 - INFO  - Start executing testcase.
+[    0.000000] Linux version 5.11.0-1030-generic (ubuntukylin@ubuntukylin) (gcc-10 (Ubuntu 10.3.0-1ubuntu1~20.04) 10.3.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #34 SMP Fri Mar 11 15:27:17 CST 2022 (Ubuntu 5.11.0-1030.34-generic 5.11.22)
+[    0.105111] smp: Bringing up secondary CPUs ...
+[    0.137500] smp: Brought up 1 node, 8 CPUs
+Thu Feb  9 17:46:24 2023 - INFO  - End of testcase execution.
+Thu Feb  9 17:46:25 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 17:46:25 2023 - INFO  - oe_test_system_log_dmesg.sh post_test

@@ -1,0 +1,25 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 15:55:59 2023 - INFO  - Start to run test.
+Filesystem     1K-blocks    Used Available Use% Mounted on
+Filesystem      Size  Used Avail Use% Mounted on
+Filesystem      Size  Used Avail Use% Mounted on
+udev            3.9G     0  3.9G   0% /dev
+tmpfs           795M   14M  781M   2% /run
+/dev/vda4        28G  7.8G   19G  30% /
+tmpfs           3.9G  4.0K  3.9G   1% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+/dev/vda3       500M  154M  347M  31% /boot
+tmpfs           795M  8.0K  795M   1% /run/user/114
+tmpfs           795M  4.0K  795M   1% /run/user/0
+Usage: df [OPTION]... [FILE]...
+Sun Feb 26 15:56:00 2023 - INFO  - End to run test.
+Sun Feb 26 15:56:01 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 15:56:01 2023 - INFO  - oe_test_basic_cmd_df.sh post_test

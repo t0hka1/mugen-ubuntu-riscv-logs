@@ -1,0 +1,150 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:54:30 2023 - INFO  - Start to pre test.
+Thu Feb  9 17:54:30 2023 - INFO  - Start to pre test.
+Thu Feb  9 17:54:31 2023 - INFO  - Start to run test.
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 208.479 s, 5.0 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 28.3353 s, 37.0 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 207.33 s, 5.1 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 28.9072 s, 36.3 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 208.181 s, 5.0 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 29.2852 s, 35.8 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 208.174 s, 5.0 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 28.7884 s, 36.4 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 208.189 s, 5.0 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 29.0808 s, 36.1 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 207.554 s, 5.1 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 28.8492 s, 36.3 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 207.449 s, 5.1 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 28.6982 s, 36.5 MB/s
+1048576000
+Thu Feb  9 18:24:29 2023 - ERROR - Timeout : Command 'bash oe_test_IOaccess_1Gfile.sh' timed out after 1799.9978470840003 seconds
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 209.625 s, 5.0 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 28.5013 s, 36.8 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 212.095 s, 4.9 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 28.3562 s, 37.0 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 209.647 s, 5.0 MB/s
+1048576000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 30.185 s, 34.7 MB/s
+1048576000
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:35 mycpfile20230209
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:35 mycpfile20230209
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:36 mycpfile20230209
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:36 mycpfile20230209
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:37 mycpfile20230209
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:37 mycpfile20230209
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:38 mycpfile20230209
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:38 mycpfile20230209
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:39 mycpfile20230209
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:39 mycpfile20230209
+  adding: myfile20230209 (deflated 100%)
+myfile20230209.zip
+  adding: myfile20230209 (deflated 100%)
+myfile20230209.zip
+  adding: myfile20230209 (deflated 100%)
+myfile20230209.zip
+  adding: myfile20230209 (deflated 100%)
+myfile20230209.zip
+  adding: myfile20230209 (deflated 100%)
+myfile20230209.zip
+  adding: myfile20230209 (deflated 100%)
+myfile20230209.zip
+  adding: myfile20230209 (deflated 100%)
+myfile20230209.zip
+  adding: myfile20230209 (deflated 100%)
+myfile20230209.zip
+  adding: myfile20230209 (deflated 100%)
+myfile20230209.zip
+  adding: myfile20230209 (deflated 100%)
+myfile20230209.zip
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:34 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:34 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:34 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:34 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:34 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:34 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:34 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:34 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:34 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 1048576000 Feb  9 18:34 myfile20230209
+Thu Feb  9 18:50:40 2023 - INFO  - End to run test.
+Thu Feb  9 18:50:41 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 18:50:41 2023 - INFO  - Start to restore the test environment.
+Thu Feb  9 18:50:44 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,28 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Sun Feb 26 13:17:21 2023 - ERROR - Timeout : Command 'bash oe_test_basic_cmd_grep.sh' timed out after 1799.9987865690018 seconds
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 15:49:23 2023 - INFO  - Start to run test.
+0
+Sun Feb 26 15:49:23 2023 - ERROR - check grep -c fail
+Sun Feb 26 15:49:24 2023 - ERROR - oe_test_basic_cmd_grep.sh line 26
+Sun Feb 26 15:49:25 2023 - ERROR - check grep -n fail
+Sun Feb 26 15:49:25 2023 - ERROR - oe_test_basic_cmd_grep.sh line 28
+root          54  0.0  0.0      0     0 ?        S    04:48   0:00 [kauditd]
+root       51364  0.0  0.0   8076   484 ttyS0    S+   15:49   0:00 grep auditd
+ls: cannot access '/tmp/test': No such file or directory
+abc
+abc
+/etc/ssh/ssh_config:# ssh_config(5) for more information.  This file provides defaults for
+/etc/ssh/ssh_config:# ssh_config(5) man page.
+/etc/ssh/ssh_config:Include /etc/ssh/ssh_config.d/*.conf
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Sun Feb 26 15:49:27 2023 - INFO  - End to run test.
+Sun Feb 26 15:49:27 2023 - ERROR - failed to execute the case.
+Sun Feb 26 15:49:28 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 15:49:28 2023 - INFO  - End to restore the test environment.

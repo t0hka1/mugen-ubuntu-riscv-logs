@@ -1,0 +1,30 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:15:52 2023 - INFO  - Start loading data!
+Thu Feb  9 19:15:53 2023 - ERROR - Failed in remote CMD operation:1
+Thu Feb  9 19:15:54 2023 - INFO  - Loading data is complete!
+Thu Feb  9 19:15:54 2023 - INFO  - Start to prepare the test environment.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Feb  9 19:15:55 2023 - ERROR - Failed in remote CMD operation:1
+oe_test_server_vsftpd_NKdelay.sh: line 35: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+oe_test_server_vsftpd_NKdelay.sh: line 40: setsebool: command not found
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Feb  9 19:15:59 2023 - ERROR - Failed in remote CMD operation:1
+Thu Feb  9 19:15:59 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 19:16:00 2023 - INFO  - Start to run test.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Feb  9 19:16:00 2023 - ERROR - Failed in remote CMD operation:1
+oe_test_server_vsftpd_NKdelay.sh: line 48: ftp: command not found
+Thu Feb  9 19:16:01 2023 - ERROR - oe_test_server_vsftpd_NKdelay.sh line 54
+find: ‘download_file1.txt’: No such file or directory
+Thu Feb  9 19:16:02 2023 - ERROR - oe_test_server_vsftpd_NKdelay.sh line 58
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Feb  9 19:16:03 2023 - ERROR - Failed in remote CMD operation:1
+Thu Feb  9 19:16:03 2023 - INFO  - End to run test.
+Thu Feb  9 19:16:04 2023 - ERROR - failed to execute the case.
+Thu Feb  9 19:16:04 2023 - INFO  - Start to restore the test environment.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Feb  9 19:16:05 2023 - ERROR - Failed in remote CMD operation:1
+Thu Feb  9 19:16:06 2023 - WARN  - no thing to do.
+Thu Feb  9 19:16:06 2023 - INFO  - End to restore the test environment.

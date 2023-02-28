@@ -1,0 +1,12 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 268 not upgraded.
+Sun Feb 26 17:02:51 2023 - INFO  - Start environmental preparation.
+Failed to stop firewalld.service: Unit firewalld.service not loaded.
+oe_test_keepalived_cli.sh: line 30: setenforce: command not found
+Sun Feb 26 17:32:46 2023 - ERROR - Timeout : Command 'bash oe_test_keepalived_cli.sh' timed out after 1799.9983432750014 seconds

@@ -1,0 +1,19 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 263 not upgraded.
+Mon Feb 27 06:58:33 2023 - INFO  - Start testing...
+     Active: active (running) since Mon 2023-02-27 06:58:34 UTC; 6s ago
+     Active: inactive (dead)
+     Active: active (running) since Mon 2023-02-27 06:58:47 UTC; 6s ago
+Mon Feb 27 06:58:55 2023 - INFO  - The unit files have no installation config,This means they are not meant to be enabled using systemctl.
+Failed to reload systemd-hostnamed.service: Job type reload is not applicable for unit systemd-hostnamed.service.
+     Active: active (running) since Mon 2023-02-27 06:58:47 UTC; 8s ago
+Mon Feb 27 06:58:57 2023 - INFO  - Finish test!
+Mon Feb 27 06:58:58 2023 - INFO  - succeed to execute the case.
+Mon Feb 27 06:58:59 2023 - INFO  - Start environmental preparation.
+Mon Feb 27 06:59:00 2023 - INFO  - End of environmental preparation!

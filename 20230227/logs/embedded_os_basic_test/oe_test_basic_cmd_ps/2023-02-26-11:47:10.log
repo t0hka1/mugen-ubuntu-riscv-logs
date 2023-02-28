@@ -1,0 +1,19 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Sun Feb 26 12:17:11 2023 - ERROR - Timeout : Command 'bash oe_test_basic_cmd_ps.sh' timed out after 1799.9984239099977 seconds
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 15:49:29 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 15:49:30 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 15:49:30 2023 - INFO  - Start to run test.
+oe_test_basic_cmd_ps.sh: line 34: 51391 Killed                  ./mypstest
+UID          PID    PPID  C STIME TTY          TIME CMD
+Usage:
+Sun Feb 26 15:49:32 2023 - INFO  - End to run test.
+Sun Feb 26 15:49:33 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 15:49:33 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 15:49:34 2023 - INFO  - End to restore the test environment.

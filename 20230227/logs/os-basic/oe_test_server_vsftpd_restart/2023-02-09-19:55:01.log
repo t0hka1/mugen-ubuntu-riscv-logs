@@ -1,0 +1,567 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:55:03 2023 - INFO  - Start to prepare the test environment.
+oe_test_server_vsftpd_restart.sh: line 24: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+Thu Feb  9 19:55:06 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 19:55:07 2023 - INFO  - Start to run test.
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:08 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:55:09 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:10 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:11 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:14 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:55:15 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:16 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:17 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:20 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:55:21 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:22 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:23 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:26 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:55:27 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:28 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:29 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:32 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:55:33 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:34 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:35 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:38 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:55:39 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:40 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:41 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:44 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:55:45 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:45 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:46 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:50 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:55:51 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:51 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:52 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:56 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:55:56 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:57 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:55:58 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:02 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:56:02 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:03 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:04 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:08 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:56:08 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:09 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:10 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:14 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:56:14 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:15 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:16 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:20 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:56:20 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:21 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:22 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:25 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:56:26 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:27 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:28 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:31 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:56:32 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:33 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:34 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:37 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:56:38 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:39 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:40 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:43 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:56:44 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:45 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:46 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:49 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:56:50 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:51 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:52 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:55 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:56:56 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:57 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:56:58 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:01 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:57:02 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:03 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:03 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:07 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:57:08 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:08 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:09 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:13 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:57:13 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:14 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:15 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:19 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:57:19 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:20 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:21 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:24 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:57:25 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:26 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:27 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:30 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:57:31 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:32 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:33 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:36 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:57:37 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:38 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:38 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:42 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:57:43 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:43 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:44 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:48 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:57:48 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:49 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:50 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:54 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:57:54 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:55 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:57:56 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:00 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:58:01 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:01 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:02 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:06 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:58:07 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:08 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:09 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:12 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:58:13 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:14 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:15 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:18 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:58:19 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:20 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:20 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:24 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:58:25 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:25 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:27 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:30 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:58:31 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:32 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:32 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:36 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:58:37 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:37 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:38 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:42 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:58:43 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:43 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:44 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:48 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:58:48 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:49 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:50 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:54 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:58:54 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:55 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:58:56 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:00 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:59:00 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:01 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:02 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:05 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:59:06 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:07 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:08 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:11 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:59:12 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:13 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:13 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:17 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:59:18 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:19 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:19 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:23 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:59:23 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:24 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:25 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:29 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:59:29 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:30 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:31 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:35 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:59:35 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:36 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:37 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:41 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:59:41 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:42 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:43 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:47 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:59:47 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:48 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:49 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:53 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:59:53 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:54 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:55 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Failed to start vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 19:59:59 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 37
+oe_test_server_vsftpd_restart.sh: line 38: netstat: command not found
+Thu Feb  9 19:59:59 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 39
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
+Unit vsftpd.service could not be found.
+Thu Feb  9 20:00:00 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 42
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Unit vsftpd.service could not be found.
+Thu Feb  9 20:00:01 2023 - ERROR - oe_test_server_vsftpd_restart.sh line 45
+Thu Feb  9 20:00:04 2023 - INFO  - End to run test.
+Thu Feb  9 20:00:05 2023 - ERROR - failed to execute the case.
+Thu Feb  9 20:00:05 2023 - INFO  - Start to restore the test environment.
+Thu Feb  9 20:00:06 2023 - WARN  - no thing to do.
+Thu Feb  9 20:00:06 2023 - INFO  - End to restore the test environment.

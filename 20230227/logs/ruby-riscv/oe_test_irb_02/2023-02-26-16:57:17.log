@@ -1,0 +1,40 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 268 not upgraded.
+Sun Feb 26 16:57:22 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 16:59:00 2023 - INFO  - Finish preparing the test environment.
+Sun Feb 26 16:59:01 2023 - INFO  - Start to run test.
+test.rb(main):005:0> puts Prime.each(10).to_a.join(", ");
+2, 3, 5, 7
+hello.rb(main):003:0> puts "Hello World!";Hello World!
+=> nil
+=> nil
+=> nil
+hello.rb(main):003:0> puts "Hello World!";Hello World!
+=> nil
+hello.rb(main):003:0> puts "Hello World!";Hello World!
+hello.rb(main):001:0> #!/usr/bin/ruby
+=> nil
+hello.rb(main):002:0> 
+hello.rb(main):003:0> puts "Hello World!";Hello World!
+=> nil
+    ==>nil
+puts "Hello World!";Hello World!
+    ==>nil
+hello.rb(main):001:0> #!/usr/bin/ruby
+nil
+hello.rb(main):002:0> 
+hello.rb(main):003:0> puts "Hello World!";Hello World!
+nil
+hello.rb(main):001:0> #!/usr/bin/ruby
+hello.rb(main):002:0> 
+hello.rb(main):003:0> puts "Hello World!";Hello World!
+Sun Feb 26 16:59:40 2023 - INFO  - End of the test.
+Sun Feb 26 16:59:41 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 16:59:41 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 16:59:48 2023 - INFO  - Finish restoring the test environment.

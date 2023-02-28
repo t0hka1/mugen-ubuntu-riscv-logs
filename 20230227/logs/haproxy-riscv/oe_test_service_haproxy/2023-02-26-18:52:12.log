@@ -1,0 +1,25 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 268 not upgraded.
+Sun Feb 26 18:52:18 2023 - INFO  - Start environmental preparation.
+Sun Feb 26 18:54:22 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 18:54:23 2023 - INFO  - Start testing...
+     Active: active (running) since Sun 2023-02-26 18:54:24 UTC; 5s ago
+     Active: inactive (dead) since Sun 2023-02-26 18:54:30 UTC; 5s ago
+     Active: active (running) since Sun 2023-02-26 18:54:37 UTC; 5s ago
+find: ‘/etc/systemd/system/multi-user.target.wants/haproxy.service’: No such file or directory
+Synchronizing state of haproxy.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable haproxy
+Created symlink /etc/systemd/system/multi-user.target.wants/haproxy.service → /lib/systemd/system/haproxy.service.
+/etc/systemd/system/multi-user.target.wants/haproxy.service
+Sun Feb 26 18:55:17 2023 - ERROR - haproxy.service reload causes the service status to change
+Sun Feb 26 18:55:17 2023 - ERROR - oe_test_service_haproxy.sh line 42
+Sun Feb 26 18:55:18 2023 - INFO  - Finish test!
+Sun Feb 26 18:55:18 2023 - ERROR - failed to execute the case.
+Sun Feb 26 18:55:19 2023 - INFO  - start environment cleanup.
+Sun Feb 26 18:56:03 2023 - INFO  - Finish environment cleanup!

@@ -1,0 +1,20 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Sun Feb 26 14:47:37 2023 - ERROR - Timeout : Command 'bash oe_test_basic_cmd_uname.sh' timed out after 1799.9986644149976 seconds
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 15:49:20 2023 - INFO  - Start to run test.
+Linux
+5.11.0-1030-generic
+riscv64
+Linux ubuntukylin 5.11.0-1030-generic #34 SMP Fri Mar 11 15:27:17 CST 2022 riscv64 riscv64 riscv64 GNU/Linux
+ubuntukylin
+5.11.0-1030-generic
+Usage: uname [OPTION]...
+Sun Feb 26 15:49:21 2023 - INFO  - End to run test.
+Sun Feb 26 15:49:22 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 15:49:22 2023 - INFO  - oe_test_basic_cmd_uname.sh post_test

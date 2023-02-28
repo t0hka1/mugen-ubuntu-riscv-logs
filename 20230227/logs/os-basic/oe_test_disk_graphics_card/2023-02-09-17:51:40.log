@@ -1,0 +1,57 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:51:42 2023 - INFO  - Start to pre the test env
+oe_test_disk_graphics_card.sh: line 24: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+Thu Feb  9 17:51:45 2023 - INFO  - End to pre the test env
+Thu Feb  9 17:51:45 2023 - INFO  - Start to run test.
+00:00.0 Host bridge [0600]: Red Hat, Inc. QEMU PCIe Host bridge [1b36:0008]
+	Subsystem: Red Hat, Inc. QEMU PCIe Host bridge [1af4:1100]
+	Flags: bus master, fast devsel, latency 0
+
+00:01.0 VGA compatible controller [0300]: Red Hat, Inc. Virtio GPU [1af4:1050] (rev 01) (prog-if 00 [VGA controller])
+	Subsystem: Red Hat, Inc. Virtio GPU [1af4:1100]
+	Flags: bus master, fast devsel, latency 0, IRQ 15
+	Memory at 40000000 (32-bit, prefetchable) [size=8M]
+	Memory at 400000000 (64-bit, prefetchable) [size=16K]
+	Memory at 40810000 (32-bit, non-prefetchable) [size=4K]
+	Expansion ROM at 40800000 [disabled] [size=64K]
+	Capabilities: [98] MSI-X: Enable- Count=3 Masked-
+	Capabilities: [84] Vendor Specific Information: VirtIO: <unknown>
+	Capabilities: [70] Vendor Specific Information: VirtIO: Notify
+--
+00:02.0 USB controller [0c03]: Red Hat, Inc. QEMU XHCI Host Controller [1b36:000d] (rev 01) (prog-if 30 [XHCI])
+	Subsystem: Red Hat, Inc. QEMU XHCI Host Controller [1af4:1100]
+	Flags: bus master, fast devsel, latency 0, IRQ 17
+	Memory at 400004000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: [90] MSI-X: Enable- Count=16 Masked-
+	Capabilities: [a0] Express Root Complex Integrated Endpoint, MSI 00
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+
+00:03.0 Communication controller [0780]: Red Hat, Inc. Virtio console [1af4:1003]
+	Subsystem: Red Hat, Inc. Virtio console [1af4:0003]
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	I/O ports at 0000 [virtual] [size=64]
+	Memory at 40811000 (32-bit, non-prefetchable) [virtual] [size=4K]
+oe_test_disk_graphics_card.sh: line 35: dmidecode: command not found
+Thu Feb  9 17:51:46 2023 - ERROR - oe_test_disk_graphics_card.sh line 36
+oe_test_disk_graphics_card.sh: line 37: dmidecode: command not found
+Thu Feb  9 17:51:47 2023 - ERROR - oe_test_disk_graphics_card.sh line 38
+id: ‘testuser’: no such user
+su: failed to execute /bin/csh: No such file or directory
+  *-virtio2
+       bus info: virtio@2
+       configuration: autonegotiation=off broadcast=yes driver=virtio_net driverversion=1.0.0 ip=10.0.2.15 link=yes multicast=yes
+Thu Feb  9 17:51:56 2023 - INFO  - End to run test.
+Thu Feb  9 17:51:56 2023 - ERROR - failed to execute the case.
+Thu Feb  9 17:51:57 2023 - INFO  - Start to clean env.
+userdel: testuser mail spool (/var/mail/testuser) not found
+userdel: testuser home directory (/home/testuser) not found
+Thu Feb  9 17:51:58 2023 - WARN  - no thing to do.
+Thu Feb  9 17:51:59 2023 - INFO  - End to clean env.

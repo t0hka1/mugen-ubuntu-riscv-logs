@@ -1,0 +1,25 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 287 not upgraded.
+Sun Feb 26 06:55:42 2023 - INFO  - Start environmental preparation.
+Sun Feb 26 06:57:26 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 06:57:26 2023 - INFO  - Start testing...
+     Active: active (running) since Sun 2023-02-26 06:57:38 UTC; 6s ago
+     Active: inactive (dead)
+     Active: active (running) since Sun 2023-02-26 06:57:55 UTC; 6s ago
+Sun Feb 26 06:58:02 2023 - INFO  - The unit files have no installation config,This means they are not meant to be enabled using systemctl.
+Feb 26 06:57:38 ubuntukylin fwupd[6464]: 06:57:38:0210 FuEngine             failed to add device /sys/devices/virtual/mtd/mtd0ro: attribute size returned no data
+Feb 26 06:57:54 ubuntukylin fwupd[6499]: 06:57:54:0646 FuEngine             failed to add device /sys/devices/virtual/mtd/mtd0ro: attribute size returned no data
+Sun Feb 26 06:58:03 2023 - ERROR - There is an error message for the log of fwupd.service
+Sun Feb 26 06:58:03 2023 - ERROR - ../common/common_lib.sh line 28
+Failed to reload fwupd.service: Job type reload is not applicable for unit fwupd.service.
+     Active: active (running) since Sun 2023-02-26 06:57:55 UTC; 8s ago
+Sun Feb 26 06:58:04 2023 - INFO  - Finish test!
+Sun Feb 26 06:58:05 2023 - ERROR - failed to execute the case.
+Sun Feb 26 06:58:05 2023 - INFO  - start environment cleanup.
+Sun Feb 26 06:58:51 2023 - INFO  - Finish environment cleanup!

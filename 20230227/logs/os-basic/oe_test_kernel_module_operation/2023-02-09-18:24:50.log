@@ -1,0 +1,11 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 18:24:52 2023 - INFO  - Start to config params of the case.
+depmod: ../tools/depmod.c:416: index_write: Assertion `initial_offset >= 0' failed.
+Thu Feb  9 18:26:39 2023 - INFO  - End to config params of the case.
+Thu Feb  9 18:26:40 2023 - INFO  - Start executing testcase.
+msdos                  76389  0
+Thu Feb  9 18:26:42 2023 - INFO  - End of testcase execution.
+Thu Feb  9 18:26:43 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 18:26:43 2023 - INFO  - start environment cleanup.
+Thu Feb  9 18:26:44 2023 - INFO  - Finish environment cleanup.

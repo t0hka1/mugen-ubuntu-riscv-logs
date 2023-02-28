@@ -1,0 +1,194 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 280 not upgraded.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 280 not upgraded.
+Sun Feb 26 08:26:14 2023 - INFO  - Start to config params of the case.
+Sun Feb 26 08:26:16 2023 - INFO  - End to config params of the case.
+Sun Feb 26 08:26:16 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 08:26:21 2023 - ERROR - pkgs:(fcgi) not found
+--2023-02-26 08:26:22--  https://gitee.com/src-openeuler/fcgi/raw/master/2.4.2.tar.gz
+Resolving gitee.com (gitee.com)... 212.64.63.190, 212.64.63.215
+Connecting to gitee.com (gitee.com)|212.64.63.190|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain]
+Saving to: ‘2.4.2.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  813K
+    50K .......... .......... .......... .......... .......... 1.12M
+   100K .......... .......... .......... .......... .......... 1009K
+   150K .......... .......... .......... .......... ..........  796K
+   200K .......... .......... .......... .......... .......... 1.07M
+   250K .....                                                   586K=0.3s
+
+2023-02-26 08:26:23 (937 KB/s) - ‘2.4.2.tar.gz’ saved [261974]
+
+fcgi2-2.4.2/
+fcgi2-2.4.2/.circleci/
+fcgi2-2.4.2/.circleci/config.yml
+fcgi2-2.4.2/.gitignore
+fcgi2-2.4.2/LICENSE.TERMS
+fcgi2-2.4.2/Makefile.am
+fcgi2-2.4.2/Makefile.nt
+fcgi2-2.4.2/README.md
+fcgi2-2.4.2/Win32/
+fcgi2-2.4.2/Win32/.gitignore
+fcgi2-2.4.2/Win32/FastCGI.dsw
+fcgi2-2.4.2/Win32/authorizer.dsp
+fcgi2-2.4.2/Win32/cgifcgi.dsp
+fcgi2-2.4.2/Win32/config_h.dsp
+fcgi2-2.4.2/Win32/echo-cpp.dsp
+fcgi2-2.4.2/Win32/echo.dsp
+fcgi2-2.4.2/Win32/echox.dsp
+fcgi2-2.4.2/Win32/libfcgi.dsp
+fcgi2-2.4.2/Win32/logdump.dsp
+fcgi2-2.4.2/Win32/size.dsp
+fcgi2-2.4.2/Win32/threaded.dsp
+fcgi2-2.4.2/acinclude.m4
+fcgi2-2.4.2/autogen.sh
+fcgi2-2.4.2/cgi-fcgi/
+fcgi2-2.4.2/cgi-fcgi/.gitignore
+fcgi2-2.4.2/cgi-fcgi/Makefile.am
+fcgi2-2.4.2/cgi-fcgi/cgi-fcgi.c
+fcgi2-2.4.2/cgi-fcgi/cgi-fcgi.mak
+fcgi2-2.4.2/configure.ac
+fcgi2-2.4.2/doc/
+fcgi2-2.4.2/doc/.gitignore
+fcgi2-2.4.2/doc/FCGI_Accept.3
+fcgi2-2.4.2/doc/FCGI_Finish.3
+fcgi2-2.4.2/doc/FCGI_SetExitStatus.3
+fcgi2-2.4.2/doc/FCGI_StartFilterData.3
+fcgi2-2.4.2/doc/cgi-fcgi.1
+fcgi2-2.4.2/doc/fastcgi-prog-guide/
+fcgi2-2.4.2/doc/fastcgi-prog-guide/ap_guida.htm
+fcgi2-2.4.2/doc/fastcgi-prog-guide/ap_guide.htm
+fcgi2-2.4.2/doc/fastcgi-prog-guide/apaman.htm
+fcgi2-2.4.2/doc/fastcgi-prog-guide/ch1inta1.gif
+fcgi2-2.4.2/doc/fastcgi-prog-guide/ch1intra.gif
+fcgi2-2.4.2/doc/fastcgi-prog-guide/ch1intro.htm
+fcgi2-2.4.2/doc/fastcgi-prog-guide/ch2c.htm
+fcgi2-2.4.2/doc/fastcgi-prog-guide/ch3perl.htm
+fcgi2-2.4.2/doc/fastcgi-prog-guide/ch4tcl.htm
+fcgi2-2.4.2/doc/fastcgi-prog-guide/cover.htm
+fcgi2-2.4.2/doc/fastcgi-prog-guide/covera.gif
+fcgi2-2.4.2/doc/fastcgi-whitepaper/
+fcgi2-2.4.2/doc/fastcgi-whitepaper/fastcgi.htm
+fcgi2-2.4.2/doc/fastcgi-whitepaper/img00001.gif
+fcgi2-2.4.2/doc/fastcgi-whitepaper/img00002.gif
+fcgi2-2.4.2/doc/fastcgi-whitepaper/img00003.gif
+fcgi2-2.4.2/doc/fcgi-devel-kit.htm
+fcgi2-2.4.2/doc/fcgi-java.htm
+fcgi2-2.4.2/doc/fcgi-perf.htm
+fcgi2-2.4.2/doc/fcgi-perl.htm
+fcgi2-2.4.2/doc/fcgi-spec.html
+fcgi2-2.4.2/doc/fcgi-tcl.htm
+fcgi2-2.4.2/doc/omi-logo.gif
+fcgi2-2.4.2/doc/overview.html
+fcgi2-2.4.2/doc/www5-api-workshop.html
+fcgi2-2.4.2/examples/
+fcgi2-2.4.2/examples/.gitignore
+fcgi2-2.4.2/examples/Makefile.am
+fcgi2-2.4.2/examples/authorizer.c
+fcgi2-2.4.2/examples/authorizer.mak
+fcgi2-2.4.2/examples/echo-cpp.cpp
+fcgi2-2.4.2/examples/echo-cpp.mak
+fcgi2-2.4.2/examples/echo-x.c
+fcgi2-2.4.2/examples/echo.c
+fcgi2-2.4.2/examples/echo.mak
+fcgi2-2.4.2/examples/echox.mak
+fcgi2-2.4.2/examples/log-dump.c
+fcgi2-2.4.2/examples/size.c
+fcgi2-2.4.2/examples/size.mak
+fcgi2-2.4.2/examples/test.html
+fcgi2-2.4.2/examples/threaded.c
+fcgi2-2.4.2/fcgi++.pc.in
+fcgi2-2.4.2/fcgi.pc.in
+fcgi2-2.4.2/images/
+fcgi2-2.4.2/images/aplib-hd.gif
+fcgi2-2.4.2/images/divider.gif
+fcgi2-2.4.2/images/fcgi-hd.gif
+fcgi2-2.4.2/images/mail-hd.gif
+fcgi2-2.4.2/images/navbar.gif
+fcgi2-2.4.2/images/serv-hd.gif
+fcgi2-2.4.2/images/words-hd.gif
+fcgi2-2.4.2/include/
+fcgi2-2.4.2/include/.gitignore
+fcgi2-2.4.2/include/Makefile.am
+fcgi2-2.4.2/include/fastcgi.h
+fcgi2-2.4.2/include/fcgi_config.h.in
+fcgi2-2.4.2/include/fcgi_config_x86.h
+fcgi2-2.4.2/include/fcgi_stdio.h
+fcgi2-2.4.2/include/fcgiapp.h
+fcgi2-2.4.2/include/fcgimisc.h
+fcgi2-2.4.2/include/fcgio.h
+fcgi2-2.4.2/include/fcgios.h
+fcgi2-2.4.2/java/
+fcgi2-2.4.2/java/FCGIGlobalDefs.java
+fcgi2-2.4.2/java/FCGIInputStream.java
+fcgi2-2.4.2/java/FCGIInterface.java
+fcgi2-2.4.2/java/FCGIMessage.java
+fcgi2-2.4.2/java/FCGIOutputStream.java
+fcgi2-2.4.2/java/FCGIRequest.java
+fcgi2-2.4.2/libfcgi/
+fcgi2-2.4.2/libfcgi/Makefile.am
+fcgi2-2.4.2/libfcgi/fcgi_stdio.c
+fcgi2-2.4.2/libfcgi/fcgiapp.c
+fcgi2-2.4.2/libfcgi/fcgio.cpp
+fcgi2-2.4.2/libfcgi/libfcgi.mak
+fcgi2-2.4.2/libfcgi/os_unix.c
+fcgi2-2.4.2/libfcgi/os_win32.c
+fcgi2-2.4.2/libfcgi/strerror.c
+fcgi2-2.4.2/m4/
+fcgi2-2.4.2/m4/.gitignore
+fcgi2-2.4.2/perl/
+fcgi2-2.4.2/perl/.gitignore
+fcgi2-2.4.2/perl/ChangeLog
+fcgi2-2.4.2/perl/FCGI.PL
+fcgi2-2.4.2/perl/FCGI.XL
+fcgi2-2.4.2/perl/MANIFEST
+fcgi2-2.4.2/perl/Makefile.PL
+fcgi2-2.4.2/perl/README
+fcgi2-2.4.2/perl/configure.in
+fcgi2-2.4.2/perl/configure.readme
+fcgi2-2.4.2/perl/distrib
+fcgi2-2.4.2/perl/echo.PL
+fcgi2-2.4.2/perl/oldinterface.pod
+fcgi2-2.4.2/perl/remote.PL
+fcgi2-2.4.2/perl/test.pl
+fcgi2-2.4.2/perl/threaded.PL
+fcgi2-2.4.2/perl/typemap
+fcgi2-2.4.2/perl/version.pm
+./autogen.sh: 2: autoreconf: not found
+./common/common_lib.sh: line 41: ./configure: No such file or directory
+make: *** No targets specified and no makefile found.  Stop.
+make: *** No rule to make target 'install'.  Stop.
+Sun Feb 26 08:26:24 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 08:26:25 2023 - INFO  - Start to run test.
+oe_test_fcgi.sh: line 47: cgi-fcgi: command not found
+Sun Feb 26 08:26:25 2023 - ERROR - cgi-fcgi execute connect command unsuccessfully
+Sun Feb 26 08:26:26 2023 - ERROR - oe_test_fcgi.sh line 48
+oe_test_fcgi.sh: line 50: cgi-fcgi: command not found
+Sun Feb 26 08:26:26 2023 - ERROR - cgi-fcgi execute start command unsuccessfully, maybe the address connName is already in use
+Sun Feb 26 08:26:27 2023 - ERROR - oe_test_fcgi.sh line 51
+oe_test_fcgi.sh: line 53: cgi-fcgi: command not found
+Sun Feb 26 08:26:27 2023 - ERROR - cgi-fcgi execute bind command unsuccessfully
+Sun Feb 26 08:26:28 2023 - ERROR - oe_test_fcgi.sh line 54
+oe_test_fcgi.sh: line 56: cgi-fcgi: command not found
+Sun Feb 26 08:26:29 2023 - ERROR - cgi-fcgi execute cmdFile command unsuccessfully
+Sun Feb 26 08:26:29 2023 - ERROR - oe_test_fcgi.sh line 57
+Sun Feb 26 08:26:30 2023 - INFO  - End to run test.
+Sun Feb 26 08:26:30 2023 - ERROR - failed to execute the case.
+Sun Feb 26 08:26:31 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 08:26:31 2023 - WARN  - no thing to do.
+Sun Feb 26 08:26:32 2023 - INFO  - End to restore the test environment.

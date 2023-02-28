@@ -1,0 +1,39 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 268 not upgraded.
+Sun Feb 26 18:49:02 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 18:49:03 2023 - INFO  - End to prepare the environment
+Sun Feb 26 18:49:04 2023 - INFO  - Start to run test.
+Failed to restart auditd.service: Unit auditd.service not found.
+oe_test_audit_rule_conflict_strategy.sh: line 33: auditctl: command not found
+Sun Feb 26 18:49:05 2023 - ERROR - delete failed
+Sun Feb 26 18:49:05 2023 - ERROR - oe_test_audit_rule_conflict_strategy.sh line 34
+oe_test_audit_rule_conflict_strategy.sh: line 35: auditctl: command not found
+Sun Feb 26 18:49:06 2023 - ERROR - add failed
+Sun Feb 26 18:49:07 2023 - ERROR - oe_test_audit_rule_conflict_strategy.sh line 36
+oe_test_audit_rule_conflict_strategy.sh: line 37: auditctl: command not found
+Sun Feb 26 18:49:07 2023 - ERROR - grep failed
+Sun Feb 26 18:49:08 2023 - ERROR - oe_test_audit_rule_conflict_strategy.sh line 38
+oe_test_audit_rule_conflict_strategy.sh: line 39: auditctl: command not found
+Sun Feb 26 18:49:08 2023 - ERROR - add second failed
+Sun Feb 26 18:49:09 2023 - ERROR - oe_test_audit_rule_conflict_strategy.sh line 40
+oe_test_audit_rule_conflict_strategy.sh: line 41: auditctl: command not found
+Sun Feb 26 18:49:10 2023 - ERROR - grep second failed
+Sun Feb 26 18:49:10 2023 - ERROR - oe_test_audit_rule_conflict_strategy.sh line 42
+su: warning: cannot change directory to /home/Jevons: No such file or directory
+/mugen-ubuntu-riscv/testcases/cli-test/audit/oe_test_audit_rule_conflict_strategy
+oe_test_audit_rule_conflict_strategy.sh: line 47: ausearch: command not found
+Sun Feb 26 18:49:11 2023 - ERROR - ausearch failed
+Sun Feb 26 18:49:12 2023 - ERROR - oe_test_audit_rule_conflict_strategy.sh line 48
+Sun Feb 26 18:49:13 2023 - INFO  - End to run test.
+Sun Feb 26 18:49:13 2023 - ERROR - failed to execute the case.
+Sun Feb 26 18:49:14 2023 - INFO  - Start to restore the test environment.
+userdel: Jevons mail spool (/var/mail/Jevons) not found
+userdel: Jevons home directory (/home/Jevons) not found
+oe_test_audit_rule_conflict_strategy.sh: line 56: auditctl: command not found
+Sun Feb 26 18:49:15 2023 - INFO  - End to restore the test environment.

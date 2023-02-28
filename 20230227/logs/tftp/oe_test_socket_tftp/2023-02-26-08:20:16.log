@@ -1,0 +1,41 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 280 not upgraded.
+Sun Feb 26 08:20:22 2023 - INFO  - Start environmental preparation.
+Sun Feb 26 08:20:27 2023 - INFO  - pkgs:(tftp-server) is already installed
+Sun Feb 26 08:20:28 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 08:20:28 2023 - INFO  - Start to run test.
+Failed to restart tftp.socket: Unit tftp.socket not found.
+Sun Feb 26 08:20:29 2023 - ERROR - tftp.socket restart failed
+Sun Feb 26 08:20:30 2023 - ERROR - ../common/common_lib.sh line 34
+Unit tftp.socket could not be found.
+Sun Feb 26 08:20:36 2023 - ERROR - tftp.socket restart failed
+Sun Feb 26 08:20:37 2023 - ERROR - ../common/common_lib.sh line 37
+Failed to stop tftp.socket: Unit tftp.socket not loaded.
+Sun Feb 26 08:20:37 2023 - ERROR - tftp.socket stop failed
+Sun Feb 26 08:20:38 2023 - ERROR - ../common/common_lib.sh line 39
+Unit tftp.socket could not be found.
+Sun Feb 26 08:20:44 2023 - ERROR - tftp.socket stop failed
+Sun Feb 26 08:20:45 2023 - ERROR - ../common/common_lib.sh line 42
+Failed to start tftp.socket: Unit tftp.socket not found.
+Sun Feb 26 08:20:46 2023 - ERROR - tftp.socket start failed
+Sun Feb 26 08:20:46 2023 - ERROR - ../common/common_lib.sh line 44
+Unit tftp.socket could not be found.
+Sun Feb 26 08:20:52 2023 - ERROR - tftp.socket start failed
+Sun Feb 26 08:20:53 2023 - ERROR - ../common/common_lib.sh line 47
+Failed to get unit file state for tftp.socket: No such file or directory
+Sun Feb 26 08:20:54 2023 - INFO  - Unit is indirect, ignoring.
+Failed to start tftp.socket: Unit tftp.socket not found.
+Sun Feb 26 08:20:55 2023 - ERROR - oe_test_socket_tftp.sh line 38
+Unit tftp.socket could not be found.
+Sun Feb 26 08:20:55 2023 - ERROR - oe_test_socket_tftp.sh line 40
+Sun Feb 26 08:20:56 2023 - INFO  - End of the test.
+Sun Feb 26 08:20:56 2023 - ERROR - failed to execute the case.
+Sun Feb 26 08:20:57 2023 - INFO  - start environment cleanup.
+Sun Feb 26 08:20:57 2023 - WARN  - no thing to do.
+Sun Feb 26 08:20:58 2023 - INFO  - Finish environment cleanup!

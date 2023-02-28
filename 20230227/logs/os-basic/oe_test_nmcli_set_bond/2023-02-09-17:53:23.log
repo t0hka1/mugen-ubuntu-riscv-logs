@@ -1,0 +1,26 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:53:25 2023 - INFO  - Start to run test.
+Connection 'bond0' (1bc05aae-640a-41c0-8c88-cfbecba8e336) successfully added.
+Warning: There is another connection with the name 'bond0'. Reference the connection by its uuid '8c865945-c1a0-42c9-9041-20f4c6674bd6'
+Connection 'bond0' (8c865945-c1a0-42c9-9041-20f4c6674bd6) successfully added.
+bond0   bond      connecting (getting IP configuration)  bond0      
+Connection 'bond0-port1' (4a1e0fca-c14a-4740-bde5-7646e65829b3) successfully added.
+Connection 'bond0-port2' (51eddcae-77b0-43ad-ac68-019620137883) successfully added.
+Connection successfully activated (master waiting for slaves) (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/3)
+bond0   bond      connected  bond0      
+NAME         UUID                                  TYPE      DEVICE 
+有线连接 1   f9766977-0f5c-30db-b340-14b6bcb6943f  ethernet  eth0   
+bond0        1bc05aae-640a-41c0-8c88-cfbecba8e336  bond      bond0  
+bond0        8c865945-c1a0-42c9-9041-20f4c6674bd6  bond      --     
+bond0-port1  4a1e0fca-c14a-4740-bde5-7646e65829b3  ethernet  --     
+bond0-port2  51eddcae-77b0-43ad-ac68-019620137883  ethernet  --     
+Connection successfully activated (master waiting for slaves) (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/4)
+Bonding Mode: fault-tolerance (active-backup)
+Connection 'bond0-port1' (4a1e0fca-c14a-4740-bde5-7646e65829b3) successfully deleted.
+Connection 'bond0-port2' (51eddcae-77b0-43ad-ac68-019620137883) successfully deleted.
+Connection 'bond0' (1bc05aae-640a-41c0-8c88-cfbecba8e336) successfully deleted.
+Connection 'bond0' (8c865945-c1a0-42c9-9041-20f4c6674bd6) successfully deleted.
+Thu Feb  9 17:53:54 2023 - INFO  - End to run test.
+Thu Feb  9 17:53:55 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 17:53:55 2023 - INFO  - oe_test_nmcli_set_bond.sh post_test

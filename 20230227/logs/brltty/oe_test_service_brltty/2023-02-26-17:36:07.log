@@ -1,0 +1,27 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 268 not upgraded.
+Sun Feb 26 17:36:12 2023 - INFO  - Start environmental preparation.
+Sun Feb 26 17:37:43 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 17:37:43 2023 - INFO  - Start testing...
+     Active: active (running) since Sun 2023-02-26 17:37:44 UTC; 6s ago
+Sun Feb 26 17:38:08 2023 - ERROR - brltty.service stop failed
+Sun Feb 26 17:38:09 2023 - ERROR - ../common/common_lib.sh line 42
+     Active: active (running) since Sun 2023-02-26 17:38:10 UTC; 6s ago
+/etc/systemd/system/sysinit.target.wants/brltty.service
+Removed /etc/systemd/system/sysinit.target.wants/brltty.service.
+find: ‘/etc/systemd/system/sysinit.target.wants/brltty.service’: No such file or directory
+Feb 26 17:38:01 ubuntukylin systemd[1]: brltty.service: Failed with result 'timeout'.
+Sun Feb 26 17:38:29 2023 - ERROR - There is an error message for the log of brltty.service
+Sun Feb 26 17:38:29 2023 - ERROR - ../common/common_lib.sh line 28
+Failed to reload brltty.service: Job type reload is not applicable for unit brltty.service.
+     Active: active (running) since Sun 2023-02-26 17:38:10 UTC; 20s ago
+Sun Feb 26 17:38:31 2023 - INFO  - Finish test!
+Sun Feb 26 17:38:31 2023 - ERROR - failed to execute the case.
+Sun Feb 26 17:38:32 2023 - INFO  - start environment cleanup.
+Sun Feb 26 17:39:35 2023 - INFO  - Finish environment cleanup!

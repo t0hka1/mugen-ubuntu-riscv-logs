@@ -1,0 +1,16 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:50:55 2023 - INFO  - Start environmental preparation.
+Thu Feb  9 17:50:55 2023 - INFO  - End of environmental preparation!
+Thu Feb  9 17:50:56 2023 - INFO  - Start to run test.
+test.tar
+oe_test_brotli.sh: line 31: brotli: command not found
+Thu Feb  9 17:50:57 2023 - ERROR - excute brotli error
+Thu Feb  9 17:50:57 2023 - ERROR - oe_test_brotli.sh line 32
+ls: cannot access 'test.tar.br': No such file or directory
+Thu Feb  9 17:50:58 2023 - ERROR - check test.tar.br file error
+Thu Feb  9 17:50:58 2023 - ERROR - oe_test_brotli.sh line 34
+Thu Feb  9 17:50:59 2023 - INFO  - End to run test.
+Thu Feb  9 17:50:59 2023 - ERROR - failed to execute the case.
+Thu Feb  9 17:51:00 2023 - INFO  - start environment cleanup.
+Thu Feb  9 17:51:00 2023 - INFO  - Finish environment cleanup!

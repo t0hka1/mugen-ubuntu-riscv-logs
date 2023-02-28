@@ -1,0 +1,19 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 263 not upgraded.
+Mon Feb 27 08:04:07 2023 - INFO  - Start testing...
+     Active: active since Mon 2023-02-27 08:04:07 UTC; 6s ago
+     Active: inactive (dead)
+     Active: active since Mon 2023-02-27 08:04:20 UTC; 6s ago
+Mon Feb 27 08:04:27 2023 - INFO  - The unit files have no installation config,This means they are not meant to be enabled using systemctl.
+Failed to reload boot-complete.target: Job type reload is not applicable for unit boot-complete.target.
+     Active: active since Mon 2023-02-27 08:04:20 UTC; 8s ago
+Mon Feb 27 08:04:28 2023 - INFO  - Finish test!
+Mon Feb 27 08:04:29 2023 - INFO  - succeed to execute the case.
+Mon Feb 27 08:04:30 2023 - INFO  - Start environment cleanup.
+Mon Feb 27 08:04:30 2023 - INFO  - Finish environment cleanup!

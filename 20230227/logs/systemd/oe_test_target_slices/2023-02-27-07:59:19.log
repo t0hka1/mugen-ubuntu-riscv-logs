@@ -1,0 +1,18 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 263 not upgraded.
+Mon Feb 27 07:59:26 2023 - INFO  - Start to run test.
+     Active: active since Mon 2023-02-27 07:59:26 UTC; 6s ago
+     Active: inactive (dead) since Mon 2023-02-27 07:59:33 UTC; 5s ago
+     Active: active since Mon 2023-02-27 07:59:39 UTC; 5s ago
+Mon Feb 27 07:59:46 2023 - INFO  - The unit files have no installation config,This means they are not meant to be enabled using systemctl.
+Failed to reload slices.target: Job type reload is not applicable for unit slices.target.
+     Active: active since Mon 2023-02-27 07:59:39 UTC; 7s ago
+Mon Feb 27 07:59:47 2023 - INFO  - End of the test.
+Mon Feb 27 07:59:48 2023 - INFO  - succeed to execute the case.
+Mon Feb 27 07:59:48 2023 - INFO  - oe_test_target_slices.sh post_test

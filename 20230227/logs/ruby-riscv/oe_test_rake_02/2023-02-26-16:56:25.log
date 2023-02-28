@@ -1,0 +1,42 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 268 not upgraded.
+Sun Feb 26 16:56:30 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 16:56:35 2023 - ERROR - pkgs:(rubygem-rake) not found
+Sun Feb 26 16:56:36 2023 - INFO  - Finish preparing the test environment.
+Sun Feb 26 16:56:37 2023 - INFO  - Start to run test.
+oe_test_rake_02.sh: line 35: rake: command not found
+Sun Feb 26 16:56:37 2023 - ERROR - oe_test_rake_02.sh line 36
+oe_test_rake_02.sh: line 37: rake: command not found
+Sun Feb 26 16:56:38 2023 - ERROR - oe_test_rake_02.sh line 38
+oe_test_rake_02.sh: line 39: rake: command not found
+Sun Feb 26 16:56:39 2023 - ERROR - oe_test_rake_02.sh line 40
+oe_test_rake_02.sh: line 41: rake: command not found
+Sun Feb 26 16:56:39 2023 - ERROR - oe_test_rake_02.sh line 42
+oe_test_rake_02.sh: line 43: rake: command not found
+Sun Feb 26 16:56:40 2023 - ERROR - oe_test_rake_02.sh line 44
+oe_test_rake_02.sh: line 49: rake: command not found
+Sun Feb 26 16:56:41 2023 - ERROR - oe_test_rake_02.sh line 50
+spawn rake root:clean_tmp -j 4
+couldn't execute "rake": no such file or directory
+    while executing
+"spawn rake root:clean_tmp -j 4"
+Sun Feb 26 16:56:42 2023 - ERROR - oe_test_rake_02.sh line 60
+oe_test_rake_02.sh: line 61: rake: command not found
+Sun Feb 26 16:56:42 2023 - ERROR - oe_test_rake_02.sh line 62
+oe_test_rake_02.sh: line 63: rake: command not found
+Sun Feb 26 16:56:43 2023 - ERROR - oe_test_rake_02.sh line 64
+oe_test_rake_02.sh: line 65: rake: command not found
+Sun Feb 26 16:56:44 2023 - ERROR - oe_test_rake_02.sh line 66
+Sun Feb 26 16:56:44 2023 - ERROR - oe_test_rake_02.sh line 70
+Sun Feb 26 16:56:45 2023 - ERROR - oe_test_rake_02.sh line 72
+Sun Feb 26 16:56:45 2023 - INFO  - End of the test.
+Sun Feb 26 16:56:46 2023 - ERROR - failed to execute the case.
+Sun Feb 26 16:56:46 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 16:56:47 2023 - WARN  - no thing to do.
+Sun Feb 26 16:56:48 2023 - INFO  - Finish restoring the test environment.

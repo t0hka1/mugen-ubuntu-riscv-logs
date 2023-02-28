@@ -1,0 +1,8 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:15:44 2023 - INFO  - Start to run test.
+5758 sshd
+5758 sshd
+Thu Feb  9 19:15:46 2023 - INFO  - End to run test.
+Thu Feb  9 19:15:47 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 19:15:47 2023 - INFO  - oe_test_ProcMgmt_pgrep.sh post_test

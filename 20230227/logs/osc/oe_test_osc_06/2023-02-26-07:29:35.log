@@ -1,0 +1,42 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 280 not upgraded.
+Sun Feb 26 07:29:40 2023 - INFO  - Start to config params of the case.
+Sun Feb 26 07:29:41 2023 - INFO  - End to config params of the case.
+Sun Feb 26 07:29:41 2023 - INFO  - Start to prepare the test environment.
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+At revision 5014.
+Sun Feb 26 07:31:39 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 07:31:40 2023 - INFO  - Start to run test.
+Project name: home:test666:branches:openEuler:Mainline
+passx = None
+plaintext_passwd = 0
+Removing: osc.log
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+A    4.txt
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+Committed revision 5015.
+A    osc_diff.log
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+Committed revision 5016.
+spawn osc rremove home:test666:branches:openEuler:Mainline zjl 4.txt
+rm: remove source file `4.txt' from `home:test666:branches:openEuler:Mainline/zjl'? (yY|nN) y
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+spawn osc rremove home:test666:branches:openEuler:Mainline zjl osc_diff.log
+rm: remove source file `osc_diff.log' from `home:test666:branches:openEuler:Mainline/zjl'? (yY|nN) y
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+Sun Feb 26 07:33:31 2023 - INFO  - End to run test.
+Sun Feb 26 07:33:31 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 07:33:32 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 07:34:27 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,13 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:11:15 2023 - INFO  - Start to run test.
+------ Shared Memory Segments --------
+STAT
+%CPU
+%MEM
+[mq-deadline] none
+[mq-deadline] none
+Thu Feb  9 19:11:17 2023 - ERROR - oe_test_system_monitor_share_total.sh line 37
+Thu Feb  9 19:11:17 2023 - INFO  - End to run test.
+Thu Feb  9 19:11:18 2023 - ERROR - failed to execute the case.
+Thu Feb  9 19:11:19 2023 - INFO  - oe_test_system_monitor_share_total.sh post_test

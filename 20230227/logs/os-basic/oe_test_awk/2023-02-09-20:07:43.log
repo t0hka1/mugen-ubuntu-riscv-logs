@@ -1,0 +1,21 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 20:07:45 2023 - INFO  - Start to prepare the test environment.
+Thu Feb  9 20:07:45 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 20:07:46 2023 - INFO  - Start to run test.
+root
+processor
+processor
+processor
+processor
+processor
+processor
+processor
+processor
+awk: not an option: --help
+Thu Feb  9 20:07:47 2023 - ERROR - check Tail's help manual fail
+Thu Feb  9 20:07:47 2023 - ERROR - oe_test_awk.sh line 36
+Thu Feb  9 20:07:48 2023 - INFO  - End to run test.
+Thu Feb  9 20:07:49 2023 - ERROR - failed to execute the case.
+Thu Feb  9 20:07:49 2023 - INFO  - start environment cleanup.
+Thu Feb  9 20:07:50 2023 - INFO  - Finish environment cleanup!

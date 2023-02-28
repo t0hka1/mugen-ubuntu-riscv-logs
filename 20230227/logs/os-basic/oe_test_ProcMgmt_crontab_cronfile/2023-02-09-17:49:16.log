@@ -1,0 +1,13 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:49:17 2023 - INFO  - Start to prepare the test environment.
+Thu Feb  9 17:49:18 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 17:49:18 2023 - INFO  - Start to run test.
+no crontab for root
+Thu 09 Feb 2023 11:59:50 PM UTC
+hello world
+Fri Feb 10 00:00:52 2023 - INFO  - End to run test.
+Fri Feb 10 00:00:52 2023 - INFO  - succeed to execute the case.
+Fri Feb 10 00:00:53 2023 - INFO  - Start to restore the test environment.
+Thu 09 Feb 2023 05:50:17 PM UTC
+Thu Feb  9 17:50:17 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,18 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 20:00:32 2023 - INFO  - Start to run test.
+Connection 'team0' (60fd0c83-7ca7-4be6-beda-df1d2b396ea5) successfully added.
+Thu Feb  9 20:00:44 2023 - ERROR - oe_test_nmcli_set_team.sh line 53
+Connection 'team0-port1' (08e4a29c-8f60-4ae3-8f5b-e5d894314309) successfully added.
+Connection 'team0-port2' (75eec60b-59be-41cf-9ee0-c8c8007d902a) successfully added.
+Error: Connection activation failed: No reason given
+Hint: use 'journalctl -xe NM_CONNECTION=60fd0c83-7ca7-4be6-beda-df1d2b396ea5 + NM_DEVICE=team0' to get more details.
+Thu Feb  9 20:00:48 2023 - ERROR - oe_test_nmcli_set_team.sh line 59
+oe_test_nmcli_set_team.sh: line 60: teamdctl: command not found
+Thu Feb  9 20:00:48 2023 - ERROR - oe_test_nmcli_set_team.sh line 61
+Connection 'team0-port1' (08e4a29c-8f60-4ae3-8f5b-e5d894314309) successfully deleted.
+Connection 'team0-port2' (75eec60b-59be-41cf-9ee0-c8c8007d902a) successfully deleted.
+Connection 'team0' (60fd0c83-7ca7-4be6-beda-df1d2b396ea5) successfully deleted.
+Thu Feb  9 20:00:50 2023 - INFO  - End to run test.
+Thu Feb  9 20:00:50 2023 - ERROR - failed to execute the case.
+Thu Feb  9 20:00:51 2023 - INFO  - oe_test_nmcli_set_team.sh post_test

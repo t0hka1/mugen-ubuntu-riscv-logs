@@ -1,0 +1,67 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Sun Feb 26 11:17:00 2023 - ERROR - Timeout : Command 'bash oe_test_multipath-tools_kpartx.sh' timed out after 1799.9987167379986 seconds
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 15:50:07 2023 - INFO  - Start to prepare the test environment.
+Traceback (most recent call last):
+  File "/mugen-ubuntu-riscv/libs/locallibs/get_test_device.py", line 127, in <module>
+    print(get_test_disk(args.node))
+  File "/mugen-ubuntu-riscv/libs/locallibs/get_test_device.py", line 98, in get_test_disk
+    conn = ssh_cmd.pssh_conn(
+  File "/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 53, in pssh_conn
+    conn.connect(ip, port, user, password, timeout=timeout)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 340, in connect
+    to_try = list(self._families_and_addresses(hostname, port))
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 203, in _families_and_addresses
+    addrinfos = socket.getaddrinfo(
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Sun Feb 26 15:50:13 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Sun Feb 26 15:52:33 2023 - ERROR - pkgs:(device-mapper) not found
+Failed to restart iscsid.service: Unit iscsid.service not found.
+common_multipath-tools.sh: line 35: iscsiadm: command not found
+common_multipath-tools.sh: line 36: iscsiadm: command not found
+common_multipath-tools.sh: line 37: mpathconf: command not found
+Failed to start multipathd.service: Unit multipathd.service is masked.
+common_multipath-tools.sh: line 39: multipath: command not found
+common_multipath-tools.sh: line 40: multipath: command not found
+dm_multipath          310503  0
+Failed to restart multipathd.service: Unit multipathd.service is masked.
+common_multipath-tools.sh: line 68: chkconfig: command not found
+Sun Feb 26 15:53:21 2023 - ERROR - Failed to connect the remote machine:127.0.0.1.
+Sun Feb 26 15:53:21 2023 - ERROR - [Errno None] Unable to connect to port 12055 on 127.0.0.1
+Sun Feb 26 15:53:22 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 15:53:22 2023 - INFO  - Start to run test.
+oe_test_multipath-tools_kpartx.sh: line 31: kpartx: command not found
+Sun Feb 26 15:53:23 2023 - ERROR - oe_test_multipath-tools_kpartx.sh line 32
+oe_test_multipath-tools_kpartx.sh: line 33: kpartx: command not found
+Sun Feb 26 15:53:24 2023 - ERROR - oe_test_multipath-tools_kpartx.sh line 34
+├─vda1 252:1    0    1M  0 part 
+oe_test_multipath-tools_kpartx.sh: line 37: kpartx: command not found
+Sun Feb 26 15:53:25 2023 - ERROR - oe_test_multipath-tools_kpartx.sh line 38
+oe_test_multipath-tools_kpartx.sh: line 39: kpartx: command not found
+Sun Feb 26 15:53:25 2023 - ERROR - oe_test_multipath-tools_kpartx.sh line 40
+oe_test_multipath-tools_kpartx.sh: line 41: kpartx: command not found
+Sun Feb 26 15:53:26 2023 - ERROR - oe_test_multipath-tools_kpartx.sh line 42
+oe_test_multipath-tools_kpartx.sh: line 43: kpartx: command not found
+Sun Feb 26 15:53:27 2023 - ERROR - oe_test_multipath-tools_kpartx.sh line 44
+oe_test_multipath-tools_kpartx.sh: line 45: kpartx: command not found
+Sun Feb 26 15:53:27 2023 - ERROR - oe_test_multipath-tools_kpartx.sh line 46
+oe_test_multipath-tools_kpartx.sh: line 47: kpartx: command not found
+Sun Feb 26 15:53:28 2023 - ERROR - oe_test_multipath-tools_kpartx.sh line 48
+oe_test_multipath-tools_kpartx.sh: line 49: kpartx: command not found
+Sun Feb 26 15:53:28 2023 - ERROR - oe_test_multipath-tools_kpartx.sh line 50
+Sun Feb 26 15:53:29 2023 - INFO  - End to run test.
+Sun Feb 26 15:53:30 2023 - ERROR - failed to execute the case.
+Sun Feb 26 15:53:30 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 15:53:32 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+common_multipath-tools.sh: line 73: iscsiadm: command not found
+common_multipath-tools.sh: line 74: multipath: command not found
+Sun Feb 26 15:53:33 2023 - WARN  - no thing to do.
+Sun Feb 26 15:53:33 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,129 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 16:40:47 2023 - INFO  - Start to prepare the test environment!
+Failed to stop firewalld.service: Unit firewalld.service not loaded.
+Failed to disable unit: Unit file firewalld.service does not exist.
+./common/common_galera.sh: line 25: setenforce: command not found
+Generating RSA private key, 2048 bit long modulus (2 primes)
+..............+++++
+...................................+++++
+e is 65537 (0x010001)
+spawn openssl req -new -x509 -nodes -days 3600 -key galera_zl/ca-key.pem -out galera_zl/ca.pem
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:
+State or Province Name (full name) [Some-State]:
+Locality Name (eg, city) []:
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:
+Organizational Unit Name (eg, section) []:
+Common Name (e.g. server FQDN or YOUR name) []:
+Email Address []:
+spawn openssl req -newkey rsa:2048 -days 3600 -nodes -keyout galera_zl/server-key.pem -out galera_zl/server-req.pem
+Ignoring -days; not generating a certificate
+Generating a RSA private key
+............+++++
+................................+++++
+writing new private key to 'galera_zl/server-key.pem'
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:
+State or Province Name (full name) [Some-State]:
+Locality Name (eg, city) []:
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:
+Organizational Unit Name (eg, section) []:
+Common Name (e.g. server FQDN or YOUR name) []:
+Email Address []:
+
+Please enter the following 'extra' attributes
+to be sent with your certificate request
+A challenge password []:
+An optional company name []:
+expect: spawn id exp7 not open
+    while executing
+"expect eof"
+writing RSA key
+Signature ok
+subject=C = AU, ST = Some-State, O = Internet Widgits Pty Ltd
+Getting CA Private Key
+spawn openssl req -newkey rsa:2048 -days 3600 -nodes -keyout galera_zl/client-key.pem -out galera_zl/client-req.pem
+Ignoring -days; not generating a certificate
+Generating a RSA private key
+.............................................................................................................................+++++
+.....................+++++
+writing new private key to 'galera_zl/client-key.pem'
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:
+State or Province Name (full name) [Some-State]:
+Locality Name (eg, city) []:
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:
+Organizational Unit Name (eg, section) []:
+Common Name (e.g. server FQDN or YOUR name) []:
+Email Address []:
+
+Please enter the following 'extra' attributes
+to be sent with your certificate request
+A challenge password []:
+An optional company name []:
+expect: spawn id exp4 not open
+    while executing
+"expect eof"
+writing RSA key
+Signature ok
+subject=C = AU, ST = Some-State, O = Internet Widgits Pty Ltd
+Getting CA Private Key
+Sun Feb 26 16:41:41 2023 - INFO  - End to prepare the test environment!
+Sun Feb 26 16:41:42 2023 - INFO  - Start executing testcase!
+oe_test_galera_garbd.sh: line 31: garbd: command not found
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Sun Feb 26 16:41:43 2023 - ERROR - The help message is printed incorrectly
+Sun Feb 26 16:41:44 2023 - ERROR - oe_test_galera_garbd.sh line 36
+oe_test_galera_garbd.sh: line 37: garbd: command not found
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+oe_test_galera_garbd.sh: line 42: garbd: command not found
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+oe_test_galera_garbd.sh: line 46: garbd: command not found
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+oe_test_galera_garbd.sh: line 51: garbd: command not found
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+oe_test_galera_garbd.sh: line 56: garbd: command not found
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Sun Feb 26 16:41:58 2023 - ERROR - The node_name does not exist
+Sun Feb 26 16:41:58 2023 - ERROR - oe_test_galera_garbd.sh line 60
+oe_test_galera_garbd.sh: line 61: garbd: command not found
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Sun Feb 26 16:41:59 2023 - ERROR - The options was not found
+Sun Feb 26 16:42:00 2023 - ERROR - oe_test_galera_garbd.sh line 65
+oe_test_galera_garbd.sh: line 66: garbd: command not found
+Sun Feb 26 16:42:00 2023 - ERROR - The node_name was not found
+Sun Feb 26 16:42:01 2023 - ERROR - oe_test_galera_garbd.sh line 69
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Sun Feb 26 16:42:02 2023 - ERROR - The version number is printed incorrectly
+Sun Feb 26 16:42:02 2023 - ERROR - oe_test_galera_garbd.sh line 72
+Sun Feb 26 16:42:03 2023 - INFO  - End of testcase execution!
+Sun Feb 26 16:42:04 2023 - ERROR - failed to execute the case.
+Sun Feb 26 16:42:04 2023 - INFO  - Start environment cleanup.
+Sun Feb 26 16:45:12 2023 - INFO  - Finish environment cleanup.

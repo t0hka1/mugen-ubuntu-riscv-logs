@@ -1,0 +1,139 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 18:42:21 2023 - INFO  - Start to pre test.
+Thu Feb  9 18:42:22 2023 - INFO  - Start to pre test.
+Thu Feb  9 18:42:22 2023 - INFO  - Start to run test.
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 106.6 s, 4.9 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 14.5741 s, 36.0 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 104.477 s, 5.0 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 14.6484 s, 35.8 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 104.615 s, 5.0 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 14.5095 s, 36.1 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 104.791 s, 5.0 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 14.3682 s, 36.5 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 104.461 s, 5.0 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 14.7032 s, 35.7 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 104.34 s, 5.0 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 14.6345 s, 35.8 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 104.147 s, 5.0 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 14.7608 s, 35.5 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 103.827 s, 5.0 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 14.5861 s, 35.9 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 104.563 s, 5.0 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 14.5733 s, 36.0 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 104.671 s, 5.0 MB/s
+524288000
+500+0 records in
+500+0 records out
+524288000 bytes (524 MB, 500 MiB) copied, 14.7133 s, 35.6 MB/s
+524288000
+-rw-r--r-- 1 root root 524288000 Feb  9 19:02 mycpfile20230209
+-rw-r--r-- 1 root root 524288000 Feb  9 19:02 mycpfile20230209
+-rw-r--r-- 1 root root 524288000 Feb  9 19:03 mycpfile20230209
+-rw-r--r-- 1 root root 524288000 Feb  9 19:03 mycpfile20230209
+-rw-r--r-- 1 root root 524288000 Feb  9 19:03 mycpfile20230209
+-rw-r--r-- 1 root root 524288000 Feb  9 19:04 mycpfile20230209
+-rw-r--r-- 1 root root 524288000 Feb  9 19:04 mycpfile20230209
+-rw-r--r-- 1 root root 524288000 Feb  9 19:04 mycpfile20230209
+-rw-r--r-- 1 root root 524288000 Feb  9 19:04 mycpfile20230209
+-rw-r--r-- 1 root root 524288000 Feb  9 19:05 mycpfile20230209
+  adding: myfile20230209 (deflated 100%)
+  adding: myfile20230209 (deflated 100%)
+  adding: myfile20230209 (deflated 100%)
+  adding: myfile20230209 (deflated 100%)
+  adding: myfile20230209 (deflated 100%)
+  adding: myfile20230209 (deflated 100%)
+  adding: myfile20230209 (deflated 100%)
+  adding: myfile20230209 (deflated 100%)
+  adding: myfile20230209 (deflated 100%)
+  adding: myfile20230209 (deflated 100%)
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 524288000 Feb  9 19:02 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 524288000 Feb  9 19:02 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 524288000 Feb  9 19:02 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 524288000 Feb  9 19:02 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 524288000 Feb  9 19:02 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 524288000 Feb  9 19:02 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 524288000 Feb  9 19:02 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 524288000 Feb  9 19:02 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 524288000 Feb  9 19:02 myfile20230209
+Archive:  myfile20230209.zip
+  inflating: myfile20230209          
+-rw-r--r-- 1 root root 524288000 Feb  9 19:02 myfile20230209
+Thu Feb  9 19:10:31 2023 - INFO  - End to run test.
+Thu Feb  9 19:10:32 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 19:10:32 2023 - INFO  - Start to restore the test environment.
+Thu Feb  9 19:10:34 2023 - INFO  - End to restore the test environment.

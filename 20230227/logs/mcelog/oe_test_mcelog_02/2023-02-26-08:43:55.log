@@ -1,0 +1,13 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 08:44:00 2023 - INFO  - Start to prepare the test environment.
+Non X86 architecture,this function is not supported
+Sun Feb 26 08:44:01 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 08:44:01 2023 - WARN  - no thing to do.
+Sun Feb 26 08:44:02 2023 - INFO  - End to restore the test environment.

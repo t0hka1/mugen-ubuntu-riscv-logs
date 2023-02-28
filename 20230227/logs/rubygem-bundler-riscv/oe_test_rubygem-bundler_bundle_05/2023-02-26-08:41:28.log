@@ -1,0 +1,57 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 08:41:34 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 08:41:40 2023 - ERROR - pkgs:(rubygem-bundler) not found
+oe_test_rubygem-bundler_bundle_05.sh: line 29: bundle: command not found
+Sun Feb 26 08:41:40 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 08:41:41 2023 - INFO  - Start to run test.
+oe_test_rubygem-bundler_bundle_05.sh: line 36: bundle: command not found
+Sun Feb 26 08:41:42 2023 - ERROR - Check bundle check --dry-run failed.
+Sun Feb 26 08:41:42 2023 - ERROR - oe_test_rubygem-bundler_bundle_05.sh line 37
+oe_test_rubygem-bundler_bundle_05.sh: line 38: bundle: command not found
+Sun Feb 26 08:41:43 2023 - ERROR - Check bundle check --gemfile failed.
+Sun Feb 26 08:41:43 2023 - ERROR - oe_test_rubygem-bundler_bundle_05.sh line 39
+oe_test_rubygem-bundler_bundle_05.sh: line 40: bundle: command not found
+Sun Feb 26 08:41:44 2023 - ERROR - Check bundle check --path failed.
+Sun Feb 26 08:41:44 2023 - ERROR - oe_test_rubygem-bundler_bundle_05.sh line 41
+spawn bundle console
+couldn't execute "bundle": no such file or directory
+    while executing
+"spawn bundle console"
+Sun Feb 26 08:41:45 2023 - ERROR - Check bundle console failed.
+Sun Feb 26 08:41:46 2023 - ERROR - oe_test_rubygem-bundler_bundle_05.sh line 48
+spawn bundle console -r 2
+couldn't execute "bundle": no such file or directory
+    while executing
+"spawn bundle console -r 2"
+Sun Feb 26 08:41:47 2023 - ERROR - Check bundle console -r failed.
+Sun Feb 26 08:41:47 2023 - ERROR - oe_test_rubygem-bundler_bundle_05.sh line 55
+spawn bundle console -V
+couldn't execute "bundle": no such file or directory
+    while executing
+"spawn bundle console -V"
+Sun Feb 26 08:41:48 2023 - ERROR - Check bundle console -V failed.
+Sun Feb 26 08:41:49 2023 - ERROR - oe_test_rubygem-bundler_bundle_05.sh line 62
+oe_test_rubygem-bundler_bundle_05.sh: line 63: bundle: command not found
+Sun Feb 26 08:41:49 2023 - ERROR - Check bundle console -h failed.
+Sun Feb 26 08:41:50 2023 - ERROR - oe_test_rubygem-bundler_bundle_05.sh line 64
+oe_test_rubygem-bundler_bundle_05.sh: line 65: bundle: command not found
+Sun Feb 26 08:41:51 2023 - ERROR - Check bundle env failed.
+Sun Feb 26 08:41:51 2023 - ERROR - oe_test_rubygem-bundler_bundle_05.sh line 66
+oe_test_rubygem-bundler_bundle_05.sh: line 67: bundle: command not found
+Sun Feb 26 08:41:52 2023 - ERROR - Check bundle -r  failed.
+Sun Feb 26 08:41:52 2023 - ERROR - oe_test_rubygem-bundler_bundle_05.sh line 68
+oe_test_rubygem-bundler_bundle_05.sh: line 69: bundle: command not found
+Sun Feb 26 08:41:53 2023 - ERROR - Check bundle -V failed.
+Sun Feb 26 08:41:53 2023 - ERROR - oe_test_rubygem-bundler_bundle_05.sh line 70
+Sun Feb 26 08:41:54 2023 - INFO  - End to run test.
+Sun Feb 26 08:41:54 2023 - ERROR - failed to execute the case.
+Sun Feb 26 08:41:55 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 08:41:55 2023 - WARN  - no thing to do.
+Sun Feb 26 08:41:56 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,17 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 287 not upgraded.
+Sun Feb 26 06:55:29 2023 - INFO  - Start environmental preparation.
+Failed to start firewalld.service: Unit firewalld.service not found.
+Sun Feb 26 06:55:30 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 06:55:30 2023 - INFO  - Start executing testcase.
+sudo: firewall-cmd: command not found
+oe_test_firewalld_set_priority.sh: line 35: nft: command not found
+Sun Feb 26 06:55:31 2023 - INFO  - Finish testcase execution.
+Sun Feb 26 06:55:32 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 06:55:32 2023 - INFO  - oe_test_firewalld_set_priority.sh post_test

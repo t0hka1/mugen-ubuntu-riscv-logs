@@ -1,0 +1,54 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 280 not upgraded.
+Sun Feb 26 07:15:45 2023 - INFO  - Start to config params of the case.
+Sun Feb 26 07:15:46 2023 - INFO  - End to config params of the case.
+Sun Feb 26 07:15:47 2023 - INFO  - Start to prepare the test environment.
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+At revision 5009.
+Sun Feb 26 07:17:46 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 07:17:46 2023 - INFO  - Start to run test.
+A    1.txt
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+Committed revision 5010.
+D    1.txt
+A    2.txt
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+Committed revision 5011.
+A    4.txt
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+Committed revision 5012.
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+Sending meta data...
+Sending    3.txt
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+Server returned an error: HTTP Error 403: Forbidden
+no permission to modify package zjl in project home:test666:branches:openEuler:Mainline
+Transmitting file data WARNING: SSL certificate checks disabled. Connection is insecure!
+
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+Committed revision 5013.
+D    3.txt
+D    4.txt
+Deleting    3.txt
+Deleting    4.txt
+Transmitting file data 
+Committed revision 5014.
+WARNING: SSL certificate checks disabled. Connection is insecure!
+
+Sun Feb 26 07:19:56 2023 - INFO  - End to run test.
+Sun Feb 26 07:19:56 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 07:19:57 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 07:20:50 2023 - INFO  - End to restore the test environment.

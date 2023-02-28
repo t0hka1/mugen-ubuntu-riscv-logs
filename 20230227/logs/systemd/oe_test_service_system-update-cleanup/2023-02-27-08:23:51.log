@@ -1,0 +1,46 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 263 not upgraded.
+Mon Feb 27 08:23:57 2023 - INFO  - Start environmental preparation.
+Mon Feb 27 08:23:58 2023 - INFO  - End of environmental preparation!
+Mon Feb 27 08:23:58 2023 - INFO  - Start testing...
+Mon Feb 27 08:24:00 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Traceback (most recent call last):
+  File "/mugen-ubuntu-riscv/libs/locallibs/remote_reboot.py", line 126, in <module>
+    sys.exit(reboot_wait(args.node, args.waittime))
+  File "/mugen-ubuntu-riscv/libs/locallibs/remote_reboot.py", line 62, in reboot_wait
+    "ping -c 3 -w 3 " + os.environ.get("NODE" + str(node) + "_IPV4")
+TypeError: can only concatenate str (not "NoneType") to str
+Mon Feb 27 08:24:05 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 08:24:06 2023 - ERROR - system-update-cleanup.service restart failed
+Mon Feb 27 08:24:06 2023 - ERROR - oe_test_service_system-update-cleanup.sh line 34
+Mon Feb 27 08:24:08 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 08:24:09 2023 - ERROR - system-update-cleanup.service stop failed
+Mon Feb 27 08:24:09 2023 - ERROR - oe_test_service_system-update-cleanup.sh line 36
+Mon Feb 27 08:24:17 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 08:24:18 2023 - ERROR - system-update-cleanup.service stop failed
+Mon Feb 27 08:24:18 2023 - ERROR - oe_test_service_system-update-cleanup.sh line 39
+Mon Feb 27 08:24:20 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 08:24:21 2023 - ERROR - The unit files is not static
+Mon Feb 27 08:24:22 2023 - ERROR - oe_test_service_system-update-cleanup.sh line 41
+Mon Feb 27 08:24:24 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Traceback (most recent call last):
+  File "/mugen-ubuntu-riscv/libs/locallibs/remote_reboot.py", line 126, in <module>
+    sys.exit(reboot_wait(args.node, args.waittime))
+  File "/mugen-ubuntu-riscv/libs/locallibs/remote_reboot.py", line 62, in reboot_wait
+    "ping -c 3 -w 3 " + os.environ.get("NODE" + str(node) + "_IPV4")
+TypeError: can only concatenate str (not "NoneType") to str
+Mon Feb 27 08:24:28 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 08:24:29 2023 - ERROR - system-update-cleanup.service start failed
+Mon Feb 27 08:24:29 2023 - ERROR - oe_test_service_system-update-cleanup.sh line 45
+Mon Feb 27 08:24:31 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 08:24:32 2023 - ERROR - There is an error message for the log of system-update-cleanup.service
+Mon Feb 27 08:24:32 2023 - ERROR - oe_test_service_system-update-cleanup.sh line 47
+Mon Feb 27 08:24:33 2023 - INFO  - Finish test!
+Mon Feb 27 08:24:33 2023 - ERROR - failed to execute the case.
+Mon Feb 27 08:24:34 2023 - INFO  - oe_test_service_system-update-cleanup.sh post_test

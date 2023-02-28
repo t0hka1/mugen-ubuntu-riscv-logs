@@ -1,0 +1,27 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 263 not upgraded.
+Mon Feb 27 08:07:43 2023 - INFO  - Start testing...
+Hangup
+Mon Feb 27 08:07:44 2023 - INFO  - Start environment cleanup.
+Mon Feb 27 08:07:45 2023 - INFO  - Finish environment cleanup!
+Mon Feb 27 08:07:45 2023 - ERROR - console-getty.service restart failed
+Mon Feb 27 08:07:46 2023 - ERROR - ../common/common_lib.sh line 34
+Mon Feb 27 08:07:53 2023 - ERROR - console-getty.service restart failed
+Mon Feb 27 08:07:53 2023 - ERROR - ../common/common_lib.sh line 37
+     Active: inactive (dead)
+     Active: active (running) since Mon 2023-02-27 08:08:00 UTC; 5s ago
+/etc/systemd/system/getty.target.wants/console-getty.service
+Removed /etc/systemd/system/getty.target.wants/console-getty.service.
+find: ‘/etc/systemd/system/getty.target.wants/console-getty.service’: No such file or directory
+Failed to reload console-getty.service: Job type reload is not applicable for unit console-getty.service.
+     Active: active (running) since Mon 2023-02-27 08:08:00 UTC; 16s ago
+Mon Feb 27 08:08:17 2023 - INFO  - Finish test!
+Mon Feb 27 08:08:18 2023 - ERROR - failed to execute the case.
+Mon Feb 27 08:08:19 2023 - INFO  - Start environment cleanup.
+Mon Feb 27 08:08:19 2023 - INFO  - Finish environment cleanup!

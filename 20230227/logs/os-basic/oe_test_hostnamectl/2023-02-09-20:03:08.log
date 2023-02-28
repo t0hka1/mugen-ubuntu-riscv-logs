@@ -1,0 +1,25 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 20:03:09 2023 - INFO  - Start to pre test.
+Thu Feb  9 20:03:10 2023 - INFO  - Start to pre test.
+Thu Feb  9 20:03:10 2023 - INFO  - Start to run test.
+   Static hostname: ubuntukylin
+         Icon name: computer
+        Machine ID: 11edaa7ec65640f894599050df75deac
+           Boot ID: dc08e0ae31274e62a96d3e036560d4cf
+  Operating System: Ubuntu 20.04 LTS
+            Kernel: Linux 5.11.0-1030-generic
+      Architecture: riscv64
+   Pretty hostname: my_host
+   Pretty hostname: Tester's notebook
+oe_test_hostnamectl.sh: line 39: expect: command not found
+grep: testlog: No such file or directory
+Thu Feb  9 20:03:14 2023 - ERROR - oe_test_hostnamectl.sh line 57
+oe_test_hostnamectl.sh: line 58: expect: command not found
+grep: testlog1: No such file or directory
+Thu Feb  9 20:03:14 2023 - ERROR - oe_test_hostnamectl.sh line 76
+Thu Feb  9 20:03:15 2023 - INFO  - End to run test.
+Thu Feb  9 20:03:15 2023 - ERROR - failed to execute the case.
+Thu Feb  9 20:03:16 2023 - INFO  - Start to restore the test environment.
+oe_test_hostnamectl.sh: line 84: expect: command not found
+Thu Feb  9 20:03:17 2023 - INFO  - End to restore the test environment.

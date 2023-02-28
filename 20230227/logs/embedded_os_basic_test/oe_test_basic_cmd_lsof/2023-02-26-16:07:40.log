@@ -1,0 +1,43 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 16:07:46 2023 - INFO  - Start to run test.
+COMMAND     PID            USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+systemd-r   363 systemd-resolve   12u  IPv4  13849      0t0  UDP localhost:domain 
+systemd-r   363 systemd-resolve   13u  IPv4  13850      0t0  TCP localhost:domain (LISTEN)
+NetworkMa   372            root   23u  IPv4  16025      0t0  UDP ubuntukylin:bootpc->_gateway:bootps 
+nmbd        469            root   13u  IPv4  18845      0t0  UDP *:netbios-ns 
+nmbd        469            root   14u  IPv4  18846      0t0  UDP *:netbios-dgm 
+nmbd        469            root   15u  IPv4  15350      0t0  UDP ubuntukylin:netbios-ns 
+nmbd        469            root   16u  IPv4  15351      0t0  UDP 10.0.2.255:netbios-ns 
+nmbd        469            root   17u  IPv4  15352      0t0  UDP ubuntukylin:netbios-dgm 
+nmbd        469            root   18u  IPv4  15353      0t0  UDP 10.0.2.255:netbios-dgm 
+smbd        513            root   46u  IPv6  13162      0t0  TCP *:microsoft-ds (LISTEN)
+smbd        513            root   47u  IPv6  13163      0t0  TCP *:netbios-ssn (LISTEN)
+smbd        513            root   48u  IPv4  13164      0t0  TCP *:microsoft-ds (LISTEN)
+smbd        513            root   49u  IPv4  13165      0t0  TCP *:netbios-ssn (LISTEN)
+ntpd        576            ntpd    7u  IPv4 139520      0t0  UDP ubuntukylin:35913->stratum2-1.ntp.mow01.ru.misaka.io:ntp 
+ntpd        576            ntpd    8u  IPv4 139509      0t0  UDP ubuntukylin:50723->dns2.synet.edu.cn:ntp 
+ntpd        576            ntpd    9u  IPv4 129726      0t0  UDP ubuntukylin:45264->makaki.miuku.net:ntp 
+ntpd        576            ntpd   10u  IPv4 139623      0t0  UDP ubuntukylin:41357->sv1.ggsrv.de:ntp 
+ntpd        576            ntpd   11u  IPv4 134492      0t0  UDP ubuntukylin:56769->ntp1.flashdance.cx:ntp 
+ntpd        576            ntpd   12u  IPv4 123123      0t0  UDP ubuntukylin:50712->time.neu.edu.cn:ntp 
+ntpd        576            ntpd   13u  IPv4 139494      0t0  UDP ubuntukylin:51395->tock.ntp.infomaniak.ch:ntp 
+ntpd        576            ntpd   14u  IPv4 139521      0t0  UDP ubuntukylin:38702->36.110.235.196:ntp 
+ntpd        576            ntpd   16u  IPv4 129138      0t0  UDP ubuntukylin:42225->111.230.189.174:ntp 
+sshd       1578            root    3u  IPv4  24207      0t0  TCP *:ssh (LISTEN)
+sshd       1578            root    4u  IPv6  24209      0t0  TCP *:ssh (LISTEN)
+in.tftpd  44875            root    4u  IPv4 102905      0t0  UDP *:tftp 
+in.tftpd  44875            root    5u  IPv6 102906      0t0  UDP *:tftp 
+sshd    1578 root    3u  IPv4  24207      0t0  TCP *:ssh (LISTEN)
+sshd    1578 root    4u  IPv6  24209      0t0  TCP *:ssh (LISTEN)
+Sun Feb 26 16:07:48 2023 - ERROR - check lsof help fail
+Sun Feb 26 16:07:49 2023 - ERROR - oe_test_basic_cmd_lsof.sh line 32
+Sun Feb 26 16:07:49 2023 - INFO  - End to run test.
+Sun Feb 26 16:07:50 2023 - ERROR - failed to execute the case.
+Sun Feb 26 16:07:51 2023 - INFO  - oe_test_basic_cmd_lsof.sh post_test

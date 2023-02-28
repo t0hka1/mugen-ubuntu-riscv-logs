@@ -1,0 +1,30 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 280 not upgraded.
+Sun Feb 26 08:23:29 2023 - INFO  - Start environmental preparation.
+Sun Feb 26 08:24:49 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 08:24:49 2023 - INFO  - Start to run test.
+     Active: inactive (dead)
+Failed to restart sbd.service: Operation refused, unit sbd.service may be requested by dependency only (it is configured to refuse manual start/stop).
+Failed to stop sbd.service: Operation refused, unit sbd.service may be requested by dependency only (it is configured to refuse manual start/stop).
+Failed to start sbd.service: Operation refused, unit sbd.service may be requested by dependency only (it is configured to refuse manual start/stop).
+find: ‘/etc/systemd/system/corosync.service.requires/sbd.service’: No such file or directory
+find: ‘/etc/systemd/system/dlm.service.requires/sbd.service’: No such file or directory
+find: ‘/etc/systemd/system/pacemaker.service.requires/sbd.service’: No such file or directory
+Synchronizing state of sbd.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable sbd
+Created symlink /etc/systemd/system/corosync.service.requires/sbd.service → /lib/systemd/system/sbd.service.
+Created symlink /etc/systemd/system/pacemaker.service.requires/sbd.service → /lib/systemd/system/sbd.service.
+Created symlink /etc/systemd/system/dlm.service.requires/sbd.service → /lib/systemd/system/sbd.service.
+/etc/systemd/system/corosync.service.requires/sbd.service
+/etc/systemd/system/dlm.service.requires/sbd.service
+/etc/systemd/system/pacemaker.service.requires/sbd.service
+Sun Feb 26 08:25:16 2023 - INFO  - End of the test.
+Sun Feb 26 08:25:17 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 08:25:17 2023 - INFO  - start environment cleanup.
+Sun Feb 26 08:26:00 2023 - INFO  - Finish environment cleanup!

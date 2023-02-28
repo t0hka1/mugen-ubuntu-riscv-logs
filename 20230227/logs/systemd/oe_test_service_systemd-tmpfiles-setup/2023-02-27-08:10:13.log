@@ -1,0 +1,18 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 263 not upgraded.
+Mon Feb 27 08:10:18 2023 - INFO  - Start testing...
+     Active: active (exited) since Mon 2023-02-27 07:10:30 UTC; 59min ago
+Failed to restart systemd-tmpfiles-setup.service: Operation refused, unit systemd-tmpfiles-setup.service may be requested by dependency only (it is configured to refuse manual start/stop).
+Failed to stop systemd-tmpfiles-setup.service: Operation refused, unit systemd-tmpfiles-setup.service may be requested by dependency only (it is configured to refuse manual start/stop).
+     Active: active (exited) since Mon 2023-02-27 07:10:30 UTC; 59min ago
+Failed to reload systemd-tmpfiles-setup.service: Job type reload is not applicable for unit systemd-tmpfiles-setup.service.
+     Active: active (exited) since Mon 2023-02-27 07:10:30 UTC; 59min ago
+Mon Feb 27 08:10:21 2023 - INFO  - Finish test!
+Mon Feb 27 08:10:21 2023 - INFO  - succeed to execute the case.
+Mon Feb 27 08:10:22 2023 - INFO  - oe_test_service_systemd-tmpfiles-setup.sh post_test

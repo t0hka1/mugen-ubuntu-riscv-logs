@@ -1,0 +1,16 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:52:59 2023 - INFO  - Start environment preparation.
+Thu Feb  9 17:53:01 2023 - INFO  - Environmental preparation is over.
+Thu Feb  9 17:53:01 2023 - INFO  - Start executing testcase!
+testgroup1:x:6666:
+testgroup1:x:8888:
+testgroup2:x:8888:
+testgroup2:x:8888:testuser1
+Usage: groupmod [options] GROUP
+Thu Feb  9 17:53:03 2023 - INFO  - End of testcase execution!
+Thu Feb  9 17:53:04 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 17:53:04 2023 - INFO  - start environment cleanup.
+userdel: testuser1 mail spool (/var/mail/testuser1) not found
+userdel: testuser1 home directory (/home/testuser1) not found
+Thu Feb  9 17:53:06 2023 - INFO  - Finish environment cleanup.

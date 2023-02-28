@@ -1,0 +1,39 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Sun Feb 26 10:46:55 2023 - ERROR - Timeout : Command 'bash oe_test_service_multipathd.sh' timed out after 1799.9980974669998 seconds
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 15:49:26 2023 - INFO  - Start environmental preparation.
+Sun Feb 26 15:49:51 2023 - INFO  - pkgs:(multipath-tools) is already installed
+Sun Feb 26 15:49:52 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 15:49:53 2023 - INFO  - Start testing...
+     Active: active (running) since Sun 2023-02-26 15:49:54 UTC; 5s ago
+Warning: Stopping multipathd.service, but it can still be activated by:
+  multipathd.socket
+     Active: inactive (dead) since Sun 2023-02-26 15:50:00 UTC; 6s ago
+     Active: active (running) since Sun 2023-02-26 15:50:07 UTC; 50s ago
+find: ‘/etc/systemd/system/multipath-tools.service’: No such file or directory
+find: ‘/etc/systemd/system/sysinit.target.wants/multipathd.service’: No such file or directory
+find: ‘/etc/systemd/system/sockets.target.wants/multipathd.socket’: No such file or directory
+Created symlink /etc/systemd/system/multipath-tools.service → /lib/systemd/system/multipathd.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/multipathd.service → /lib/systemd/system/multipathd.service.
+Created symlink /etc/systemd/system/sockets.target.wants/multipathd.socket → /lib/systemd/system/multipathd.socket.
+/etc/systemd/system/multipath-tools.service
+/etc/systemd/system/sysinit.target.wants/multipathd.service
+/etc/systemd/system/sockets.target.wants/multipathd.socket
+sed: can't read /usr/lib/systemd/system/multipathd.service: No such file or directory
+Failed to reload multipathd.service: Unit multipathd.service not found.
+Sun Feb 26 15:52:06 2023 - ERROR - multipathd.service reload failed
+Sun Feb 26 15:52:07 2023 - ERROR - oe_test_service_multipathd.sh line 57
+     Active: active (running) since Sun 2023-02-26 15:51:56 UTC; 14s ago
+Sun Feb 26 15:52:11 2023 - INFO  - Finish test!
+Sun Feb 26 15:52:12 2023 - ERROR - failed to execute the case.
+Sun Feb 26 15:52:13 2023 - INFO  - start environment cleanup.
+sed: can't read /usr/lib/systemd/system/multipathd.service: No such file or directory
+Failed to reload multipathd.service: Unit multipathd.service is masked.
+Sun Feb 26 15:52:18 2023 - WARN  - no thing to do.
+Sun Feb 26 15:52:18 2023 - INFO  - Finish environment cleanup!

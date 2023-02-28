@@ -1,0 +1,22 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:16:52 2023 - INFO  - Start to pre test.
+Thu Feb  9 19:16:53 2023 - INFO  - Start to pre test.
+Thu Feb  9 19:16:53 2023 - INFO  - Start to run test.
+Thu Feb  9 19:16:54 2023 - WARN  - the connect port using the default configuration
+/root/mugen-ubuntu-riscv/libs/locallibs/sshscp.sh: line 34: expect: command not found
+Thu Feb  9 19:16:54 2023 - ERROR - Failed in remote SCP operation: 127
+Thu Feb  9 19:16:55 2023 - ERROR - oe_test_net_cmd_scp.sh line 30
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Feb  9 19:16:56 2023 - ERROR - Failed in remote CMD operation:1
+Thu Feb  9 19:16:56 2023 - ERROR - oe_test_net_cmd_scp.sh line 32
+Thu Feb  9 19:16:57 2023 - WARN  - the connect port using the default configuration
+/root/mugen-ubuntu-riscv/libs/locallibs/sshscp.sh: line 34: expect: command not found
+Thu Feb  9 19:16:58 2023 - ERROR - Failed in remote SCP operation: 127
+Thu Feb  9 19:16:58 2023 - ERROR - oe_test_net_cmd_scp.sh line 34
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Feb  9 19:16:59 2023 - ERROR - Failed in remote CMD operation:1
+Thu Feb  9 19:17:00 2023 - ERROR - oe_test_net_cmd_scp.sh line 36
+Thu Feb  9 19:17:00 2023 - INFO  - End to run test.
+Thu Feb  9 19:17:01 2023 - ERROR - failed to execute the case.
+Thu Feb  9 19:17:01 2023 - INFO  - Start to restore the test environment.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Feb  9 19:17:02 2023 - ERROR - Failed in remote CMD operation:1
+Thu Feb  9 19:17:03 2023 - INFO  - End to restore the test environment.

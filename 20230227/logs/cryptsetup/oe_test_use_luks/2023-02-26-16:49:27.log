@@ -1,0 +1,56 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 268 not upgraded.
+Sun Feb 26 16:49:32 2023 - INFO  - Start loading data!
+Sun Feb 26 16:49:34 2023 - ERROR - Failed to connect the remote machine:127.0.0.1.
+Sun Feb 26 16:49:34 2023 - ERROR - [Errno None] Unable to connect to port 12055 on 127.0.0.1
+Sun Feb 26 16:49:35 2023 - INFO  - Loading data is complete!
+Sun Feb 26 16:49:36 2023 - INFO  - Start environmental preparation.
+Sun Feb 26 16:49:41 2023 - ERROR - pkgs:(cryptsetup-reencrypt) not found
+fdisk: cannot open /dev/: Is a directory
+
+Welcome to fdisk (util-linux 2.34).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+Sun Feb 26 16:49:42 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 16:49:42 2023 - INFO  - Start executing testcase.
+oe_test_use_luks.sh: line 43: cryptsetup-reencrypt: command not found
+Sun Feb 26 16:49:43 2023 - ERROR - Disk encryption failed
+Sun Feb 26 16:49:44 2023 - ERROR - oe_test_use_luks.sh line 44
+oe_test_use_luks.sh: line 45: cryptsetup: command not found
+Sun Feb 26 16:49:44 2023 - ERROR - Disk mapping failed
+Sun Feb 26 16:49:45 2023 - ERROR - oe_test_use_luks.sh line 46
+mke2fs 1.45.5 (07-Jan-2020)
+The file /dev/mapper/test_encrypted does not exist and no size was specified.
+Sun Feb 26 16:49:45 2023 - ERROR - Failed to format partition
+Sun Feb 26 16:49:46 2023 - ERROR - oe_test_use_luks.sh line 48
+mount: /mnt/test_encrypted: special device /dev/mapper/test_encrypted does not exist.
+Sun Feb 26 16:49:47 2023 - ERROR - Disk mount failed
+Sun Feb 26 16:49:47 2023 - ERROR - oe_test_use_luks.sh line 50
+Sun Feb 26 16:49:48 2023 - INFO  - Finish testcase execution.
+Sun Feb 26 16:49:48 2023 - ERROR - failed to execute the case.
+Sun Feb 26 16:49:49 2023 - INFO  - start environment cleanup.
+umount: /mnt/test_encrypted: not mounted.
+oe_test_use_luks.sh: line 57: cryptsetup: command not found
+mke2fs 1.45.5 (07-Jan-2020)
+The file /dev/1 does not exist and no size was specified.
+fdisk: cannot open /dev/: Is a directory
+
+Welcome to fdisk (util-linux 2.34).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+Sun Feb 26 16:49:50 2023 - WARN  - no thing to do.
+mke2fs 1.45.5 (07-Jan-2020)
+mkfs.ext4: Device size reported to be zero.  Invalid partition specified, or
+	partition table wasn't reread after running fdisk, due to
+	a modified partition being busy and in use.  You may need to reboot
+	to re-read your partition table.
+
+Sun Feb 26 16:49:50 2023 - INFO  - Finish environment cleanup!

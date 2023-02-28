@@ -1,0 +1,8 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:47:46 2023 - INFO  - Start executing testcase.
+net.ipv6.conf.lo.disable_ipv6 = 1
+net.ipv6.conf.lo.disable_ipv6 = 0
+Thu Feb  9 17:47:49 2023 - INFO  - End of testcase execution.
+Thu Feb  9 17:47:50 2023 - INFO  - succeed to execute the case.
+Thu Feb  9 17:47:50 2023 - INFO  - oe_test_kernel_sysctl.sh post_test

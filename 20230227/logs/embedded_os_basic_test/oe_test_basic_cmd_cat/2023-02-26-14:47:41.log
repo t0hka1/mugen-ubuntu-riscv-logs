@@ -1,0 +1,16 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Sun Feb 26 15:17:42 2023 - ERROR - Timeout : Command 'bash oe_test_basic_cmd_cat.sh' timed out after 1799.9983210650025 seconds
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 15:50:04 2023 - INFO  - Start to run test.
+root:x:0:0:root:/root:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+Usage: cat [OPTION]... [FILE]...
+Sun Feb 26 15:50:05 2023 - INFO  - End to run test.
+Sun Feb 26 15:50:06 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 15:50:06 2023 - INFO  - oe_test_basic_cmd_cat.sh post_test

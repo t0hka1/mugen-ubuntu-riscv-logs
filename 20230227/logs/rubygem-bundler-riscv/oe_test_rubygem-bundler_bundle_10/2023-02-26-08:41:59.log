@@ -1,0 +1,51 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 08:42:05 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 08:42:10 2023 - ERROR - pkgs:(rubygem-bundler) not found
+oe_test_rubygem-bundler_bundle_10.sh: line 29: bundle: command not found
+Sun Feb 26 08:42:11 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 08:42:11 2023 - INFO  - Start to run test.
+oe_test_rubygem-bundler_bundle_10.sh: line 35: bundle: command not found
+Sun Feb 26 08:42:12 2023 - ERROR - Check bundle install --system failed.
+Sun Feb 26 08:42:12 2023 - ERROR - oe_test_rubygem-bundler_bundle_10.sh line 36
+oe_test_rubygem-bundler_bundle_10.sh: line 37: bundle: command not found
+Sun Feb 26 08:42:13 2023 - ERROR - Check bundle install --shebang failed.
+Sun Feb 26 08:42:13 2023 - ERROR - oe_test_rubygem-bundler_bundle_10.sh line 38
+oe_test_rubygem-bundler_bundle_10.sh: line 39: bundle: command not found
+Sun Feb 26 08:42:14 2023 - ERROR - Check bundle install --trust-policy failed.
+Sun Feb 26 08:42:15 2023 - ERROR - oe_test_rubygem-bundler_bundle_10.sh line 40
+oe_test_rubygem-bundler_bundle_10.sh: line 41: bundle: command not found
+Sun Feb 26 08:42:15 2023 - ERROR - Check bundle config list failed.
+Sun Feb 26 08:42:16 2023 - ERROR - oe_test_rubygem-bundler_bundle_10.sh line 42
+oe_test_rubygem-bundler_bundle_10.sh: line 43: bundle: command not found
+Sun Feb 26 08:42:16 2023 - ERROR - Check bundle config get path failed.
+Sun Feb 26 08:42:17 2023 - ERROR - oe_test_rubygem-bundler_bundle_10.sh line 44
+oe_test_rubygem-bundler_bundle_10.sh: line 45: bundle: command not found
+Sun Feb 26 08:42:18 2023 - ERROR - Check bundle config set failed.
+Sun Feb 26 08:42:18 2023 - ERROR - oe_test_rubygem-bundler_bundle_10.sh line 46
+oe_test_rubygem-bundler_bundle_10.sh: line 47: bundle: command not found
+Sun Feb 26 08:42:19 2023 - ERROR - Check bundle config unset failed.
+Sun Feb 26 08:42:19 2023 - ERROR - oe_test_rubygem-bundler_bundle_10.sh line 48
+oe_test_rubygem-bundler_bundle_10.sh: line 49: bundle: command not found
+Sun Feb 26 08:42:20 2023 - ERROR - Check bundle config set --global failed.
+Sun Feb 26 08:42:20 2023 - ERROR - oe_test_rubygem-bundler_bundle_10.sh line 50
+oe_test_rubygem-bundler_bundle_10.sh: line 51: bundle: command not found
+Sun Feb 26 08:42:21 2023 - ERROR - Check bundle config unset --global failed.
+Sun Feb 26 08:42:21 2023 - ERROR - oe_test_rubygem-bundler_bundle_10.sh line 52
+oe_test_rubygem-bundler_bundle_10.sh: line 53: bundle: command not found
+Sun Feb 26 08:42:22 2023 - ERROR - Check bundle config set --local failed.
+Sun Feb 26 08:42:23 2023 - ERROR - oe_test_rubygem-bundler_bundle_10.sh line 54
+oe_test_rubygem-bundler_bundle_10.sh: line 55: bundle: command not found
+Sun Feb 26 08:42:23 2023 - ERROR - oe_test_rubygem-bundler_bundle_10.sh line 56
+oe_test_rubygem-bundler_bundle_10.sh: line 57: bundle: command not found
+Sun Feb 26 08:42:24 2023 - INFO  - End to run test.
+Sun Feb 26 08:42:24 2023 - ERROR - failed to execute the case.
+Sun Feb 26 08:42:25 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 08:42:26 2023 - WARN  - no thing to do.
+Sun Feb 26 08:42:26 2023 - INFO  - End to restore the test environment.

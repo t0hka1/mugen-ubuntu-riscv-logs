@@ -1,0 +1,16 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 280 not upgraded.
+Sun Feb 26 08:27:42 2023 - INFO  - Start environmental preparation.
+Sun Feb 26 08:28:44 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 08:28:45 2023 - INFO  - Start to run test.
+hello world
+Sun Feb 26 08:28:46 2023 - INFO  - End to run test.
+Sun Feb 26 08:28:46 2023 - INFO  - succeed to execute the case.
+Sun Feb 26 08:28:47 2023 - INFO  - start environment cleanup.
+Sun Feb 26 08:29:17 2023 - INFO  - Finish environment cleanup!

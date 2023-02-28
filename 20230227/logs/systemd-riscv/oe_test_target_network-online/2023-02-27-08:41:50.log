@@ -1,0 +1,18 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 263 not upgraded.
+Mon Feb 27 08:41:56 2023 - INFO  - Start to run test.
+     Active: active since Mon 2023-02-27 08:41:56 UTC; 6s ago
+     Active: inactive (dead) since Mon 2023-02-27 08:42:03 UTC; 5s ago
+     Active: active since Mon 2023-02-27 08:42:09 UTC; 5s ago
+Mon Feb 27 08:42:16 2023 - INFO  - The unit files have no installation config,This means they are not meant to be enabled using systemctl.
+Failed to reload network-online.target: Job type reload is not applicable for unit network-online.target.
+     Active: active since Mon 2023-02-27 08:42:09 UTC; 7s ago
+Mon Feb 27 08:42:17 2023 - INFO  - End of the test.
+Mon Feb 27 08:42:18 2023 - INFO  - succeed to execute the case.
+Mon Feb 27 08:42:18 2023 - INFO  - oe_test_target_network-online.sh post_test

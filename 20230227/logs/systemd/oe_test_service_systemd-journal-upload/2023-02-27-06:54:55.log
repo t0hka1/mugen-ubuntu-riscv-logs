@@ -1,0 +1,27 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 268 not upgraded.
+Mon Feb 27 06:55:00 2023 - INFO  - Start environmental preparation.
+oe_test_service_systemd-journal-upload.sh: line 30: getenforce: command not found
+Mon Feb 27 06:56:43 2023 - INFO  - End of environmental preparation!
+Mon Feb 27 06:56:44 2023 - INFO  - Start testing...
+     Active: active (running) since Mon 2023-02-27 06:56:44 UTC; 6s ago
+     Active: inactive (dead)
+     Active: active (running) since Mon 2023-02-27 06:56:59 UTC; 6s ago
+/etc/systemd/system/multi-user.target.wants/systemd-journal-upload.service
+Removed /etc/systemd/system/multi-user.target.wants/systemd-journal-upload.service.
+find: ‘/etc/systemd/system/multi-user.target.wants/systemd-journal-upload.service’: No such file or directory
+Failed to reload systemd-journal-upload.service: Job type reload is not applicable for unit systemd-journal-upload.service.
+     Active: active (running) since Mon 2023-02-27 06:56:59 UTC; 16s ago
+Mon Feb 27 06:57:17 2023 - INFO  - Finish test!
+Mon Feb 27 06:57:18 2023 - INFO  - succeed to execute the case.
+Mon Feb 27 06:57:18 2023 - INFO  - Start environment cleanup.
+Warning: Stopping systemd-journal-remote.service, but it can still be activated by:
+  systemd-journal-remote.socket
+oe_test_service_systemd-journal-upload.sh: line 56: [: =: unary operator expected
+Mon Feb 27 06:57:49 2023 - INFO  - Finish environment cleanup!

@@ -1,0 +1,28 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:52:34 2023 - INFO  - Start to prepare the test environment.
+oe_test_ProcMgmt_iostat.sh: line 24: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+Thu Feb  9 17:52:37 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 17:52:38 2023 - INFO  - Start to run test.
+oe_test_ProcMgmt_iostat.sh: line 34: iostat: command not found
+Thu Feb  9 17:52:38 2023 - ERROR - oe_test_ProcMgmt_iostat.sh line 35
+oe_test_ProcMgmt_iostat.sh: line 36: iostat: command not found
+Thu Feb  9 17:52:39 2023 - ERROR - oe_test_ProcMgmt_iostat.sh line 37
+oe_test_ProcMgmt_iostat.sh: line 38: iostat: command not found
+Thu Feb  9 17:52:40 2023 - ERROR - oe_test_ProcMgmt_iostat.sh line 39
+oe_test_ProcMgmt_iostat.sh: line 40: iostat: command not found
+Thu Feb  9 17:52:40 2023 - ERROR - oe_test_ProcMgmt_iostat.sh line 41
+oe_test_ProcMgmt_iostat.sh: line 42: iostat: command not found
+Thu Feb  9 17:52:41 2023 - ERROR - oe_test_ProcMgmt_iostat.sh line 43
+Thu Feb  9 17:52:42 2023 - ERROR - oe_test_ProcMgmt_iostat.sh line 45
+Thu Feb  9 17:52:42 2023 - INFO  - End to run test.
+Thu Feb  9 17:52:43 2023 - ERROR - failed to execute the case.
+Thu Feb  9 17:52:43 2023 - INFO  - Start to restore the test environment.
+Thu Feb  9 17:52:44 2023 - WARN  - no thing to do.
+Thu Feb  9 17:52:44 2023 - INFO  - End to restore the test environment.

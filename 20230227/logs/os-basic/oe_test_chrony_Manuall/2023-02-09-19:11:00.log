@@ -1,0 +1,23 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 19:11:02 2023 - INFO  - Start to prepare the test environment.
+oe_test_chrony_Manuall.sh: line 24: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+Failed to start chronyd.service: Unit chronyd.service not found.
+Thu Feb  9 19:11:05 2023 - INFO  - End to prepare the test environment.
+Thu Feb  9 19:11:05 2023 - INFO  - Start to run test.
+Unit chronyd.service could not be found.
+Thu Feb  9 19:11:06 2023 - ERROR - oe_test_chrony_Manuall.sh line 36
+oe_test_chrony_Manuall.sh: line 37: chronyc: command not found
+Thu Feb  9 19:11:07 2023 - ERROR - oe_test_chrony_Manuall.sh line 38
+Thu Feb  9 19:11:07 2023 - INFO  - End to run test.
+Thu Feb  9 19:11:08 2023 - ERROR - failed to execute the case.
+Thu Feb  9 19:11:08 2023 - INFO  - Start to restore the test environment.
+Failed to stop chronyd.service: Unit chronyd.service not loaded.
+Thu Feb  9 19:11:09 2023 - WARN  - no thing to do.
+Thu Feb  9 19:11:10 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,32 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 263 not upgraded.
+Mon Feb 27 08:11:03 2023 - INFO  - Start testing...
+Hangup
+Mon Feb 27 08:11:04 2023 - INFO  - Start environment cleanup.
+Mon Feb 27 08:11:05 2023 - INFO  - Finish environment cleanup!
+Mon Feb 27 08:11:05 2023 - ERROR - console-getty.service restart failed
+Mon Feb 27 08:11:06 2023 - ERROR - ../common/common_lib.sh line 34
+Mon Feb 27 08:11:13 2023 - ERROR - console-getty.service restart failed
+Mon Feb 27 08:11:13 2023 - ERROR - ../common/common_lib.sh line 37
+     Active: inactive (dead)
+Mon Feb 27 08:11:27 2023 - ERROR - console-getty.service start failed
+Mon Feb 27 08:11:27 2023 - ERROR - ../common/common_lib.sh line 47
+/etc/systemd/system/getty.target.wants/console-getty.service
+Removed /etc/systemd/system/getty.target.wants/console-getty.service.
+find: ‘/etc/systemd/system/getty.target.wants/console-getty.service’: No such file or directory
+Feb 27 08:11:23 ubuntukylin systemd[1]: console-getty.service: Failed with result 'start-limit-hit'.
+Feb 27 08:11:23 ubuntukylin systemd[1]: Failed to start Console Getty.
+Mon Feb 27 08:11:38 2023 - ERROR - There is an error message for the log of console-getty.service
+Mon Feb 27 08:11:38 2023 - ERROR - ../common/common_lib.sh line 28
+Failed to reload console-getty.service: Job type reload is not applicable for unit console-getty.service.
+     Active: active (running) since Mon 2023-02-27 08:11:38 UTC; 514ms ago
+Mon Feb 27 08:11:40 2023 - INFO  - Finish test!
+Mon Feb 27 08:11:40 2023 - ERROR - failed to execute the case.
+Mon Feb 27 08:11:41 2023 - INFO  - Start environment cleanup.
+Mon Feb 27 08:11:42 2023 - INFO  - Finish environment cleanup!

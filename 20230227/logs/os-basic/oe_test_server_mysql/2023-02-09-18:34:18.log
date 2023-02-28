@@ -1,0 +1,139 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 18:34:19 2023 - INFO  - Start environment preparation.
+oe_test_server_mysql.sh: line 24: dnf: command not found
+/root/mugen-ubuntu-riscv
+../common/mysql_pre.sh: line 33: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+../common/mysql_pre.sh: line 39: rpm: command not found
+Thu Feb  9 18:34:24 2023 - ERROR - ../common/mysql_pre.sh line 40
+2023-02-09 18:34:27 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2023-02-09 18:34:27 0 [ERROR] mysqld: unknown option '--initialize'
+2023-02-09 18:34:27 0 [ERROR] Aborting
+Thu Feb  9 18:34:32 2023 - ERROR - ../common/mysql_pre.sh line 64
+chmod: cannot access '/usr/local/mysql/support-files/mysql.server': No such file or directory
+cp: cannot stat '/usr/local/mysql/support-files/mysql.server': No such file or directory
+../common/mysql_pre.sh: line 69: chkconfig: command not found
+su: warning: cannot change directory to /home/mysql: No such file or directory
+Failed to start mysql.service: Interactive authentication required.
+See system logs and 'systemctl status mysql.service' for details.
+Thu Feb  9 18:35:15 2023 - ERROR - ../common/mysql_pre.sh line 73
+Failed to start mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:16 2023 - ERROR - ../common/mysql_pre.sh line 75
+Unit mysql.service could not be found.
+Thu Feb  9 18:35:17 2023 - ERROR - ../common/mysql_pre.sh line 77
+Thu Feb  9 18:35:17 2023 - INFO  - Environmental preparation is over.
+Thu Feb  9 18:35:18 2023 - INFO  - Start executing testcase.
+Failed to start mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:18 2023 - ERROR - oe_test_server_mysql.sh line 47
+Unit mysql.service could not be found.
+Thu Feb  9 18:35:19 2023 - ERROR - oe_test_server_mysql.sh line 49
+Failed to restart mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:20 2023 - ERROR - oe_test_server_mysql.sh line 52
+Failed to stop mysql.service: Unit mysql.service not loaded.
+Thu Feb  9 18:35:20 2023 - ERROR - oe_test_server_mysql.sh line 55
+Failed to disable unit: Unit file mysql.service does not exist.
+Thu Feb  9 18:35:21 2023 - ERROR - oe_test_server_mysql.sh line 57
+Failed to start mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:24 2023 - ERROR - oe_test_server_mysql.sh line 47
+Unit mysql.service could not be found.
+Thu Feb  9 18:35:25 2023 - ERROR - oe_test_server_mysql.sh line 49
+Failed to restart mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:26 2023 - ERROR - oe_test_server_mysql.sh line 52
+Failed to stop mysql.service: Unit mysql.service not loaded.
+Thu Feb  9 18:35:27 2023 - ERROR - oe_test_server_mysql.sh line 55
+Failed to disable unit: Unit file mysql.service does not exist.
+Thu Feb  9 18:35:27 2023 - ERROR - oe_test_server_mysql.sh line 57
+Failed to start mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:31 2023 - ERROR - oe_test_server_mysql.sh line 47
+Unit mysql.service could not be found.
+Thu Feb  9 18:35:32 2023 - ERROR - oe_test_server_mysql.sh line 49
+Failed to restart mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:32 2023 - ERROR - oe_test_server_mysql.sh line 52
+Failed to stop mysql.service: Unit mysql.service not loaded.
+Thu Feb  9 18:35:33 2023 - ERROR - oe_test_server_mysql.sh line 55
+Failed to disable unit: Unit file mysql.service does not exist.
+Thu Feb  9 18:35:34 2023 - ERROR - oe_test_server_mysql.sh line 57
+Failed to start mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:37 2023 - ERROR - oe_test_server_mysql.sh line 47
+Unit mysql.service could not be found.
+Thu Feb  9 18:35:38 2023 - ERROR - oe_test_server_mysql.sh line 49
+Failed to restart mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:38 2023 - ERROR - oe_test_server_mysql.sh line 52
+Failed to stop mysql.service: Unit mysql.service not loaded.
+Thu Feb  9 18:35:39 2023 - ERROR - oe_test_server_mysql.sh line 55
+Failed to disable unit: Unit file mysql.service does not exist.
+Thu Feb  9 18:35:40 2023 - ERROR - oe_test_server_mysql.sh line 57
+Failed to start mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:43 2023 - ERROR - oe_test_server_mysql.sh line 47
+Unit mysql.service could not be found.
+Thu Feb  9 18:35:44 2023 - ERROR - oe_test_server_mysql.sh line 49
+Failed to restart mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:45 2023 - ERROR - oe_test_server_mysql.sh line 52
+Failed to stop mysql.service: Unit mysql.service not loaded.
+Thu Feb  9 18:35:46 2023 - ERROR - oe_test_server_mysql.sh line 55
+Failed to disable unit: Unit file mysql.service does not exist.
+Thu Feb  9 18:35:47 2023 - ERROR - oe_test_server_mysql.sh line 57
+Failed to start mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:50 2023 - ERROR - oe_test_server_mysql.sh line 47
+Unit mysql.service could not be found.
+Thu Feb  9 18:35:51 2023 - ERROR - oe_test_server_mysql.sh line 49
+Failed to restart mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:52 2023 - ERROR - oe_test_server_mysql.sh line 52
+Failed to stop mysql.service: Unit mysql.service not loaded.
+Thu Feb  9 18:35:52 2023 - ERROR - oe_test_server_mysql.sh line 55
+Failed to disable unit: Unit file mysql.service does not exist.
+Thu Feb  9 18:35:53 2023 - ERROR - oe_test_server_mysql.sh line 57
+Failed to start mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:56 2023 - ERROR - oe_test_server_mysql.sh line 47
+Unit mysql.service could not be found.
+Thu Feb  9 18:35:57 2023 - ERROR - oe_test_server_mysql.sh line 49
+Failed to restart mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:35:58 2023 - ERROR - oe_test_server_mysql.sh line 52
+Failed to stop mysql.service: Unit mysql.service not loaded.
+Thu Feb  9 18:35:58 2023 - ERROR - oe_test_server_mysql.sh line 55
+Failed to disable unit: Unit file mysql.service does not exist.
+Thu Feb  9 18:35:59 2023 - ERROR - oe_test_server_mysql.sh line 57
+Failed to start mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:36:02 2023 - ERROR - oe_test_server_mysql.sh line 47
+Unit mysql.service could not be found.
+Thu Feb  9 18:36:03 2023 - ERROR - oe_test_server_mysql.sh line 49
+Failed to restart mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:36:04 2023 - ERROR - oe_test_server_mysql.sh line 52
+Failed to stop mysql.service: Unit mysql.service not loaded.
+Thu Feb  9 18:36:05 2023 - ERROR - oe_test_server_mysql.sh line 55
+Failed to disable unit: Unit file mysql.service does not exist.
+Thu Feb  9 18:36:05 2023 - ERROR - oe_test_server_mysql.sh line 57
+Failed to start mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:36:09 2023 - ERROR - oe_test_server_mysql.sh line 47
+Unit mysql.service could not be found.
+Thu Feb  9 18:36:10 2023 - ERROR - oe_test_server_mysql.sh line 49
+Failed to restart mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:36:10 2023 - ERROR - oe_test_server_mysql.sh line 52
+Failed to stop mysql.service: Unit mysql.service not loaded.
+Thu Feb  9 18:36:11 2023 - ERROR - oe_test_server_mysql.sh line 55
+Failed to disable unit: Unit file mysql.service does not exist.
+Thu Feb  9 18:36:12 2023 - ERROR - oe_test_server_mysql.sh line 57
+Failed to start mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:36:15 2023 - ERROR - oe_test_server_mysql.sh line 47
+Unit mysql.service could not be found.
+Thu Feb  9 18:36:16 2023 - ERROR - oe_test_server_mysql.sh line 49
+Failed to restart mysql.service: Unit mysql.service not found.
+Thu Feb  9 18:36:16 2023 - ERROR - oe_test_server_mysql.sh line 52
+Failed to stop mysql.service: Unit mysql.service not loaded.
+Thu Feb  9 18:36:17 2023 - ERROR - oe_test_server_mysql.sh line 55
+Failed to disable unit: Unit file mysql.service does not exist.
+Thu Feb  9 18:36:18 2023 - ERROR - oe_test_server_mysql.sh line 57
+Thu Feb  9 18:36:21 2023 - INFO  - End of testcase execution.
+Thu Feb  9 18:36:21 2023 - ERROR - failed to execute the case.
+Thu Feb  9 18:36:22 2023 - INFO  - start environment cleanup.
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+userdel: mysql mail spool (/var/mail/mysql) not found
+userdel: mysql home directory (/home/mysql) not found
+Thu Feb  9 18:36:23 2023 - WARN  - no thing to do.
+Thu Feb  9 18:36:24 2023 - INFO  - Finish environment cleanup.

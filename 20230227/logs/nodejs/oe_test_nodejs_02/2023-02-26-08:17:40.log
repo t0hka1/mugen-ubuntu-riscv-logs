@@ -1,0 +1,41 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 280 not upgraded.
+Sun Feb 26 08:17:45 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 08:17:54 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 08:17:54 2023 - INFO  - Start to run test.
+oe_test_nodejs_02.sh: line 35: node: command not found
+Sun Feb 26 08:17:55 2023 - ERROR - oe_test_nodejs_02.sh line 36
+oe_test_nodejs_02.sh: line 37: node: command not found
+Sun Feb 26 08:17:56 2023 - ERROR - oe_test_nodejs_02.sh line 38
+oe_test_nodejs_02.sh: line 39: node: command not found
+Sun Feb 26 08:17:56 2023 - ERROR - oe_test_nodejs_02.sh line 40
+oe_test_nodejs_02.sh: line 41: node: command not found
+Sun Feb 26 08:17:57 2023 - ERROR - oe_test_nodejs_02.sh line 42
+spawn node --debug-port 65500
+couldn't execute "node": no such file or directory
+    while executing
+"spawn node --debug-port 65500"
+oe_test_nodejs_02.sh: line 55: node: command not found
+Sun Feb 26 08:17:58 2023 - ERROR - oe_test_nodejs_02.sh line 56
+oe_test_nodejs_02.sh: line 57: node: command not found
+Sun Feb 26 08:17:59 2023 - ERROR - oe_test_nodejs_02.sh line 58
+oe_test_nodejs_02.sh: line 59: node: command not found
+Sun Feb 26 08:17:59 2023 - ERROR - oe_test_nodejs_02.sh line 60
+oe_test_nodejs_02.sh: line 61: node: command not found
+Sun Feb 26 08:18:00 2023 - ERROR - oe_test_nodejs_02.sh line 62
+Sun Feb 26 08:18:01 2023 - INFO  - End to run test.
+Sun Feb 26 08:18:01 2023 - ERROR - failed to execute the case.
+Sun Feb 26 08:18:02 2023 - INFO  - Start to restore the test environment.
+Traceback (most recent call last):
+  File "/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 145, in <module>
+    exitcode = apt_remove(args.node, args.pkgs, args.tempfile)
+  File "/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 116, in apt_remove
+    with open(tmpfile, "r") as f:
+OSError: [Errno 36] File name too long: "\nWARNING: apt does not have a stable CLI interface. Use with caution in scripts.\n\nReading package lists...\nBuilding dependency tree...\nReading state information...\nPackage nodejs is a virtual package provided by:\n  node-pegjs 0.10.0-1 [Not candidate version]\n\nE: Package 'nodejs' has no installation candidate"
+Sun Feb 26 08:18:06 2023 - INFO  - End to restore the test environment.

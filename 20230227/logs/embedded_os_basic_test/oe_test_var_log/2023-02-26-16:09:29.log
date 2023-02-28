@@ -1,0 +1,48 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 16:09:35 2023 - INFO  - Start to prepare the test environment.
+oe_test_var_log.sh: line 29: /etc/init.d/syslog: No such file or directory
+Sun Feb 26 16:09:35 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 16:09:36 2023 - INFO  - Start to run test.
+alternatives.log
+apport.log
+apt
+auth.log
+bootstrap.log
+btmp
+dmesg
+dmesg.0
+dmesg.1.gz
+dmesg.2.gz
+dmesg.3.gz
+dmesg.4.gz
+dpkg.log
+faillog
+fontconfig.log
+gdm3
+journal
+kern.log
+lastlog
+lightdm
+php7.4-fpm.log
+private
+samba
+syslog
+ubuntu-advantage.log
+wtmp
+Xorg.0.log
+Xorg.0.log.old
+cat: /var/log/messages: No such file or directory
+Sun Feb 26 16:09:42 2023 - ERROR - check log message file fail
+Sun Feb 26 16:09:43 2023 - ERROR - oe_test_var_log.sh line 47
+Sun Feb 26 16:09:43 2023 - INFO  - End to run test.
+Sun Feb 26 16:09:44 2023 - ERROR - failed to execute the case.
+Sun Feb 26 16:09:44 2023 - INFO  - Start to restore the test environment.
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Sun Feb 26 16:09:45 2023 - INFO  - End to restore the test environment.

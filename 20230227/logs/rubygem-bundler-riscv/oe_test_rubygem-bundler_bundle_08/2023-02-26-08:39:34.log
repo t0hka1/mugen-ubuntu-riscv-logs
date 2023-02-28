@@ -1,0 +1,48 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 08:39:40 2023 - INFO  - Start to prepare the test environment.
+Sun Feb 26 08:39:45 2023 - ERROR - pkgs:(rubygem-bundler) not found
+oe_test_rubygem-bundler_bundle_08.sh: line 29: bundle: command not found
+Sun Feb 26 08:39:46 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 08:39:46 2023 - INFO  - Start to run test.
+oe_test_rubygem-bundler_bundle_08.sh: line 35: bundle: command not found
+Sun Feb 26 08:39:47 2023 - ERROR - Check bundle licenses failed.
+Sun Feb 26 08:39:48 2023 - ERROR - oe_test_rubygem-bundler_bundle_08.sh line 36
+oe_test_rubygem-bundler_bundle_08.sh: line 37: bundle: command not found
+Sun Feb 26 08:39:48 2023 - ERROR - Check bundle licenses --no-color failed.
+Sun Feb 26 08:39:49 2023 - ERROR - oe_test_rubygem-bundler_bundle_08.sh line 38
+oe_test_rubygem-bundler_bundle_08.sh: line 39: bundle: command not found
+Sun Feb 26 08:39:49 2023 - ERROR - Check bundle licenses -r failed.
+Sun Feb 26 08:39:50 2023 - ERROR - oe_test_rubygem-bundler_bundle_08.sh line 40
+oe_test_rubygem-bundler_bundle_08.sh: line 41: bundle: command not found
+Sun Feb 26 08:39:51 2023 - ERROR - Check bundle licenses -V failed.
+Sun Feb 26 08:39:51 2023 - ERROR - oe_test_rubygem-bundler_bundle_08.sh line 42
+oe_test_rubygem-bundler_bundle_08.sh: line 43: bundle: command not found
+Sun Feb 26 08:39:52 2023 - ERROR - Check bundle pristine failed.
+Sun Feb 26 08:39:52 2023 - ERROR - oe_test_rubygem-bundler_bundle_08.sh line 44
+oe_test_rubygem-bundler_bundle_08.sh: line 45: bundle: command not found
+Sun Feb 26 08:39:53 2023 - ERROR - Check bundle install failed.
+Sun Feb 26 08:39:53 2023 - ERROR - oe_test_rubygem-bundler_bundle_08.sh line 46
+oe_test_rubygem-bundler_bundle_08.sh: line 47: bundle: command not found
+Sun Feb 26 08:39:54 2023 - ERROR - Check bundle install--binstubs  failed.
+Sun Feb 26 08:39:55 2023 - ERROR - oe_test_rubygem-bundler_bundle_08.sh line 48
+oe_test_rubygem-bundler_bundle_08.sh: line 49: bundle: command not found
+Sun Feb 26 08:39:55 2023 - ERROR - Check bundle install --clean failed.
+Sun Feb 26 08:39:56 2023 - ERROR - oe_test_rubygem-bundler_bundle_08.sh line 50
+oe_test_rubygem-bundler_bundle_08.sh: line 51: bundle: command not found
+Sun Feb 26 08:39:56 2023 - ERROR - Check bundle install --deployment  failed.
+Sun Feb 26 08:39:57 2023 - ERROR - oe_test_rubygem-bundler_bundle_08.sh line 52
+oe_test_rubygem-bundler_bundle_08.sh: line 53: bundle: command not found
+Sun Feb 26 08:39:58 2023 - ERROR - Check bundle install --frozen failed.
+Sun Feb 26 08:39:58 2023 - ERROR - oe_test_rubygem-bundler_bundle_08.sh line 54
+Sun Feb 26 08:39:59 2023 - INFO  - End to run test.
+Sun Feb 26 08:39:59 2023 - ERROR - failed to execute the case.
+Sun Feb 26 08:40:00 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 08:40:00 2023 - WARN  - no thing to do.
+Sun Feb 26 08:40:01 2023 - INFO  - End to restore the test environment.

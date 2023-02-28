@@ -1,0 +1,30 @@
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 86: rpm: command not found
+/root/mugen-ubuntu-riscv/libs/locallibs/common_lib.sh: line 87: dnf: command not found
+Thu Feb  9 17:46:52 2023 - INFO  - Start to pre test.
+oe_test_kernel_kdump.sh: line 24: [1: command not found
+Traceback (most recent call last):
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/apt_manage.py", line 12, in <module>
+    import ssh_cmd
+  File "/root/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+Thu Feb  9 17:46:55 2023 - INFO  - End to pre test.
+Thu Feb  9 17:46:55 2023 - INFO  - Start executing testcase.
+oe_test_kernel_kdump.sh: line 34: rpm: command not found
+Thu Feb  9 17:46:56 2023 - ERROR - oe_test_kernel_kdump.sh line 35
+oe_test_kernel_kdump.sh: line 36: grub2-mkconfig: command not found
+Thu Feb  9 17:46:56 2023 - ERROR - oe_test_kernel_kdump.sh line 37
+Failed to enable unit: Unit file kdump.service does not exist.
+Failed to start kdump.service: Unit kdump.service not found.
+Unit kdump.service could not be found.
+Thu Feb  9 17:46:57 2023 - ERROR - oe_test_kernel_kdump.sh line 41
+Failed to stop kdump.serviceactive.service: Unit kdump.serviceactive.service not loaded.
+Failed to disable unit: Unit file kdump.service does not exist.
+Failed to get unit file state for kdump.service: No such file or directory
+Thu Feb  9 17:46:58 2023 - ERROR - oe_test_kernel_kdump.sh line 45
+Thu Feb  9 17:46:59 2023 - INFO  - End of testcase execution.
+Thu Feb  9 17:46:59 2023 - ERROR - failed to execute the case.
+Thu Feb  9 17:47:00 2023 - INFO  - start environment cleanup.
+Failed to enable unit: Unit file kdump.service does not exist.
+Failed to start kdump.service: Unit kdump.service not found.
+Thu Feb  9 17:47:01 2023 - INFO  - Finish environment cleanup.

@@ -1,0 +1,25 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 15:55:28 2023 - INFO  - Start to prepare the test environment.
+oe_test_system_log_logrotate.sh: line 29: /etc/init.d/syslog: No such file or directory
+Sun Feb 26 15:55:29 2023 - INFO  - End to prepare the test environment.
+Sun Feb 26 15:55:29 2023 - INFO  - Start to run test.
+ls: cannot access '/var/log/messages': No such file or directory
+Sun Feb 26 15:55:30 2023 - ERROR - check /var/log/messages fail
+Sun Feb 26 15:55:31 2023 - ERROR - oe_test_system_log_logrotate.sh line 38
+error: skipping "/var/log/messages" because parent directory has insecure permissions (It's world writable or writable by group which is not "root") Set "su" directive in config file to tell logrotate which user/group should be used for rotation.
+Sun Feb 26 15:55:31 2023 - ERROR - check logrotate fail
+Sun Feb 26 15:55:32 2023 - ERROR - oe_test_system_log_logrotate.sh line 56
+ls: cannot access '/var/log/messages-*.gz': No such file or directory
+Sun Feb 26 15:55:32 2023 - ERROR - check messages-*.gz fail
+Sun Feb 26 15:55:33 2023 - ERROR - oe_test_system_log_logrotate.sh line 58
+Sun Feb 26 15:55:34 2023 - INFO  - End to run test.
+Sun Feb 26 15:55:34 2023 - ERROR - failed to execute the case.
+Sun Feb 26 15:55:35 2023 - INFO  - Start to restore the test environment.
+Sun Feb 26 15:55:35 2023 - INFO  - End to restore the test environment.

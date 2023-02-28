@@ -1,0 +1,59 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 268 not upgraded.
+Mon Feb 27 06:53:36 2023 - INFO  - Start environmental preparation.
+Traceback (most recent call last):
+  File "/mugen-ubuntu-riscv/libs/locallibs/remote_reboot.py", line 128, in <module>
+    remote_reboot(args.node, args.waittime)
+  File "/mugen-ubuntu-riscv/libs/locallibs/remote_reboot.py", line 100, in remote_reboot
+    conn = ssh_cmd.pssh_conn(
+  File "/mugen-ubuntu-riscv/libs/locallibs/ssh_cmd.py", line 53, in pssh_conn
+    conn.connect(ip, port, user, password, timeout=timeout)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 340, in connect
+    to_try = list(self._families_and_addresses(hostname, port))
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 203, in _families_and_addresses
+    addrinfos = socket.getaddrinfo(
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Mon Feb 27 06:53:39 2023 - INFO  - End of environmental preparation!
+Mon Feb 27 06:53:40 2023 - INFO  - Start testing...
+Mon Feb 27 06:53:42 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:53:49 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:53:50 2023 - ERROR - systemd-boot-check-no-failures.service restart failed
+Mon Feb 27 06:53:51 2023 - ERROR - oe_test_service_systemd-boot-check-no-failures.sh line 35
+Mon Feb 27 06:53:53 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:54:00 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:54:01 2023 - ERROR - systemd-boot-check-no-failures.service stop failed
+Mon Feb 27 06:54:02 2023 - ERROR - oe_test_service_systemd-boot-check-no-failures.sh line 39
+Mon Feb 27 06:54:04 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:54:12 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:54:12 2023 - ERROR - systemd-boot-check-no-failures.service start failed
+Mon Feb 27 06:54:13 2023 - ERROR - oe_test_service_systemd-boot-check-no-failures.sh line 43
+Mon Feb 27 06:54:15 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:54:17 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:54:18 2023 - ERROR - systemd-boot-check-no-failures.service enable failed
+Mon Feb 27 06:54:18 2023 - ERROR - oe_test_service_systemd-boot-check-no-failures.sh line 46
+Mon Feb 27 06:54:21 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:54:23 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:54:23 2023 - ERROR - systemd-boot-check-no-failures.service disable failed
+Mon Feb 27 06:54:24 2023 - ERROR - oe_test_service_systemd-boot-check-no-failures.sh line 49
+Mon Feb 27 06:54:26 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:54:27 2023 - ERROR - Job type reload is not applicable for unit systemd-boot-check-no-failures.service
+Mon Feb 27 06:54:28 2023 - ERROR - oe_test_service_systemd-boot-check-no-failures.sh line 51
+Mon Feb 27 06:54:30 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:54:31 2023 - ERROR - Check systemd-boot-check-no-failures.service status failed
+Mon Feb 27 06:54:31 2023 - ERROR - oe_test_service_systemd-boot-check-no-failures.sh line 53
+Mon Feb 27 06:54:33 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:54:34 2023 - ERROR - There is an error message for the log of systemd-boot-check-no-failures.service
+Mon Feb 27 06:54:35 2023 - ERROR - oe_test_service_systemd-boot-check-no-failures.sh line 56
+Mon Feb 27 06:54:35 2023 - INFO  - Finish test!
+Mon Feb 27 06:54:36 2023 - ERROR - failed to execute the case.
+Mon Feb 27 06:54:36 2023 - INFO  - Start environment cleanup.
+Mon Feb 27 06:54:39 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Mon Feb 27 06:54:39 2023 - INFO  - Finish environment cleanup!

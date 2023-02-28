@@ -1,0 +1,43 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 16:26:22 2023 - INFO  - Start environmental preparation.
+Sun Feb 26 16:26:27 2023 - ERROR - pkgs:(vdo) not found
+Sun Feb 26 16:26:27 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 16:26:28 2023 - INFO  - Start testing...
+Failed to restart vdo.service: Unit vdo.service not found.
+Sun Feb 26 16:26:29 2023 - ERROR - vdo.service restart failed
+Sun Feb 26 16:26:30 2023 - ERROR - ../common/common_lib.sh line 34
+Unit vdo.service could not be found.
+Sun Feb 26 16:26:36 2023 - ERROR - vdo.service restart failed
+Sun Feb 26 16:26:37 2023 - ERROR - ../common/common_lib.sh line 37
+Failed to stop vdo.service: Unit vdo.service not loaded.
+Sun Feb 26 16:26:37 2023 - ERROR - vdo.service stop failed
+Sun Feb 26 16:26:38 2023 - ERROR - ../common/common_lib.sh line 39
+Unit vdo.service could not be found.
+Sun Feb 26 16:26:44 2023 - ERROR - vdo.service stop failed
+Sun Feb 26 16:26:45 2023 - ERROR - ../common/common_lib.sh line 42
+Failed to start vdo.service: Unit vdo.service not found.
+Sun Feb 26 16:26:45 2023 - ERROR - vdo.service start failed
+Sun Feb 26 16:26:46 2023 - ERROR - ../common/common_lib.sh line 44
+Unit vdo.service could not be found.
+Sun Feb 26 16:26:52 2023 - ERROR - vdo.service start failed
+Sun Feb 26 16:26:53 2023 - ERROR - ../common/common_lib.sh line 47
+Failed to get unit file state for vdo.service: No such file or directory
+Sun Feb 26 16:26:54 2023 - INFO  - Unit is indirect, ignoring.
+Failed to start vdo.service: Unit vdo.service not found.
+Sun Feb 26 16:26:55 2023 - ERROR - Job type reload is not applicable for unit vdo.service
+Sun Feb 26 16:26:55 2023 - ERROR - ../common/common_lib.sh line 91
+Unit vdo.service could not be found.
+Unit vdo.service could not be found.
+Sun Feb 26 16:26:56 2023 - INFO  - Finish test!
+Sun Feb 26 16:26:57 2023 - ERROR - failed to execute the case.
+Sun Feb 26 16:26:57 2023 - INFO  - start environment cleanup.
+Failed to stop vdo.service: Unit vdo.service not loaded.
+Sun Feb 26 16:26:58 2023 - WARN  - no thing to do.
+Sun Feb 26 16:26:59 2023 - INFO  - Finish environment cleanup!

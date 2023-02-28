@@ -1,0 +1,20 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 263 not upgraded.
+Mon Feb 27 08:42:27 2023 - INFO  - Start to run test.
+     Active: active since Mon 2023-02-27 08:42:28 UTC; 5s ago
+     Active: inactive (dead) since Mon 2023-02-27 08:42:34 UTC; 5s ago
+     Active: active since Mon 2023-02-27 08:42:40 UTC; 6s ago
+find: ‘/etc/systemd/system/multi-user.target.wants/remote-fs.target’: No such file or directory
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /lib/systemd/system/remote-fs.target.
+/etc/systemd/system/multi-user.target.wants/remote-fs.target
+Failed to reload remote-fs.target: Job type reload is not applicable for unit remote-fs.target.
+     Active: active since Mon 2023-02-27 08:42:40 UTC; 17s ago
+Mon Feb 27 08:42:58 2023 - INFO  - End of the test.
+Mon Feb 27 08:42:58 2023 - INFO  - succeed to execute the case.
+Mon Feb 27 08:42:59 2023 - INFO  - oe_test_target_remote-fs.sh post_test

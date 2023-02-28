@@ -1,0 +1,42 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+expect is already the newest version (5.45.4-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 279 not upgraded.
+Sun Feb 26 08:35:31 2023 - INFO  - Start environmental preparation.
+Sun Feb 26 08:35:37 2023 - ERROR - pkgs:(network-scripts) not found
+Sun Feb 26 08:35:38 2023 - INFO  - End of environmental preparation!
+Sun Feb 26 08:35:39 2023 - INFO  - Start testing...
+Failed to restart network.service: Unit network.service not found.
+Sun Feb 26 08:35:39 2023 - ERROR - network.service restart failed
+Sun Feb 26 08:35:40 2023 - ERROR - ../common/common_lib.sh line 34
+Unit network.service could not be found.
+Sun Feb 26 08:35:47 2023 - ERROR - network.service restart failed
+Sun Feb 26 08:35:47 2023 - ERROR - ../common/common_lib.sh line 37
+Failed to stop network.service: Unit network.service not loaded.
+Sun Feb 26 08:35:48 2023 - ERROR - network.service stop failed
+Sun Feb 26 08:35:49 2023 - ERROR - ../common/common_lib.sh line 39
+Unit network.service could not be found.
+Sun Feb 26 08:35:55 2023 - ERROR - network.service stop failed
+Sun Feb 26 08:35:56 2023 - ERROR - ../common/common_lib.sh line 42
+Failed to start network.service: Unit network.service not found.
+Sun Feb 26 08:35:56 2023 - ERROR - network.service start failed
+Sun Feb 26 08:35:57 2023 - ERROR - ../common/common_lib.sh line 44
+Unit network.service could not be found.
+Sun Feb 26 08:36:03 2023 - ERROR - network.service start failed
+Sun Feb 26 08:36:04 2023 - ERROR - ../common/common_lib.sh line 47
+Failed to get unit file state for network.service: No such file or directory
+Failed to start network.service: Unit network.service not found.
+Sun Feb 26 08:36:05 2023 - ERROR - Job type reload is not applicable for unit network.service
+Sun Feb 26 08:36:06 2023 - ERROR - ../common/common_lib.sh line 91
+Unit network.service could not be found.
+Unit network.service could not be found.
+Sun Feb 26 08:36:06 2023 - INFO  - Finish test!
+Sun Feb 26 08:36:07 2023 - ERROR - failed to execute the case.
+Sun Feb 26 08:36:07 2023 - INFO  - start environment cleanup.
+Failed to stop network.service: Unit network.service not loaded.
+Sun Feb 26 08:36:08 2023 - WARN  - no thing to do.
+Sun Feb 26 08:36:09 2023 - INFO  - Finish environment cleanup!
